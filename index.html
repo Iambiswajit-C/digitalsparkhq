@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Spark Studio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/images/fabicon.png">
+  <script defer src="/js/loadHeaderFooter.js"></script>
+</head>
+<body>
+  <div id="header"></div>
 
+  <main class="hero-section">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Grow Your Online Presence</h1>
+        <p>Professional websites for small businesses, startups, and creators</p>
+        <a href="/contact" class="cta-button">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img src="/images/home-feature-1.jpg" alt="Web design concept" />
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <img src="/images/home-feature-2.jpg" alt="Free Hosting" />
+        <h2>Free Lifetime Hosting</h2>
+        <p>We host your site on GitHub for zero recurring cost.</p>
+      </div>
+      <div class="feature">
+        <img src="/images/home-feature3.jpg" alt="Contact Form" />
+        <h2>Free Contact Form</h2>
+        <p>Fully working contact form powered by Zoho Mail.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+</body>
+</html>
+
+<!-- about/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Digital Spark Studio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/images/fabicon.png">
+  <script defer src="/js/loadHeaderFooter.js"></script>
+</head>
+<body>
+  <div id="header"></div>
+  <main class="page-content">
+    <h1>About Digital Spark Studio</h1>
+    <p>We are a small team focused on delivering beautiful and effective websites for individuals and small businesses. Our mission is to make the web accessible and affordable for everyone.</p>
+  </main>
+  <div id="footer"></div>
+</body>
+</html>
+
+<!-- contact/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Digital Spark Studio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/images/fabicon.png">
+  <script defer src="/js/loadHeaderFooter.js"></script>
+</head>
+<body>
+  <div id="header"></div>
+  <main class="page-content">
+    <h1>Contact Us</h1>
+    <form action="https://forms.zohopublic.in/your-form-link" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <div id="footer"></div>
+</body>
+</html>
+
+<!-- js/loadHeaderFooter.js -->
+document.addEventListener("DOMContentLoaded", function () {
+  fetch('/header.html')
+    .then(response => response.text())
+    .then(data => document.getElementById('header').innerHTML = data);
+
+  fetch('/footer.html')
+    .then(response => response.text())
+    .then(data => document.getElementById('footer').innerHTML = data);
+});
