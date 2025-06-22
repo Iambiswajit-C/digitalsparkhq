@@ -34,20 +34,25 @@ main {
   margin: auto;
 }
 
-/* Header styles */
-.site-header {
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+/* Header Banner with background image */
+.header-banner {
+  background: url("images/header-banner.jpg") no-repeat center center/cover;
+  height: 300px;
+  position: relative;
 }
 
-.top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Header styles */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  z-index: 10;
 }
 
 .logo {
@@ -61,7 +66,7 @@ main {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
 }
 
@@ -69,16 +74,9 @@ main {
   display: none;
   font-size: 1.5rem;
   background: none;
+  color: white;
   border: none;
   cursor: pointer;
-}
-
-/* Banner inside header */
-.header-banner img {
-  width: 100%;
-  max-height: 280px;
-  object-fit: cover;
-  display: block;
 }
 
 /* Hero section */
@@ -219,16 +217,6 @@ form button:hover {
     text-align: center;
   }
 
-  .main-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .main-nav a {
-    margin: 0.5rem 0;
-  }
-
   .features {
     flex-direction: column;
     align-items: center;
@@ -237,18 +225,16 @@ form button:hover {
   form {
     padding: 1rem;
   }
-}
 
-@media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 60px;
     right: 0;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
   }
 
   .nav-links.active {
