@@ -283,14 +283,64 @@ margin-bottom: 20px;
   margin-bottom: 0.5rem;
 }
 
-/* Form styles */
+/* ===== Contact Page Layout ===== */
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 3rem auto;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.contact-info {
+  flex: 1 1 100%;
+  max-width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contact-section {
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+/* Two-column layout on larger screens */
+@media (min-width: 768px) {
+  .contact-info,
+  .contact-section {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .contact-info h2 {
+    text-align: center;
+  }
+}
+
+/* ===== Contact Form Styling ===== */
 form {
   max-width: 600px;
-  margin: 2rem auto;
+  margin: 0 auto;
   background: #fff;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 form label {
@@ -309,6 +359,11 @@ form textarea {
   font-size: 1rem;
 }
 
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
 form button {
   margin-top: 1.5rem;
   padding: 0.75rem 2rem;
@@ -323,6 +378,18 @@ form button {
 
 form button:hover {
   background-color: #0056b3;
+}
+
+#formMessage {
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ===== Page Heading (if needed only on this page) ===== */
+.contact-wrapper h1,
+.contact-wrapper h2 {
+  font-family: 'Inter', sans-serif;
 }
 
 /* Page content */
@@ -341,10 +408,6 @@ form button:hover {
   .features {
     flex-direction: column;
     align-items: center;
-  }
-
-  form {
-    padding: 1rem;
   }
 
   .nav-links {
