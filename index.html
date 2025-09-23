@@ -33,6 +33,17 @@
     </div>
   </section>
 
-  <div id="footer"></div>
+</section>
+<div id="footer-placeholder"></div>
+<script>
+  fetch('/footer.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+</script>
+
+  <!-- Scripts -->
+  <script src="/script.js"></script>
 </body>
 </html>
