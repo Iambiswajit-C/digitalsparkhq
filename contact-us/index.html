@@ -36,21 +36,52 @@
 <body>
   <div id="header"></div>
 
-  <main class="page">
-    <h1>Contact Us</h1>
-    <form action="https://forms.zohopublic.in/your-form-link" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required />
+  <section class="contact-page">
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <h2>Get in Touch with Digital Spark HQ</h2>
+      <p>
+        At <strong>Digital Spark HQ</strong>, we help entrepreneurs and small businesses
+        build their online presence with affordable websites, professional email, SEO,
+        and digital marketing solutions.
+        <br /><br />
+        Whether you’re just starting out or looking to grow, our goal is to make your
+        online journey simple, cost-effective, and successful.
+        <br /><br />
+        📩 Reach out today to discuss your project or learn how we can help bring your
+        business online with confidence.
+      </p>
+    </div>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required />
+    <section class="contact-section">
+      <form id="contactForm" action="#" method="POST">
+        <label for="name">Name*</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required placeholder="Your email address" />
 
-      <button type="submit">Send Message</button>
-    </form>
-  </main>
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+        <!-- Honeypot field -->
+        <input type="text" name="_honey" style="display:none">
+
+        <!-- CAPTCHA enabled -->
+        <input type="hidden" name="_captcha" value="true">
+
+        <!-- Prevent redirection -->
+        <input type="hidden" name="_next" value="#">
+
+        <div class="g-recaptcha" data-sitekey="6LfStU0rAAAAAApOhgXKS08n-7-pk-bv5sWsjFlQ"></div>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="formMessage" style="display: none;"></p>
+    </section>
+  </div>
+</section>
 
 </section>
 <div id="footer-placeholder"></div>
