@@ -6,7 +6,6 @@
   <title>Contact Us - Digital Spark HQ</title>
   <link rel="stylesheet" href="/style.css" />
   <link rel="icon" type="image/png" href="/images/favicon.png">
-  <script defer src="/script.js"></script>
 </head>
 <body>
   <div id="header"></div>
@@ -27,6 +26,17 @@
     </form>
   </main>
 
-  <div id="footer"></div>
+</section>
+<div id="footer-placeholder"></div>
+<script>
+  fetch('/footer.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+</script>
+
+  <!-- Scripts -->
+  <script src="/script.js"></script>
 </body>
 </html>
