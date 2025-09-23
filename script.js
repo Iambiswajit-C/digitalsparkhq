@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(data => {
       document.getElementById('header').innerHTML = data;
 
+    fetch('/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+      
       // Enable mobile toggle AFTER content loads
       const toggle = document.querySelector('.menu-toggle');
       const nav = document.querySelector('.nav-links');
@@ -13,12 +18,5 @@ document.addEventListener("DOMContentLoaded", function () {
           nav.classList.toggle('active');
         });
       }
-    });
-
-  // Load footer
-  fetch('footer.html')
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById('footer').innerHTML = data;
     });
 });
