@@ -1,4 +1,4 @@
-// Change topbar background on scroll
+// Handle topbar + navbar behavior on scroll
 window.addEventListener("scroll", function() {
   const topbar = document.getElementById("topbar");
   const navbar = document.getElementById("navbar");
