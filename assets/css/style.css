@@ -123,6 +123,18 @@
   height: 100%;
   z-index: -1;
 }
+/* Align left text with Contact Info heading */
+.footer-left-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-left-text .footer-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
 /* Footer Top (Form Section) */
 .footer-top {
