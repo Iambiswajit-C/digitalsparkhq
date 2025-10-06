@@ -1,0 +1,5 @@
+title: "Digital Spark HQ"
+baseurl: "" 
+url: "https://digitalsparkhq.com"
+
+permalink: /:title/
