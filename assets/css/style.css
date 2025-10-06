@@ -1,44 +1,39 @@
-/* Transparent Topbar + Scroll Effect */
-#topbar {
-  position: fixed;
-  top: 0;
+/* General Header Layout */
+#header {
   width: 100%;
   z-index: 1030;
-  transition: background 0.3s;
+}
+
+/* Topbar */
+#topbar {
+  transition: background 0.3s ease;
+  font-size: 14px;
 }
 .topbar-transparent {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.4); /* semi-transparent black initially */
 }
 .topbar-solid {
-  background: #222;
+  background: #222; /* solid dark when scrolled */
 }
 
 /* Navbar */
 .nav-transparent {
-  background: rgba(0,0,0,0.5) !important;
-  transition: all 0.3s;
+  background: rgba(0,0,0,0.4); /* semi-transparent always */
+  transition: all 0.3s ease;
 }
-#navbar.shrink {
-  padding: 5px 0;
+#navbar .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
 }
+#navbar .nav-link:hover {
+  color: #00bcd4; /* bluish hover */
+}
+
+/* Shrink effect */
 #logo {
   height: 60px;
-  transition: height 0.3s;
+  transition: height 0.3s ease;
 }
 #navbar.shrink #logo {
   height: 40px;
-}
-
-/* Links Hover */
-#topbar a, #navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-#topbar a:hover, #navbar a:hover {
-  color: #00bcd4;
-}
-
-/* Hero */
-#hero video {
-  object-fit: cover;
 }
