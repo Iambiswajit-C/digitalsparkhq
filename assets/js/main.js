@@ -12,3 +12,13 @@ window.addEventListener("scroll", function() {
     navbar.classList.remove("shrink");
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get("success") === "true") {
+    const form = document.getElementById("footer-contact-form");
+    const message = form.querySelector(".form-message");
+    message.style.display = "block";           // show thank-you message
+    form.querySelector("div.row").style.display = "none"; // hide inputs
+  }
+});
