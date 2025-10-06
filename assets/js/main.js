@@ -1,4 +1,4 @@
-// Handle topbar + navbar behavior on scroll
+// Scroll behavior for topbar + shrink
 window.addEventListener("scroll", function() {
   const topbar = document.getElementById("topbar");
   const navbar = document.getElementById("navbar");
