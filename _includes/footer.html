@@ -15,45 +15,53 @@
         </a>
       </div>
       <div class="col-lg-6">
-        <form action="https://formsubmit.co/info@digitalsparkhq.com" method="POST" class="footer-form p-4 border rounded-4 bg-transparent">
-          <h5 class="fw-bold mb-4 border-bottom pb-2 text-uppercase">Contact Info</h5>
+        <form id="footer-contact-form" class="footer-form p-4 border rounded-4 bg-transparent" 
+      action="https://formsubmit.co/info@digitalsparkhq.com" method="POST">
+  
+  <h5 class="fw-bold mb-4 border-bottom pb-2 text-uppercase">Contact Info</h5>
 
-          <div class="row g-4">
-            <div class="col-md-6">
-              <label for="name" class="form-label fw-semibold">Name *</label>
-              <input type="text" id="name" name="name" class="form-control form-control-lg" required>
-            </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label fw-semibold">Email *</label>
-              <input type="email" id="email" name="email" class="form-control form-control-lg" required>
-            </div>
-            <div class="col-12">
-              <label for="business" class="form-label fw-semibold">Please describe your business</label>
-              <textarea id="business" name="business" class="form-control form-control-lg" rows="6" placeholder="Type here..."></textarea>
-            </div>
-            <div class="col-md-6">
-              <label for="interest" class="form-label fw-semibold">You are interested in *</label>
-              <select id="interest" name="interest" class="form-select form-select-lg" required>
-                <option value="">Click here to select...</option>
-                <option>Web Design</option>
-                <option>SEO</option>
-                <option>Graphic Design</option>
-                <option>Social Media</option>
-                <option>Paid Marketing</option>
-              </select>
-            </div>
-            <div class="col-md-6">
-              <label for="budget" class="form-label fw-semibold">Project Budget</label>
-              <input type="text" id="budget" name="budget" class="form-control form-control-lg">
-            </div>
-            <div class="col-12 text-end">
-              <button type="submit" class="btn btn-light rounded-0 px-5 py-2 mt-2">Start Your Journey</button>
-            </div>
-          </div>
+  <div class="form-message text-success mb-3" style="display:none;">
+    Thanks for contacting us! We will get in touch with you shortly.
+  </div>
 
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-        </form>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <label for="name" class="form-label fw-semibold">Name *</label>
+      <input type="text" id="name" name="name" class="form-control form-control-lg" required>
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label fw-semibold">Email *</label>
+      <input type="email" id="email" name="email" class="form-control form-control-lg" required>
+    </div>
+    <div class="col-12">
+      <label for="business" class="form-label fw-semibold">Please describe your business</label>
+      <textarea id="business" name="business" class="form-control form-control-lg" rows="6" placeholder="Type here..."></textarea>
+    </div>
+    <div class="col-md-6">
+      <label for="interest" class="form-label fw-semibold">You are interested in *</label>
+      <select id="interest" name="interest" class="form-select form-select-lg" required>
+        <option value="">Click here to select...</option>
+        <option>Web Design</option>
+        <option>SEO</option>
+        <option>Graphic Design</option>
+        <option>Social Media</option>
+        <option>Paid Marketing</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="budget" class="form-label fw-semibold">Project Budget</label>
+      <input type="text" id="budget" name="budget" class="form-control form-control-lg">
+    </div>
+    <div class="col-12 text-end">
+      <button type="submit" class="btn btn-light rounded-0 px-5 py-2 mt-2">Start Your Journey</button>
+    </div>
+  </div>
+
+  <!-- FormSubmit hidden fields -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="{{ page.url }}?success=true">
+</form>
       </div>
     </div>
   </div>
