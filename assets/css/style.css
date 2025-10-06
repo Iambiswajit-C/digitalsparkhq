@@ -132,26 +132,67 @@
 
 .footer-form {
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+/* Form labels and inputs */
+.footer-form label {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
 }
 
 .footer-form input,
-.footer-form select {
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
+.footer-form select,
+.footer-form textarea {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
 }
+
+.footer-form textarea {
+  resize: vertical;
+  min-height: 150px; /* Bigger textarea for long messages */
+}
+
 .footer-form input::placeholder,
-.footer-form select {
+.footer-form select,
+.footer-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Dropdown fix for dark background */
+.footer-form select option {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Form heading */
+.footer-form h5 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* Submit Button */
 .footer-form .btn {
   background: var(--hover-color);
   border: none;
   font-weight: 600;
   transition: background 0.3s;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
 }
 .footer-form .btn:hover {
   background: #0078a0;
@@ -159,42 +200,57 @@
 
 /* Divider */
 .footer-divider {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  margin: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 30px 0;
 }
 
 /* Footer Bottom */
 .footer-bottom {
   position: relative;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.35);
   border-radius: 0 8px 0 0;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
+/* Footer Logo White Filter */
 .footer-logo {
   height: 60px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+.footer-logo:hover {
+  filter: brightness(0.85) invert(1);
 }
 
+/* Footer Titles */
 .footer-title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   text-transform: uppercase;
 }
 
+/* Footer Links & Text */
 .footer-bottom a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s;
+  font-size: 1.05rem;
 }
 .footer-bottom a:hover {
   color: var(--hover-color);
 }
 
+.footer-bottom p {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+/* Social Icons */
 .social-icons a {
   color: #fff;
-  margin-right: 12px;
-  font-size: 18px;
+  margin-right: 14px;
+  font-size: 20px;
   transition: color 0.3s, transform 0.3s;
 }
 .social-icons a:hover {
@@ -204,18 +260,26 @@
 
 /* Copyright */
 .footer-copyright {
-  font-size: 13px;
+  font-size: 15px;
   background: rgba(255, 255, 255, 0.05);
-  margin-top: 20px;
+  margin-top: 30px;
+  letter-spacing: 0.5px;
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .footer-top {
     text-align: center;
   }
+  .footer-form {
+    margin-top: 2rem;
+  }
   .footer-bottom {
     text-align: center;
+    padding-top: 40px;
+  }
+  .footer-bottom .footer-title {
+    margin-top: 1rem;
   }
   .social-icons {
     justify-content: center;
