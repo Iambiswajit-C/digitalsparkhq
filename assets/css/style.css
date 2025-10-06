@@ -1,0 +1,44 @@
+/* Transparent Topbar + Scroll Effect */
+#topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  transition: background 0.3s;
+}
+.topbar-transparent {
+  background: rgba(0,0,0,0.5);
+}
+.topbar-solid {
+  background: #222;
+}
+
+/* Navbar */
+.nav-transparent {
+  background: rgba(0,0,0,0.5) !important;
+  transition: all 0.3s;
+}
+#navbar.shrink {
+  padding: 5px 0;
+}
+#logo {
+  height: 60px;
+  transition: height 0.3s;
+}
+#navbar.shrink #logo {
+  height: 40px;
+}
+
+/* Links Hover */
+#topbar a, #navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+#topbar a:hover, #navbar a:hover {
+  color: #00bcd4;
+}
+
+/* Hero */
+#hero video {
+  object-fit: cover;
+}
