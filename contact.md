@@ -1,50 +1,26 @@
 ---
 layout: default
-title: "Home"
+title: Contact
 ---
 
-<section class="contact-section py-5 bg-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <form action="https://formsubmit.co/info@digitalsparkhq.com" method="POST" class="p-4 border rounded-4 bg-white shadow-sm">
-          <h4 class="fw-bold mb-4 border-bottom pb-2">Contact Info</h4>
+<!-- Hero Section -->
+<section id="contact-hero" class="d-flex justify-content-center align-items-center text-center" style="height:75vh; position:relative; background:url('{{ '/assets/images/contact-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  <h1 class="contact-hero-text text-white display-1 fw-bold" style="opacity:0; transition: opacity 1s;">CONTACT US</h1>
+</section>
 
-          <div class="mb-3">
-            <label for="name" class="form-label fw-semibold">Name *</label>
-            <input type="text" id="name" name="name" class="form-control form-control-lg" required>
-          </div>
+<!-- Digital Glow Section -->
+<section id="contact-digital-bg" style="position:relative; height:50vh;">
+  <!-- Background Layers -->
+  <div class="footer-bg" style="clip-path:none; height:100%;"></div>
+  <div class="footer-overlay" style="clip-path:none; height:100%;"></div>
 
-          <div class="mb-3">
-            <label for="email" class="form-label fw-semibold">Email *</label>
-            <input type="email" id="email" name="email" class="form-control form-control-lg" required>
-          </div>
-
-          <div class="mb-3">
-            <label for="interest" class="form-label fw-semibold">You are interested in *</label>
-            <select id="interest" name="interest" class="form-select form-select-lg" required>
-              <option value="">Click here to select...</option>
-              <option value="Web Design">Web Design</option>
-              <option value="SEO">SEO</option>
-              <option value="Social Media">Social Media</option>
-              <option value="Graphic Design">Graphic Design</option>
-              <option value="Paid Marketing">Paid Marketing</option>
-            </select>
-          </div>
-
-          <div class="mb-4">
-            <label for="message" class="form-label fw-semibold">Please describe your business or message</label>
-            <textarea id="message" name="message" class="form-control form-control-lg" rows="7" placeholder="Type your message here..." required></textarea>
-          </div>
-
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-
-          <div class="text-center">
-            <button type="submit" class="btn btn-dark btn-lg px-5">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </div>
+  <!-- Animated Content -->
+  <div class="container h-100 d-flex align-items-center justify-content-between flex-column flex-md-row text-center text-md-start">
+    <h2 class="display-4 fw-bold gradient-text mb-4 mb-md-0">
+      Let’s Create Something Great Together
+    </h2>
+    <a href="mailto:info@digitalsparkhq.com" class="h4 text-white fw-bold">info@digitalsparkhq.com</a>
   </div>
 </section>
+
+<!-- Footer is included automatically via default layout -->
