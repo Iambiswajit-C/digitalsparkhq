@@ -258,10 +258,21 @@
   transform: translateY(-3px);
 }
 
-/* Hero Section Text Fade-in */
+/* Prevent horizontal scroll globally */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Hero text fade-in + slide-up */
 .contact-hero-text {
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.contact-hero-text.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Gradient Animated Text */
@@ -281,7 +292,7 @@
 
 /* Subtle pulse/glow behind digital background */
 #contact-digital-bg .footer-overlay {
-  background: radial-gradient(circle at 50% 50%, rgba(0,212,255,0.15), transparent 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 212, 255, 0.15), transparent 70%);
   animation: pulse 6s ease-in-out infinite;
 }
 
