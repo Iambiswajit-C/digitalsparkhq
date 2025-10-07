@@ -59,3 +59,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 200);
   }
 });
+
+// Scroll fade-in effect for About sections
+document.addEventListener("DOMContentLoaded", function() {
+  const elements = document.querySelectorAll(".fade-in, .about-hero-text");
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add("show");
+    });
+  }, { threshold: 0.2 });
+
+  elements.forEach(el => observer.observe(el));
+});
+
