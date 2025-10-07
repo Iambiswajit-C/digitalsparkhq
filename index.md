@@ -130,7 +130,7 @@ title: "Home"
         </ul>
       </div>
       <div class="col-lg-6 text-center fade-in">
-        <img src="{{ '/assets/images/maintenance.svg' | relative_url }}" alt="Maintenance" class="img-fluid rounded-4">
+        <img src="{{ '/assets/images/maintenance.png' | relative_url }}" alt="Maintenance" class="img-fluid rounded-4">
       </div>
     </div>
   </div>
