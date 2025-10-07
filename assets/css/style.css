@@ -322,31 +322,75 @@ html, body {
 }
 
 /* ABOUT PAGE */
+#about-hero {
+  position: relative;
+  overflow: hidden;
+}
 #about-hero .hero-overlay {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.5);
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+#about-hero::after {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(0,212,255,0.3), transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  animation: hero-glow 8s ease-in-out infinite;
 }
 
 .about-hero-text {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 1.5s ease, transform 1.5s ease;
+  transition: opacity 2s ease, transform 2s ease;
+  z-index: 2;
+  position: relative;
 }
-
 .about-hero-text.show {
   opacity: 1;
   transform: translateY(0);
 }
+#about-hero p {
+  color: rgba(255,255,255,0.85);
+}
+
+/* HERO Glow Animation */
+@keyframes hero-glow {
+  0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.7; transform: translate(-50%, -50%) scale(1.1); }
+}
 
 /* STORY SECTION */
-.story-bg {
+#our-story {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(135deg, #0b0c10, #1c1f26);
-  background-size: cover;
-  position: absolute; inset: 0;
-  z-index: 1; opacity: 0.9;
 }
-#our-story p { color: rgba(255,255,255,0.8); }
+.story-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.95;
+}
+.cross-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.05) 0, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 20px),
+                    repeating-linear-gradient(-45deg, rgba(255,255,255,0.05) 0, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 20px);
+  opacity: 0.2;
+  z-index: 2;
+}
+#our-story .container {
+  position: relative;
+  z-index: 3;
+}
+#our-story p {
+  color: rgba(255,255,255,0.85);
+}
 
 /* WHAT WE DO */
 .about-card {
@@ -360,38 +404,68 @@ html, body {
 }
 
 /* TEAM SECTION */
-.team-bg {
+#team {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(135deg, #0a0c10, #13161b);
-  position: absolute; inset: 0; z-index: 1;
-  background-size: cover;
+}
+.team-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0a0c10, #13161b);
+  z-index: 1;
 }
 .team-card {
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 8px;
 }
+#team::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 30%, rgba(0,212,255,0.15), transparent 70%),
+              radial-gradient(circle at 80% 70%, rgba(255,0,100,0.15), transparent 70%);
+  animation: soft-pulse 10s ease-in-out infinite alternate;
+  z-index: 0;
+}
 
 /* WHY CHOOSE US */
+#why-choose {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #10131a, #191d24);
+}
 .why-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #10131a, #191d24);
   opacity: 0.95;
   z-index: 1;
+}
+.network-lines {
+  position: absolute;
+  inset: 0;
+  background: url('/assets/images/network-lines.svg') center/cover no-repeat;
+  opacity: 0.15;
+  animation: network-flow 12s linear infinite;
+  z-index: 2;
 }
 .choose-list {
   list-style: none;
   padding-left: 0;
+  position: relative;
+  z-index: 3;
 }
 .choose-list li {
   position: relative;
-  margin-bottom: 15px;
-  padding-left: 25px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: rgba(255,255,255,0.9);
 }
 .choose-list li::before {
   content: "";
   position: absolute;
-  left: 0; top: 8px;
+  left: 0; top: 10px;
   width: 10px; height: 10px;
   border-radius: 50%;
   background: var(--hover-color);
@@ -401,12 +475,22 @@ html, body {
 /* ANIMATIONS */
 .fade-in {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(40px);
+  transition: opacity 1.8s ease, transform 1.8s ease;
 }
 .fade-in.show {
   opacity: 1;
   transform: translateY(0);
+}
+
+@keyframes soft-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+@keyframes network-flow {
+  0% { opacity: 0.1; filter: hue-rotate(0deg); }
+  50% { opacity: 0.25; filter: hue-rotate(45deg); }
+  100% { opacity: 0.1; filter: hue-rotate(0deg); }
 }
 /* Responsive */
 @media (max-width: 991px) {
