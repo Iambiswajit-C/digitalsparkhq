@@ -15,9 +15,9 @@
         </a>
       </div>
       <div class="col-lg-6">
-        <form id="footer-contact-form" class="footer-form p-4 border rounded-4 bg-transparent" 
+       <form id="footer-contact-form" class="footer-form p-4 border rounded-4 bg-transparent"
       action="https://formsubmit.co/info@digitalsparkhq.com" method="POST">
-  
+
   <h5 class="fw-bold mb-4 border-bottom pb-2 text-uppercase">Contact Info</h5>
 
   <div class="form-message text-success mb-3" style="display:none;">
@@ -35,12 +35,12 @@
     </div>
     <div class="col-12">
       <label for="business" class="form-label fw-semibold">Please describe your business</label>
-      <textarea id="business" name="business" class="form-control form-control-lg" rows="6" placeholder="Type here..."></textarea>
+      <textarea id="business" name="business" class="form-control form-control-lg" rows="6"></textarea>
     </div>
     <div class="col-md-6">
       <label for="interest" class="form-label fw-semibold">You are interested in *</label>
       <select id="interest" name="interest" class="form-select form-select-lg" required>
-        <option value="">Click here to select...</option>
+        <option value="" disabled selected hidden>Your interest</option>
         <option>Web Design</option>
         <option>SEO</option>
         <option>Graphic Design</option>
@@ -60,7 +60,6 @@
   <!-- FormSubmit hidden fields -->
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_next" value="{{ page.url }}?success=true">
 </form>
       </div>
     </div>
