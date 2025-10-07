@@ -320,6 +320,94 @@ html, body {
   0%, 100% { transform: scale(1); opacity: 0.3; }
   50% { transform: scale(1.05); opacity: 0.6; }
 }
+
+/* ABOUT PAGE */
+#about-hero .hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.about-hero-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.about-hero-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* STORY SECTION */
+.story-bg {
+  background: linear-gradient(135deg, #0b0c10, #1c1f26);
+  background-size: cover;
+  position: absolute; inset: 0;
+  z-index: 1; opacity: 0.9;
+}
+#our-story p { color: rgba(255,255,255,0.8); }
+
+/* WHAT WE DO */
+.about-card {
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+}
+
+/* TEAM SECTION */
+.team-bg {
+  background: linear-gradient(135deg, #0a0c10, #13161b);
+  position: absolute; inset: 0; z-index: 1;
+  background-size: cover;
+}
+.team-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+/* WHY CHOOSE US */
+.why-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #10131a, #191d24);
+  opacity: 0.95;
+  z-index: 1;
+}
+.choose-list {
+  list-style: none;
+  padding-left: 0;
+}
+.choose-list li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 25px;
+}
+.choose-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 8px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--hover-color);
+  box-shadow: 0 0 10px var(--hover-color);
+}
+
+/* ANIMATIONS */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 /* Responsive */
 @media (max-width: 991px) {
   .footer-top {
