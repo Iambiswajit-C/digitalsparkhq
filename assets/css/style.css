@@ -258,6 +258,37 @@
   transform: translateY(-3px);
 }
 
+/* Hero Section Text Fade-in */
+.contact-hero-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Gradient Animated Text */
+.gradient-text {
+  background: linear-gradient(90deg, #ff004c, #00f7ff, #fffa00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: text-gradient 5s linear infinite;
+}
+
+@keyframes text-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Subtle pulse/glow behind digital background */
+#contact-digital-bg .footer-overlay {
+  background: radial-gradient(circle at 50% 50%, rgba(0,212,255,0.15), transparent 70%);
+  animation: pulse 6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.05); opacity: 0.6; }
+}
 /* Responsive */
 @media (max-width: 991px) {
   .footer-top {
