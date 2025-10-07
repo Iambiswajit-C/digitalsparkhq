@@ -61,3 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/* Trigger fade-in on page load */
+document.addEventListener("DOMContentLoaded", function() {
+  const heroText = document.querySelector(".contact-hero-text");
+  if(heroText) heroText.style.opacity = 1;
+});
