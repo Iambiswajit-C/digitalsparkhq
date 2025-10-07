@@ -68,7 +68,38 @@ document.addEventListener("DOMContentLoaded", function() {
       if (entry.isIntersecting) entry.target.classList.add("show");
     });
   }, { threshold: 0.2 });
-
   elements.forEach(el => observer.observe(el));
 });
+
+// Floating Particle Canvas for Team Section
+const canvas = document.getElementById("team-particles");
+if (canvas) {
+  const ctx = canvas.getContext("2d");
+  let particles = Array.from({ length: 25 }, () => ({
+    x: Math.random() * window.innerWidth,
+    y: Math.random() * 400,
+    r: Math.random() * 2 + 1,
+    dx: (Math.random() - 0.5) * 0.5,
+    dy: (Math.random() - 0.5) * 0.5
+  }));
+
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(0,212,255,0.3)";
+      ctx.fill();
+      p.x += p.dx;
+      p.y += p.dy;
+      if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+      if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+    });
+    requestAnimationFrame(draw);
+  }
+  function resize() { canvas.width = window.innerWidth; canvas.height = 400; }
+  window.addEventListener("resize", resize);
+  resize();
+  draw();
+}
 
