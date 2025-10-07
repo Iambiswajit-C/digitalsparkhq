@@ -4,9 +4,12 @@ title: Contact
 ---
 
 <!-- Hero Section -->
-<section id="contact-hero" class="d-flex justify-content-center align-items-center text-center" style="height:90vh; position:relative; background:url('{{ '/assets/images/contact-hero.jpg' | relative_url }}') center/cover no-repeat;">
-  <h1 class="contact-hero-text text-white display-1 fw-bold" style="opacity:0; transition: opacity 1s;">CONTACT US</h1>
+<section id="contact-hero"
+  class="d-flex justify-content-center align-items-center text-center"
+  style="height:90vh; position:relative; background:url('{{ '/assets/images/contact-hero.jpg' | relative_url }}') center/cover no-repeat; overflow:hidden;">
+  <h1 class="contact-hero-text text-white display-1 fw-bold">CONTACT US</h1>
 </section>
+
 
 <!-- Digital Glow Section -->
 <section id="contact-digital-bg" style="position:relative; height:50vh;">
