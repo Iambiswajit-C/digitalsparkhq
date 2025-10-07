@@ -439,6 +439,64 @@ html, body {
   z-index: 0;
 }
 
+/* Vision Section */
+#vision {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  background: #0b0c10; /* fallback solid color */
+}
+
+/* Vision background with subtle digital glow / pulse */
+.vision-bg {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0,212,255,0.15), transparent 70%);
+  z-index: 0;
+  animation: pulse 8s ease-in-out infinite;
+}
+
+/* Reuse pulse animation */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.05); opacity: 0.6; }
+}
+
+/* Content container */
+#vision .container {
+  position: relative;
+  z-index: 1; /* ensures text appears above background */
+}
+
+/* Heading with gradient text */
+#vision h2.gradient-text {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #ff004c, #00f7ff, #fffa00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: text-gradient 5s linear infinite;
+}
+
+/* Paragraph styling */
+#vision p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* Fade-in animation */
+#vision.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+#vision.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* WHY CHOOSE US */
 #why-choose {
   position: relative;
