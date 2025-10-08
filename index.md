@@ -8,9 +8,6 @@ title: "Home"
 <video autoplay muted loop playsinline preload="auto" class="w-100 vh-100 object-fit-cover">
   <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
 </video>
-  <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x mb-4">
-    <a href="#services" class="text-white"><i class="fa fa-angle-down fa-2x"></i></a>
-  </div>
 </section>
 
 <!-- Services Section -->
