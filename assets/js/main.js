@@ -103,3 +103,20 @@ if (canvas) {
   draw();
 }
 
+// Home page body element
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector('.tools-slider');
+  if (slider) {
+    let scrollAmount = 0;
+    function autoScroll() {
+      scrollAmount += 1;
+      slider.scrollLeft = scrollAmount;
+      if (scrollAmount >= slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
+      requestAnimationFrame(autoScroll);
+    }
+    slider.style.overflowX = "auto";
+    slider.style.scrollBehavior = "smooth";
+    slider.style.whiteSpace = "nowrap";
+    autoScroll();
+  }
+});
