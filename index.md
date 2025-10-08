@@ -5,7 +5,17 @@ title: "Home"
 
 <!-- Hero Section -->
 <section id="hero" class="position-relative">
-<video autoplay muted loop playsinline preload="auto" class="w-100 vh-100 object-fit-cover">
+<video 
+  id="heroVideo"
+  autoplay 
+  muted 
+  loop 
+  playsinline 
+  preload="auto" 
+  class="w-100 vh-100 object-fit-cover" 
+  disablepictureinpicture 
+  controlslist="nodownload nofullscreen noremoteplayback"
+>
   <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
 </video>
     <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x mb-4">
