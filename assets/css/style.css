@@ -233,6 +233,11 @@
 #services {
   padding-top: 10 !important;
 }
+
+#hero video::-webkit-media-controls {
+  display: none !important;
+}
+
 /* Footer Base */
 #footer {
   background: #0b0c10;
