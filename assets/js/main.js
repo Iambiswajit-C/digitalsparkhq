@@ -104,20 +104,20 @@ if (canvas) {
 }
 
 // Auto-scrolling marquee effect for tools section
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector('.tools-slider');
   if (slider) {
-    let cloned = slider.innerHTML;
-    slider.innerHTML += cloned; // duplicate items for infinite loop effect
-
-    let scrollPos = 0;
-    function loopScroll() {
-      scrollPos += 0.5; // adjust speed here
-      if (scrollPos >= slider.scrollWidth / 2) scrollPos = 0;
-      slider.scrollLeft = scrollPos;
-      requestAnimationFrame(loopScroll);
+    let scrollAmount = 0;
+    function autoScroll() {
+      scrollAmount += 1;
+      slider.scrollLeft = scrollAmount;
+      if (scrollAmount >= slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
+      requestAnimationFrame(autoScroll);
     }
-    loopScroll();
+    slider.style.overflowX = "auto";
+    slider.style.scrollBehavior = "smooth";
+    slider.style.whiteSpace = "nowrap";
+    autoScroll();
   }
 });
 
