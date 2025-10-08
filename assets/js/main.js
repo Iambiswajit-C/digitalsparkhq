@@ -103,7 +103,7 @@ if (canvas) {
   draw();
 }
 
-// Home page body element
+// Auto-scrolling marquee effect for tools section
 document.addEventListener("DOMContentLoaded", function () {
   const slider = document.querySelector('.tools-slider');
   if (slider) {
