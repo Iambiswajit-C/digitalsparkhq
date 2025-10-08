@@ -164,15 +164,23 @@
   border-top: 1px solid rgba(255,255,255,0.05);
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
-#tools .tools-slider {
+.tools-slider {
   display: flex;
-  gap: 4rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  gap: 40px;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
 }
-#tools .tools-slider::-webkit-scrollbar {
-  display: none;
+
+.tools-slider .tool {
+  flex: 0 0 auto;
+  font-size: 3rem;
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.tools-slider .tool:hover {
+  opacity: 1;
 }
 #tools i {
   opacity: 0.7;
