@@ -5,39 +5,53 @@ title: "Home"
 
 <!-- Hero Section -->
 <section id="hero" class="position-relative">
-  <video autoplay muted loop class="w-100 vh-100 object-fit-cover">
-    <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
-  </video>
+<video autoplay muted loop playsinline preload="auto" class="w-100 vh-100 object-fit-cover">
+  <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
+</video>
   <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x mb-4">
     <a href="#services" class="text-white"><i class="fa fa-angle-down fa-2x"></i></a>
   </div>
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-5 text-center text-white position-relative">
+<section id="services" class="py-5 text-white text-center position-relative">
   <div class="container fade-in">
     <h2 class="fw-bold gradient-text mb-4">Our Services</h2>
-    <p class="lead mb-5">We craft digital experiences that amplify your reach, elevate your brand, and drive measurable growth.</p>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="p-4 bg-dark rounded-4 h-100 service-card fade-in">
-          <i class="fa fa-search fa-2x mb-3 text-primary"></i>
-          <h5>SEO & Local Optimization</h5>
+    <p class="lead mb-5 text-white-50">We craft digital experiences that amplify your reach, elevate your brand, and drive measurable growth.</p>
+    <div class="row justify-content-center g-4">
+      <div class="col-md-4 col-sm-6">
+        <div class="about-card p-4 h-100">
+          <i class="fa-solid fa-magnifying-glass-chart fa-3x mb-3" style="color:var(--hover-color)"></i>
+          <h5 class="fw-bold">SEO & Local Optimization</h5>
           <p>Boost your visibility with tailored strategies designed to dominate search results and maps.</p>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="p-4 bg-dark rounded-4 h-100 service-card fade-in">
-          <i class="fa fa-bullhorn fa-2x mb-3 text-primary"></i>
-          <h5>Digital Advertising</h5>
+      <div class="col-md-4 col-sm-6">
+        <div class="about-card p-4 h-100">
+          <i class="fa-solid fa-bullhorn fa-3x mb-3" style="color:var(--hover-color)"></i>
+          <h5 class="fw-bold">Digital Advertising</h5>
           <p>Engage the right audience with high-performing ad campaigns across Google, Meta, and more.</p>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="p-4 bg-dark rounded-4 h-100 service-card fade-in">
-          <i class="fa fa-globe fa-2x mb-3 text-primary"></i>
-          <h5>Web Design & Development</h5>
+      <div class="col-md-4 col-sm-6">
+        <div class="about-card p-4 h-100">
+          <i class="fa-solid fa-code fa-3x mb-3" style="color:var(--hover-color)"></i>
+          <h5 class="fw-bold">Web Design & Development</h5>
           <p>Create immersive, high-speed websites that reflect your brand’s vision and convert visitors into clients.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="about-card p-4 h-100">
+          <i class="fa-solid fa-palette fa-3x mb-3" style="color:var(--hover-color)"></i>
+          <h5 class="fw-bold">Graphic Design</h5>
+          <p>From logos to brand kits, our creative visuals tell your story with clarity and style.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="about-card p-4 h-100">
+          <i class="fa-brands fa-instagram fa-3x mb-3" style="color:var(--hover-color)"></i>
+          <h5 class="fw-bold">Social Media Marketing</h5>
+          <p>Build communities, engage followers, and convert likes into loyal customers.</p>
         </div>
       </div>
     </div>
