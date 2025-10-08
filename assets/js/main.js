@@ -120,3 +120,15 @@ document.addEventListener("DOMContentLoaded", () => {
     loopScroll();
   }
 });
+
+// Video function
+document.addEventListener("DOMContentLoaded", () => {
+  const heroVideo = document.getElementById("heroVideo");
+  if (heroVideo) {
+    heroVideo.play().catch(() => {
+      // force play when browsers block autoplay
+      heroVideo.muted = true;
+      heroVideo.play();
+    });
+  }
+});
