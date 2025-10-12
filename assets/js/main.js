@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
             form.reset();
           } else {
             message.style.display = "block";
-            message.textContent = "Oops! Something went wrong. Please try again.";
+            message.textContent =
+              "Oops! Something went wrong. Please try again.";
             message.classList.remove("text-success");
             message.classList.add("text-danger");
           }
@@ -58,30 +59,35 @@ document.addEventListener("DOMContentLoaded", function () {
   /* ===== Tools auto-scroll (seamless) ===== */
   const track = document.querySelector(".tools-track");
   if (track) {
-    let speed = 1; // adjust for speed
+    // Duplicate icons once for seamless scroll
+    const clone = track.cloneNode(true);
+    track.parentElement.appendChild(clone);
+
+    let speed = 0.5; // Adjust speed (px per frame)
     let position = 0;
     let paused = false;
 
-    function animate() {
+    const animate = () => {
       if (!paused) {
         position -= speed;
-        const firstIcon = track.firstElementChild;
-        const firstIconWidth = firstIcon.offsetWidth + 64;
 
-        if (-position >= firstIconWidth) {
-          track.appendChild(firstIcon);
-          position += firstIconWidth;
+        // Reset when first track is fully gone
+        if (Math.abs(position) >= track.scrollWidth) {
+          position = 0;
         }
 
         track.style.transform = `translateX(${position}px)`;
+        clone.style.transform = `translateX(${position + track.scrollWidth}px)`;
       }
+
       requestAnimationFrame(animate);
-    }
+    };
 
-    track.addEventListener("mouseenter", () => (paused = true));
-    track.addEventListener("mouseleave", () => (paused = false));
+    // Pause/resume on hover
+    track.parentElement.addEventListener("mouseenter", () => (paused = true));
+    track.parentElement.addEventListener("mouseleave", () => (paused = false));
 
-    requestAnimationFrame(animate);
+    animate();
   }
 });
 
