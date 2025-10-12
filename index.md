@@ -168,16 +168,15 @@ title: "Home"
 
     <div class="tools-marquee">
       <div class="tools-track">
-        <!-- Your icons (only once, not duplicated manually) -->
-        <i class="fab fa-google"></i>
-        <i class="fab fa-wordpress"></i>
-        <i class="fab fa-shopify"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
-        <i class="fab fa-mailchimp"></i>
-        <i class="fab fa-figma"></i>
-        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-google fa-2x"></i>
+        <i class="fab fa-wordpress fa-2x"></i>
+        <i class="fab fa-shopify fa-2x"></i>
+        <i class="fab fa-facebook fa-2x"></i>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-mailchimp fa-2x"></i>
+        <i class="fab fa-figma fa-2x"></i>
+        <i class="fab fa-linkedin fa-2x"></i>
       </div>
     </div>
   </div>
