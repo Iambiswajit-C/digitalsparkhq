@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-
       const formData = new FormData(form);
 
       fetch(form.action, {
@@ -53,25 +52,54 @@ document.addEventListener("DOMContentLoaded", function () {
   /* ===== Contact hero fade-in animation ===== */
   const heroText = document.querySelector(".contact-hero-text");
   if (heroText) {
-    // Add a short delay to allow DOM paint before animation
-    setTimeout(() => {
-      heroText.classList.add("show");
-    }, 200);
+    setTimeout(() => heroText.classList.add("show"), 200);
+  }
+
+  /* ===== Tools auto-scroll (seamless) ===== */
+  const track = document.querySelector(".tools-track");
+  if (track) {
+    let speed = 1; // adjust for speed
+    let position = 0;
+    let paused = false;
+
+    function animate() {
+      if (!paused) {
+        position -= speed;
+        const firstIcon = track.firstElementChild;
+        const firstIconWidth = firstIcon.offsetWidth + 64;
+
+        if (-position >= firstIconWidth) {
+          track.appendChild(firstIcon);
+          position += firstIconWidth;
+        }
+
+        track.style.transform = `translateX(${position}px)`;
+      }
+      requestAnimationFrame(animate);
+    }
+
+    track.addEventListener("mouseenter", () => (paused = true));
+    track.addEventListener("mouseleave", () => (paused = false));
+
+    requestAnimationFrame(animate);
   }
 });
 
-// Scroll fade-in effect for About sections
-document.addEventListener("DOMContentLoaded", function() {
+/* ===== Scroll fade-in effect for About sections ===== */
+document.addEventListener("DOMContentLoaded", function () {
   const elements = document.querySelectorAll(".fade-in, .about-hero-text");
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add("show");
-    });
-  }, { threshold: 0.2 });
-  elements.forEach(el => observer.observe(el));
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add("show");
+      });
+    },
+    { threshold: 0.2 }
+  );
+  elements.forEach((el) => observer.observe(el));
 });
 
-// Floating Particle Canvas for Team Section
+/* ===== Floating Particle Canvas for Team Section ===== */
 const canvas = document.getElementById("team-particles");
 if (canvas) {
   const ctx = canvas.getContext("2d");
@@ -80,12 +108,12 @@ if (canvas) {
     y: Math.random() * 400,
     r: Math.random() * 2 + 1,
     dx: (Math.random() - 0.5) * 0.5,
-    dy: (Math.random() - 0.5) * 0.5
+    dy: (Math.random() - 0.5) * 0.5,
   }));
 
   function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    particles.forEach(p => {
+    particles.forEach((p) => {
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
       ctx.fillStyle = "rgba(0,212,255,0.3)";
@@ -97,50 +125,20 @@ if (canvas) {
     });
     requestAnimationFrame(draw);
   }
-  function resize() { canvas.width = window.innerWidth; canvas.height = 400; }
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = 400;
+  }
   window.addEventListener("resize", resize);
   resize();
   draw();
 }
 
-  // Duplicate icons for seamless scroll
-const track = document.querySelector('.tools-track');
-if (!track) return;
-
-let speed = 1; // pixels per frame (adjust for faster/slower)
-let position = 0;
-let paused = false;
-
-function animate() {
-  if (!paused) {
-    position -= speed;
-    const firstIcon = track.firstElementChild;
-    const firstIconWidth = firstIcon.offsetWidth + 64; // 64px ≈ 4rem gap
-
-    // When first icon moves fully out, move it to the end
-    if (-position >= firstIconWidth) {
-      track.appendChild(firstIcon);
-      position += firstIconWidth;
-    }
-
-    track.style.transform = `translateX(${position}px)`;
-  }
-  requestAnimationFrame(animate);
-}
-
-// Pause/resume on hover
-track.addEventListener('mouseenter', () => paused = true);
-track.addEventListener('mouseleave', () => paused = false);
-
-requestAnimationFrame(animate);
-
-
-// Video function
+/* ===== Video autoplay ===== */
 document.addEventListener("DOMContentLoaded", () => {
   const heroVideo = document.getElementById("heroVideo");
   if (heroVideo) {
     heroVideo.play().catch(() => {
-      // force play when browsers block autoplay
       heroVideo.muted = true;
       heroVideo.play();
     });
