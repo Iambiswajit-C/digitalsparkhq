@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Home"
+title: "Digital Spark HQ | Digital Marketing & Growth Solutions for Startups"
+description: "Accelerate your brand growth with Digital Spark HQ. We specialize in SEO, social media marketing, web design, and innovative digital strategies that deliver measurable results."
 ---
 
 <!-- Hero Section -->
