@@ -177,19 +177,10 @@ title: "Home"
         <i class="fab fa-mailchimp fa-2x"></i>
         <i class="fab fa-figma fa-2x"></i>
         <i class="fab fa-linkedin fa-2x"></i>
+        <i class="fab fa-github fa-2x"></i>
+        <i class="fab fa-hubspot fa-2x"></i>
+        <i class="fab fa-semrush fa-2x"></i>
 
-        <!-- Duplicate once for seamless loop -->
-        <i class="fab fa-google fa-2x"></i>
-        <i class="fab fa-wordpress fa-2x"></i>
-        <i class="fab fa-shopify fa-2x"></i>
-        <i class="fab fa-facebook fa-2x"></i>
-        <i class="fab fa-instagram fa-2x"></i>
-        <i class="fab fa-youtube fa-2x"></i>
-        <i class="fab fa-mailchimp fa-2x"></i>
-        <i class="fab fa-figma fa-2x"></i>
-        <i class="fab fa-linkedin fa-2x"></i>
-      </div>
-    </div>
   </div>
 </section>
 
