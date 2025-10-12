@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Contact
+title: "Contact Digital Spark HQ | Start Your Digital Journey Today"
+description: "Get in touch with Digital Spark HQ to grow your business online. Schedule a consultation or ask about our services including SEO, web development, and marketing strategy."
 ---
+
 
 <!-- Hero Section -->
 <section id="contact-hero"
