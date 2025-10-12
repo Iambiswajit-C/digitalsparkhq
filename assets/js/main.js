@@ -104,20 +104,10 @@ if (canvas) {
 }
 
 // Auto-scrolling marquee effect for tools section
-document.addEventListener("DOMContentLoaded", function () {
-  const slider = document.querySelector('.tools-slider');
-  if (slider) {
-    let scrollAmount = 0;
-    function autoScroll() {
-      scrollAmount += 1;
-      slider.scrollLeft = scrollAmount;
-      if (scrollAmount >= slider.scrollWidth - slider.clientWidth) scrollAmount = 0;
-      requestAnimationFrame(autoScroll);
-    }
-    slider.style.overflowX = "auto";
-    slider.style.scrollBehavior = "smooth";
-    slider.style.whiteSpace = "nowrap";
-    autoScroll();
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".tools-track");
+  if (track) {
+    track.innerHTML += track.innerHTML; // duplicate icons once for seamless scroll
   }
 });
 
