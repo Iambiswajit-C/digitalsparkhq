@@ -103,21 +103,6 @@ if (canvas) {
   draw();
 }
 
-// Auto-scrolling slide marquee effect for tools section
-const track = document.querySelector(".tools-track");
-if (track) {
-  requestAnimationFrame(() => {
-    const parentWidth = track.parentElement.offsetWidth;
-    const trackWidth = track.scrollWidth;
-
-    // Only clone if track is too short
-    if (trackWidth < parentWidth * 2) {
-      const clone = track.cloneNode(true);
-      track.parentElement.appendChild(clone);
-      clone.classList.add("cloned");
-    }
-  });
-}
 
 // Video function
 document.addEventListener("DOMContentLoaded", () => {
