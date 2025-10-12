@@ -57,35 +57,26 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* ===== Tools auto-scroll (seamless) ===== */
+  const inner = document.querySelector(".tools-marquee-inner");
   const track = document.querySelector(".tools-track");
-  if (track) {
-    // Duplicate icons once for seamless scroll
+
+  if (inner && track) {
+    // Clone the track for seamless effect
     const clone = track.cloneNode(true);
-    track.parentElement.appendChild(clone);
+    inner.appendChild(clone);
 
     let speed = 0.5; // Adjust speed (px per frame)
     let position = 0;
-    let paused = false;
+    const trackWidth = track.offsetWidth;
 
     const animate = () => {
-      if (!paused) {
-        position -= speed;
-
-        // Reset when first track is fully gone
-        if (Math.abs(position) >= track.scrollWidth) {
-          position = 0;
-        }
-
-        track.style.transform = `translateX(${position}px)`;
-        clone.style.transform = `translateX(${position + track.scrollWidth}px)`;
+      position -= speed;
+      if (Math.abs(position) >= trackWidth) {
+        position = 0; // reset
       }
-
+      inner.style.transform = `translateX(${position}px)`;
       requestAnimationFrame(animate);
     };
-
-    // Pause/resume on hover
-    track.parentElement.addEventListener("mouseenter", () => (paused = true));
-    track.parentElement.addEventListener("mouseleave", () => (paused = false));
 
     animate();
   }
