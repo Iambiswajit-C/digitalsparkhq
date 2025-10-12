@@ -113,9 +113,6 @@ document.addEventListener("DOMContentLoaded", () => {
     track.innerHTML += track.innerHTML;
   }
 
-  // other scripts...
-});
-
 // Video function
 document.addEventListener("DOMContentLoaded", () => {
   const heroVideo = document.getElementById("heroVideo");
