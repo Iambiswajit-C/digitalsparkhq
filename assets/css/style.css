@@ -98,7 +98,7 @@
 ================================= */
 
 /* General Section Style */
-#services, #why-digital, #process, #build-identity, #maintenance, {
+#services, #why-digital, #process, #build-identity, #maintenance, #tools {
   background: linear-gradient(180deg, rgba(15,15,15,1) 0%, rgba(25,25,25,1) 100%);
   position: relative;
   overflow: hidden;
