@@ -166,18 +166,9 @@ title: "Home"
     <h2 class="fw-bold gradient-text mb-2">Trusted by Ambitious Startups</h2>
     <p class="text-light mb-4">We use tools you already love — and take them to the next level.</p>
 
-    <div class="tools-wrapper overflow-hidden">
-      <div class="tools-slider">
-        <i class="fab fa-google"></i>
-        <i class="fab fa-wordpress"></i>
-        <i class="fab fa-shopify"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
-        <i class="fab fa-mailchimp"></i>
-        <i class="fab fa-figma"></i>
-        <i class="fab fa-linkedin"></i>
-        <!-- Duplicate the same icons for smooth loop -->
+    <div class="tools-marquee">
+      <div class="tools-track">
+        <!-- Your icons (only once, not duplicated manually) -->
         <i class="fab fa-google"></i>
         <i class="fab fa-wordpress"></i>
         <i class="fab fa-shopify"></i>
