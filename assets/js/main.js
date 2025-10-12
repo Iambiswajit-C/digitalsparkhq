@@ -56,25 +56,38 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => heroText.classList.add("show"), 200);
   }
 
-  /* ===== Tools auto-scroll (seamless) ===== */
+  /* ===== Tools auto-scroll (seamless, no gap) ===== */
   const inner = document.querySelector(".tools-marquee-inner");
   const track = document.querySelector(".tools-track");
 
   if (inner && track) {
-    // Clone the track for seamless effect
+    // Clone the track
     const clone = track.cloneNode(true);
     inner.appendChild(clone);
 
-    let speed = 0.5; // Adjust speed (px per frame)
+    let speed = 0.5; // pixels per frame
     let position = 0;
-    const trackWidth = track.offsetWidth;
+    let trackWidth = track.offsetWidth;
+    let paused = false;
+
+    // Update trackWidth on resize
+    const updateWidth = () => {
+      trackWidth = track.offsetWidth;
+    };
+    window.addEventListener("resize", updateWidth);
+
+    // Pause on hover
+    inner.parentElement.addEventListener("mouseenter", () => (paused = true));
+    inner.parentElement.addEventListener("mouseleave", () => (paused = false));
 
     const animate = () => {
-      position -= speed;
-      if (Math.abs(position) >= trackWidth) {
-        position = 0; // reset
+      if (!paused) {
+        position -= speed;
+        if (Math.abs(position) >= trackWidth) {
+          position = 0; // seamless loop
+        }
+        inner.style.transform = `translateX(${position}px)`;
       }
-      inner.style.transform = `translateX(${position}px)`;
       requestAnimationFrame(animate);
     };
 
