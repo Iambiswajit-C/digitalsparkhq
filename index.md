@@ -166,22 +166,23 @@ title: "Home"
     <h2 class="fw-bold gradient-text mb-2">Trusted by Ambitious Startups</h2>
     <p class="text-light mb-4">We use tools you already love — and take them to the next level.</p>
 
-<div class="tools-marquee">
-  <div class="tools-marquee-inner">
-    <div class="tools-track">
-      <i class="fab fa-google fa-2x"></i>
-      <i class="fab fa-wordpress fa-2x"></i>
-      <i class="fab fa-shopify fa-2x"></i>
-      <i class="fab fa-facebook fa-2x"></i>
-      <i class="fab fa-instagram fa-2x"></i>
-      <i class="fab fa-youtube fa-2x"></i>
-      <i class="fab fa-mailchimp fa-2x"></i>
-      <i class="fab fa-figma fa-2x"></i>
-      <i class="fab fa-linkedin fa-2x"></i>
-      <i class="fab fa-github fa-2x"></i>
-      <i class="fab fa-hubspot fa-2x"></i>
-      <i class="fab fa-semrush fa-2x"></i>
+    <div class="tools-marquee">
+      <div class="tools-marquee-inner">
+        <div class="tools-track">
+          <i class="fab fa-google fa-2x"></i>
+          <i class="fab fa-wordpress fa-2x"></i>
+          <i class="fab fa-shopify fa-2x"></i>
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-youtube fa-2x"></i>
+          <i class="fab fa-mailchimp fa-2x"></i>
+          <i class="fab fa-figma fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-hubspot fa-2x"></i>
+          <i class="fab fa-semrush fa-2x"></i>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </div> <!-- closing container div -->
 </section>
