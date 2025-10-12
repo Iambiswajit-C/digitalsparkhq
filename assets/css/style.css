@@ -159,42 +159,31 @@
 }
 
 /* Tools Section */
-#tools {
-  background: linear-gradient(180deg, rgba(20,20,20,1), rgba(10,10,10,1));
-  border-top: 1px solid rgba(255,255,255,0.05);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+.tools-marquee {
   overflow: hidden;
-  position: relative;
+  width: 100%;
 }
 
-#tools .tools-slider {
+.tools-marquee-inner {
+  display: flex;
+  gap: 4rem;
+  will-change: transform;
+}
+
+.tools-track {
   display: flex;
   align-items: center;
   gap: 4rem;
-  white-space: nowrap;
-  animation: scrollTools 25s linear infinite;
 }
 
-#tools .tools-slider i {
-  opacity: 0.7;
+.tools-track i {
+  opacity: 0.8;
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
-  font-size: 2rem;
 }
-
-#tools .tools-slider i:hover {
+.tools-track i:hover {
   opacity: 1;
   color: var(--hover-color);
   transform: scale(1.2);
-}
-
-/* Keyframes for marquee animation */
-@keyframes scrollTools {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 /* Dual Panel (Why Digital) */
