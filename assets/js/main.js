@@ -104,10 +104,36 @@ if (canvas) {
 }
 
   // Duplicate icons for seamless scroll
-  const track = document.querySelector('.tools-track');
-  if (track) {
-    track.innerHTML += track.innerHTML;
+const track = document.querySelector('.tools-track');
+if (!track) return;
+
+let speed = 1; // pixels per frame (adjust for faster/slower)
+let position = 0;
+let paused = false;
+
+function animate() {
+  if (!paused) {
+    position -= speed;
+    const firstIcon = track.firstElementChild;
+    const firstIconWidth = firstIcon.offsetWidth + 64; // 64px ≈ 4rem gap
+
+    // When first icon moves fully out, move it to the end
+    if (-position >= firstIconWidth) {
+      track.appendChild(firstIcon);
+      position += firstIconWidth;
+    }
+
+    track.style.transform = `translateX(${position}px)`;
   }
+  requestAnimationFrame(animate);
+}
+
+// Pause/resume on hover
+track.addEventListener('mouseenter', () => paused = true);
+track.addEventListener('mouseleave', () => paused = false);
+
+requestAnimationFrame(animate);
+
 
 // Video function
 document.addEventListener("DOMContentLoaded", () => {
