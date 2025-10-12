@@ -103,6 +103,18 @@ if (canvas) {
   draw();
 }
 
+// Auto-scrolling slide marquee effect for tools section
+document.addEventListener("DOMContentLoaded", () => {
+  // existing scripts...
+
+  // Duplicate icons for seamless scroll
+  const track = document.querySelector('.tools-track');
+  if (track) {
+    track.innerHTML += track.innerHTML;
+  }
+
+  // other scripts...
+});
 
 // Video function
 document.addEventListener("DOMContentLoaded", () => {
