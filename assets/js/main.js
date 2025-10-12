@@ -103,11 +103,17 @@ if (canvas) {
   draw();
 }
 
-// Auto-scrolling marquee effect for tools section
+// Auto-scrolling slide marquee effect for tools section
 document.addEventListener("DOMContentLoaded", () => {
   const track = document.querySelector(".tools-track");
-  if (track) {
-    track.innerHTML += track.innerHTML; // duplicate icons once for seamless scroll
+  if (!track) return;
+
+  const parentWidth = track.parentElement.offsetWidth;
+  let totalWidth = track.scrollWidth;
+
+  while (totalWidth < parentWidth * 2) {
+    track.innerHTML += track.innerHTML;
+    totalWidth = track.scrollWidth;
   }
 });
 
