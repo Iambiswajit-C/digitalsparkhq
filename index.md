@@ -168,22 +168,20 @@ title: "Home"
 
     <div class="tools-marquee">
       <div class="tools-marquee-inner">
-<div class="tools-track">
-  <div class="tool"><i class="fab fa-google fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-wordpress fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-shopify fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-facebook fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-instagram fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-youtube fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-mailchimp fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-figma fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-linkedin fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-github fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-hubspot fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-notion fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-slack fa-2x"></i></div>
-  <div class="tool"><i class="fab fa-trello fa-2x"></i></div>
-</div>
+        <div class="tools-track">
+          <i class="fab fa-google fa-2x"></i>
+          <i class="fab fa-wordpress fa-2x"></i>
+          <i class="fab fa-shopify fa-2x"></i>
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-youtube fa-2x"></i>
+          <i class="fab fa-mailchimp fa-2x"></i>
+          <i class="fab fa-figma fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-hubspot fa-2x"></i>
+          <i class="fab fa-semrush fa-2x"></i>
+        </div>
       </div>
     </div>
   </div> <!-- closing container div -->
