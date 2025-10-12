@@ -696,6 +696,40 @@ html, body {
   50% { opacity: 0.25; filter: hue-rotate(45deg); }
   100% { opacity: 0.1; filter: hue-rotate(0deg); }
 }
+
+/* ===== 404 Page ===== */
+#error-404 {
+  background: linear-gradient(135deg, #0b0c10, #1c1f26);
+  overflow: hidden;
+  position: relative;
+}
+
+.error-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 30%, rgba(0,212,255,0.1), transparent 60%),
+              radial-gradient(circle at 70% 70%, rgba(255,255,255,0.08), transparent 60%);
+  animation: subtleGlow 8s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
+@keyframes subtleGlow {
+  0% { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 0.9; transform: scale(1.05); }
+}
+
+#error-404 h1 {
+  font-size: 8rem;
+  letter-spacing: 4px;
+  text-shadow: 0 0 30px rgba(0,212,255,0.3);
+}
+
+#error-404 .btn:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
 /* Responsive */
 @media (max-width: 991px) {
   .footer-top {
