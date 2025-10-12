@@ -166,14 +166,13 @@
 
 .tools-marquee-inner {
   display: flex;
-  gap: 4rem;
-  will-change: transform;
+  will-change: transform; /* remove gap here */
 }
 
 .tools-track {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 4rem; /* spacing between icons only */
 }
 
 .tools-track i {
