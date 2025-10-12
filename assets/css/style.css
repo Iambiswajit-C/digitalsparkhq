@@ -98,7 +98,7 @@
 ================================= */
 
 /* General Section Style */
-#services, #why-digital, #process, #build-identity, #maintenance, #tools {
+#services, #why-digital, #process, #build-identity, #maintenance, {
   background: linear-gradient(180deg, rgba(15,15,15,1) 0%, rgba(25,25,25,1) 100%);
   position: relative;
   overflow: hidden;
@@ -163,25 +163,38 @@
   background: linear-gradient(180deg, rgba(20,20,20,1), rgba(10,10,10,1));
   border-top: 1px solid rgba(255,255,255,0.05);
   border-bottom: 1px solid rgba(255,255,255,0.05);
+  overflow: hidden;
+  position: relative;
 }
+
 #tools .tools-slider {
   display: flex;
+  align-items: center;
   gap: 4rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  white-space: nowrap;
+  animation: scrollTools 25s linear infinite;
 }
-#tools .tools-slider::-webkit-scrollbar {
-  display: none;
-}
-#tools i {
+
+#tools .tools-slider i {
   opacity: 0.7;
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  font-size: 2rem;
 }
-#tools i:hover {
+
+#tools .tools-slider i:hover {
   opacity: 1;
   color: var(--hover-color);
   transform: scale(1.2);
+}
+
+/* Keyframes for marquee animation */
+@keyframes scrollTools {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Dual Panel (Why Digital) */
