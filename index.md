@@ -161,20 +161,28 @@ title: "Home"
 </section>
 
 <!-- Tools We Use -->
-<section id="tools" class="py-5 text-center text-white position-relative overflow-hidden">
-  <div class="container fade-in">
-    <h2 class="fw-bold gradient-text mb-2">Trusted by Ambitious Startups</h2>
-    <p class="text-light mb-4">We use tools you already love — and take them to the next level.</p>
-    <div class="tools-slider d-flex align-items-center justify-content-center gap-5">
-      <i class="fab fa-google fa-2x"></i>
-      <i class="fab fa-wordpress fa-2x"></i>
-      <i class="fab fa-shopify fa-2x"></i>
-      <i class="fab fa-facebook fa-2x"></i>
-      <i class="fab fa-instagram fa-2x"></i>
-      <i class="fab fa-youtube fa-2x"></i>
-      <i class="fab fa-mailchimp fa-2x"></i>
-      <i class="fab fa-figma fa-2x"></i>
-      <i class="fab fa-linkedin fa-2x"></i>
-    </div>
+<div class="tools-slider d-flex align-items-center gap-5">
+  <div class="tools-track d-flex gap-5">
+    <i class="fab fa-google fa-2x"></i>
+    <i class="fab fa-wordpress fa-2x"></i>
+    <i class="fab fa-shopify fa-2x"></i>
+    <i class="fab fa-facebook fa-2x"></i>
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-youtube fa-2x"></i>
+    <i class="fab fa-mailchimp fa-2x"></i>
+    <i class="fab fa-figma fa-2x"></i>
+    <i class="fab fa-linkedin fa-2x"></i>
+    
+    <!-- Duplicate for seamless scroll -->
+    <i class="fab fa-google fa-2x"></i>
+    <i class="fab fa-wordpress fa-2x"></i>
+    <i class="fab fa-shopify fa-2x"></i>
+    <i class="fab fa-facebook fa-2x"></i>
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-youtube fa-2x"></i>
+    <i class="fab fa-mailchimp fa-2x"></i>
+    <i class="fab fa-figma fa-2x"></i>
+    <i class="fab fa-linkedin fa-2x"></i>
   </div>
-</section>
+</div>
+
