@@ -180,7 +180,9 @@ title: "Home"
           <i class="fab fa-linkedin fa-2x"></i>
           <i class="fab fa-github fa-2x"></i>
           <i class="fab fa-hubspot fa-2x"></i>
-          <i class="fab fa-semrush fa-2x"></i>
+          <i class="fab fa-notion fa-2x"></i>
+          <i class="fab fa-slack fa-2x"></i>
+          <i class="fab fa-trello fa-2x"></i>
         </div>
       </div>
     </div>
