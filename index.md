@@ -164,8 +164,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 <!-- Tools We Use -->
 <section id="tools" class="py-5 text-center text-white position-relative">
   <div class="container fade-in">
-    <h2 class="fw-bold gradient-text mb-2">Trusted by Ambitious Startups</h2>
-    <p class="text-light mb-4">We use tools you already love — and take them to the next level.</p>
+    <h2 class="fw-bold gradient-text mb-2">We use tools you already love — and take them to the next level</h2>
 
     <div class="tools-marquee">
       <div class="tools-marquee-inner">
