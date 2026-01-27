@@ -81,6 +81,16 @@
           <li><a href="{{ '/about/' | relative_url }}">About</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
         </ul>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle {% if page.url contains '/services/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown">Our Services</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item {% if page.url == '/services/web-design/' %}active{% endif %}" href="/services/web-design/">Web Design</a></li>
+    <li><a class="dropdown-item {% if page.url == '/services/seo/' %}active{% endif %}" href="/services/seo/">SEO</a></li>
+    <li><a class="dropdown-item {% if page.url == '/services/graphic-design/' %}active{% endif %}" href="/services/graphic-design/">Graphic Design</a></li>
+    <li><a class="dropdown-item {% if page.url == '/services/social-media/' %}active{% endif %}" href="/services/social-media/">Social Media</a></li>
+    <li><a class="dropdown-item {% if page.url == '/services/paid-marketing/' %}active{% endif %}" href="/services/paid-marketing/">Paid Marketing</a></li>
+  </ul>
+</li>
       </div>
       <div class="col-lg-3 mb-4 mb-lg-0">
         <h5 class="footer-title">Contact</h5>
