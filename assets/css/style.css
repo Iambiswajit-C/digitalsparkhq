@@ -132,7 +132,10 @@
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
 }
-
+/* Custom readable white text */
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.78);
+}
 /* Consulting Process Steps */
 .process-step {
   background: rgba(255, 255, 255, 0.05);
