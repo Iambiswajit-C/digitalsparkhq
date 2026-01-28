@@ -679,7 +679,10 @@ html, body {
   opacity: 1;
   transform: translateY(0);
 }
-
+section.text-white p,
+section.text-white .lead {
+  color: rgba(255,255,255,0.85);
+}
 /* WHY CHOOSE US */
 #why-choose {
   position: relative;
