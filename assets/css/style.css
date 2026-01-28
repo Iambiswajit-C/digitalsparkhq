@@ -185,6 +185,21 @@
   transform: scale(1.2);
 }
 
+/* Glass content panel (services) */
+.glass-panel {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.glass-panel:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0,212,255,0.25);
+}
+.text-white-75 {
+  color: rgba(255,255,255,0.75);
+}
 /* Dual Panel (Why Digital) */
 #why-digital ul {
   padding-left: 0;
