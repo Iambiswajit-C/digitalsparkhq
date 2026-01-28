@@ -23,6 +23,7 @@ description: "Strategic social media marketing that builds brand presence, engag
 
 <!-- What This Solves -->
 <section id="service-solves" class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
   <div class="service-vision-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
@@ -179,6 +180,7 @@ description: "Strategic social media marketing that builds brand presence, engag
 
 <!-- Who This Is For -->
 <section id="service-audience" class="py-5 text-white position-relative text-center">
+  <div class="service-dark-bg"></div>
   <div class="service-vision-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
