@@ -779,6 +779,14 @@ section.text-white .lead {
   z-index: 0; /* 🔴 THIS WAS WRONG BEFORE */
 }
 
+/* === Service Page Content Layer === */
+#service-solves .container,
+#service-audience .container,
+#service-why .container,
+#service-deliverables .container {
+  position: relative;
+  z-index: 2;
+}
 
 /* ===== 404 Page ===== */
 #error-404 {
