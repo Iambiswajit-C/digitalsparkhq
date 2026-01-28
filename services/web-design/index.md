@@ -3,13 +3,19 @@ layout: default
 title: "Web Design & Development"
 ---
 
-<!-- HERO -->
-<section class="service-hero py-5 text-center text-white position-relative">
-  <div class="container fade-in">
-    <i class="fas fa-laptop-code fa-3x mb-3" style="color: var(--hover-color);"></i>
-    <h1 class="fw-bold display-5">Web Design & Development</h1>
-    <p class="lead mt-3 mx-auto" style="max-width: 800px;">
-      Modern, fast, and conversion-focused websites designed to build trust, tell your story, and grow your business.
+<!-- Web Design Hero Section -->
+<section id="service-hero"
+  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
+  style="height:90vh; background:url('{{ '/assets/images/web-design-hero.jpg' | relative_url }}') center/cover no-repeat;">
+
+  <div class="hero-overlay"></div>
+  <div class="hero-glow"></div>
+
+  <div class="container position-relative z-2 fade-in">
+    <i class="fas fa-laptop-code fa-3x mb-4" style="color: var(--hover-color);"></i>
+    <h1 class="display-1 fw-bold">WEB DESIGN</h1>
+    <p class="lead text-white-50 mt-3 mx-auto" style="max-width: 800px;">
+      High-performance websites built to build trust, convert visitors, and grow your brand.
     </p>
   </div>
 </section>
