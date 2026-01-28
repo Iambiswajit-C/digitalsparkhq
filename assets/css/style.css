@@ -787,6 +787,14 @@ section.text-white .lead {
   position: relative;
   z-index: 2;
 }
+/* === Service Section Readable Content Panel === */
+.service-panel {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+}
 
 /* ===== 404 Page ===== */
 #error-404 {
