@@ -21,14 +21,14 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
-<!-- What This Solves -->
+<!-- What Web Designing Solves -->
 <section id="service-solves" class="py-5 text-white position-relative">
   <div class="service-dark-bg"></div>
   <div class="service-vision-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-5 gradient-text text-center">
-      What This Solves
+      What Web Designing Solves
     </h2>
 
     <div class="row g-5 text-center">
