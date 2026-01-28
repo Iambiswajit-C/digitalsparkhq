@@ -759,13 +759,9 @@ section.text-white .lead {
 /* Vision-style glow background */
 #service-solves .service-vision-bg,
 #service-audience .service-vision-bg {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(
-    circle at 50% 50%,
-    rgba(0,212,255,0.18),
-    transparent 70%
-  );
+ position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(0,212,255,0.15), transparent 70%);
   z-index: 0;
   animation: pulse 8s ease-in-out infinite;
 }
