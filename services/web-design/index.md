@@ -21,7 +21,6 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
-<!-- WHAT THIS SERVICE SOLVES -->
 <section class="py-5 text-white position-relative">
   <div class="story-bg"></div>
   <div class="cross-pattern"></div>
@@ -31,38 +30,38 @@ description: "High-performance web design and development services that help bus
       What This Service Solves
     </h2>
 
-   <div class="row g-4 text-center">
+    <div class="row g-4 text-center">
       <div class="col-md-6 col-lg-3">
-        <div class="team-card p-4 h-100">
+        <div class="glass-panel p-4 h-100">
           <h5 class="fw-bold mb-2">Outdated Design</h5>
-          <p class="small opacity-75">
+          <p class="small text-white-75">
             Websites that no longer reflect your brand or build trust.
           </p>
         </div>
       </div>
 
-   <div class="col-md-6 col-lg-3">
-        <div class="team-card p-4 h-100">
+      <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-4 h-100">
           <h5 class="fw-bold mb-2">Low Conversions</h5>
-          <p class="small opacity-75">
+          <p class="small text-white-75">
             Visitors arrive but don’t take action.
           </p>
         </div>
       </div>
 
-  <div class="col-md-6 col-lg-3">
-        <div class="team-card p-4 h-100">
+      <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-4 h-100">
           <h5 class="fw-bold mb-2">Slow Performance</h5>
-          <p class="small opacity-75">
+          <p class="small text-white-75">
             Heavy pages that hurt user experience and SEO.
           </p>
         </div>
       </div>
 
-   <div class="col-md-6 col-lg-3">
-        <div class="team-card p-4 h-100">
+      <div class="col-md-6 col-lg-3">
+        <div class="glass-panel p-4 h-100">
           <h5 class="fw-bold mb-2">Poor Mobile Experience</h5>
-          <p class="small opacity-75">
+          <p class="small text-white-75">
             Sites that don’t adapt to modern devices.
           </p>
         </div>
@@ -71,50 +70,45 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
-<!-- OUR APPROACH -->
-<section class="py-5 bg-light text-dark">
+
+<section class="py-5 position-relative">
   <div class="container fade-in">
     <h2 class="fw-bold mb-4 gradient-text text-center">Our Approach</h2>
 
-   <p class="lead text-center mb-5 mx-auto" style="max-width: 850px;">
+    <p class="lead text-center mb-5 mx-auto" style="max-width:850px;">
       We follow a structured, transparent process so you always know what’s happening — and why.
     </p>
 
-  <div class="row g-4">
+    <div class="row g-4">
       <div class="col-md-6 col-lg-3">
-        <div class="about-card p-4 h-100">
-          <h5 class="fw-bold">1. Discovery</h5>
-          <p class="small">
-            Understanding your business, goals, audience, and competitors.
-          </p>
+        <div class="process-step p-4 h-100 text-center">
+          <i class="fa-solid fa-magnifying-glass fs-2 mb-3 gradient-text"></i>
+          <h5 class="fw-bold">Discovery</h5>
+          <p class="small opacity-75">Understanding your business & goals.</p>
         </div>
       </div>
 
-   <div class="col-md-6 col-lg-3">
-        <div class="about-card p-4 h-100">
-          <h5 class="fw-bold">2. Strategy & UX</h5>
-          <p class="small">
-            Planning structure, user flow, and content hierarchy.
-          </p>
+      <div class="col-md-6 col-lg-3">
+        <div class="process-step p-4 h-100 text-center">
+          <i class="fa-solid fa-sitemap fs-2 mb-3 gradient-text"></i>
+          <h5 class="fw-bold">Strategy & UX</h5>
+          <p class="small opacity-75">Planning structure and user flow.</p>
         </div>
       </div>
 
-  <div class="col-md-6 col-lg-3">
-        <div class="about-card p-4 h-100">
-          <h5 class="fw-bold">3. Design & Development</h5>
-          <p class="small">
-            Clean, responsive design with modern, scalable code.
-          </p>
+      <div class="col-md-6 col-lg-3">
+        <div class="process-step p-4 h-100 text-center">
+          <i class="fa-solid fa-code fs-2 mb-3 gradient-text"></i>
+          <h5 class="fw-bold">Design & Dev</h5>
+          <p class="small opacity-75">Clean, responsive, scalable build.</p>
         </div>
       </div>
 
-      
-  <div class="col-md-6 col-lg-3">
-        <div class="about-card p-4 h-100">
-          <h5 class="fw-bold">4. Launch & Support</h5>
-          <p class="small">
-            Testing, deployment, and post-launch assistance.
-          </p>
+      <div class="col-md-6 col-lg-3">
+        <div class="process-step p-4 h-100 text-center">
+          <i class="fa-solid fa-rocket fs-2 mb-3 gradient-text"></i>
+          <h5 class="fw-bold">Launch & Support</h5>
+          <p class="small opacity-75">Testing, launch & post-care.</p>
         </div>
       </div>
     </div>
@@ -139,27 +133,32 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
-<!-- WHO THIS IS FOR -->
-<section class="py-5">
+<section class="py-5 position-relative">
   <div class="container fade-in text-center">
-    <h2 class="fw-bold mb-4">Who This Is For</h2>
-    <p class="lead mx-auto" style="max-width: 800px;">
-      This service is ideal for startups, small businesses, entrepreneurs, and growing brands who want a professional digital presence that actually works — not just looks good.
-    </p>
+    <h2 class="fw-bold mb-4 gradient-text">Who This Is For</h2>
+
+    <div class="glass-panel p-5 mx-auto" style="max-width:900px;">
+      <p class="lead mb-0 text-white-75">
+        This service is ideal for startups, founders, small businesses, and growing brands who want a professional digital presence that actually performs — not just looks good.
+      </p>
+    </div>
   </div>
 </section>
 
-<!-- WHY DIGITAL SPARK HQ -->
 <section class="py-5 text-white position-relative">
   <div class="why-bg"></div>
 
-  <div class="container position-relative z-2 fade-in">
-    <h2 class="fw-bold mb-4 gradient-text text-center">Why Digital Spark HQ</h2>
-    <p class="lead mx-auto text-center" style="max-width: 900px;">
-      We don’t believe in one-size-fits-all websites.  
-      Every project is approached with care, clarity, and long-term thinking.
-      <br><br>
-      Our focus is on building digital foundations that grow with your business — supported by honest communication, clean execution, and reliable delivery.
-    </p>
+  <div class="container position-relative z-2 fade-in text-center">
+    <h2 class="fw-bold mb-4 gradient-text">Why Digital Spark HQ</h2>
+
+    <div class="glass-panel p-5 mx-auto" style="max-width:900px;">
+      <p class="lead text-white-75 mb-0">
+        We don’t believe in one-size-fits-all websites.
+        Every project is approached with care, clarity, and long-term thinking.
+        <br><br>
+        Our focus is on building digital foundations that grow with your business —
+        supported by honest communication and reliable delivery.
+      </p>
+    </div>
   </div>
 </section>
