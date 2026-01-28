@@ -23,7 +23,7 @@ description: "High-performance web design and development services that help bus
 
 <!-- What This Service Solves -->
 <section id="service-solves" class="py-5 text-white position-relative">
-  <div class="vision-bg"></div>
+  <div class="service-vision-bg"></div>
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-5 gradient-text text-center">
       What This Service Solves
@@ -108,7 +108,7 @@ description: "High-performance web design and development services that help bus
 
 <!-- WHAT YOU GET -->
 <section id="service-deliverables" class="py-5 text-white position-relative">
-  <div class="team-bg"></div>
+  <div class="service-team-bg"></div>
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold gradient-text text-center mb-4">What You Get</h2>
 
@@ -125,7 +125,7 @@ description: "High-performance web design and development services that help bus
 
 <!-- Who This Is For -->
 <section id="service-audience" class="py-5 text-white position-relative text-center">
-  <div class="vision-bg"></div>
+  <div class="service-vision-bg"></div>
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold gradient-text mb-4">Who This Is For</h2>
     <p class="lead mx-auto text-white-75" style="max-width:900px;">
@@ -137,7 +137,7 @@ description: "High-performance web design and development services that help bus
 
 <!-- Why Digital Spark HQ -->
 <section id="service-why" class="py-5 text-white position-relative">
-  <div class="why-bg"></div>
+  <div class="service-why-bg"></div>
   <div class="container position-relative z-2 fade-in text-center">
     <h2 class="fw-bold gradient-text mb-4">Why Digital Spark HQ</h2>
     <p class="lead mx-auto text-white-75" style="max-width:900px;">
