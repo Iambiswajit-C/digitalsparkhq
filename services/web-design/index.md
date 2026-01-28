@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "Web Design & Development"
+title: "Web Design & Development | Digital Spark HQ"
+description: "High-performance web design and development services that help businesses build trust, convert visitors, and grow online."
 ---
 
-<!-- Web Design Hero Section -->
+<!-- HERO -->
 <section id="service-hero"
   class="text-center text-white position-relative d-flex justify-content-center align-items-center"
   style="height:90vh; background:url('{{ '/assets/images/web-design-hero.jpg' | relative_url }}') center/cover no-repeat;">
@@ -14,8 +15,8 @@ title: "Web Design & Development"
   <div class="container position-relative z-2 fade-in">
     <i class="fas fa-laptop-code fa-3x mb-4" style="color: var(--hover-color);"></i>
     <h1 class="display-1 fw-bold">WEB DESIGN</h1>
-    <p class="lead text-white-50 mt-3 mx-auto" style="max-width: 800px;">
-      High-performance websites built to build trust, convert visitors, and grow your brand.
+    <p class="lead text-white opacity-75 mt-3 mx-auto hero-subtext" style="max-width: 820px;">
+      High-performance websites designed to build trust, convert visitors, and grow your brand.
     </p>
   </div>
 </section>
@@ -61,7 +62,7 @@ title: "Web Design & Development"
       We follow a structured, transparent process so you always know what’s happening — and why.
     </p>
 
-    <div class="row g-4">
+   <div class="row g-4">
       <div class="col-md-6 col-lg-3">
         <div class="p-4 h-100 bg-light rounded">
           <h5 class="fw-bold">1. Discovery</h5>
