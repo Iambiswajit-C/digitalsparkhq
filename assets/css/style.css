@@ -231,6 +231,9 @@
   display: none !important;
 }
 
+.hero-subtext {
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
 /* Footer Base */
 #footer {
   background: #0b0c10;
