@@ -787,6 +787,13 @@ section.text-white .lead {
   position: relative;
   z-index: 2;
 }
+/* === Service section base background (matches About page) === */
+.service-dark-bg {
+  position: absolute;
+  inset: 0;
+  background: #0b0c10;
+  z-index: 0;
+}
 
 /* ===== 404 Page ===== */
 #error-404 {
