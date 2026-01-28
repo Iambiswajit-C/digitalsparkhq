@@ -23,7 +23,9 @@ description: "High-performance web design and development services that help bus
 
 <!-- What This Service Solves -->
 <section id="service-solves" class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
   <div class="service-vision-bg"></div>
+
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-5 gradient-text text-center">
       What This Service Solves
@@ -125,10 +127,12 @@ description: "High-performance web design and development services that help bus
 
 <!-- Who This Is For -->
 <section id="service-audience" class="py-5 text-white position-relative text-center">
+  <div class="service-dark-bg"></div>
   <div class="service-vision-bg"></div>
+
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold gradient-text mb-4">Who This Is For</h2>
-    <p class="lead mx-auto text-white-75" style="max-width:900px;">
+    <p class="lead mx-auto" style="max-width:900px;">
         This service is ideal for startups, founders, small businesses, and growing brands who want a professional digital presence that actually performs — not just looks good.
       </p>
     </div>
@@ -136,11 +140,13 @@ description: "High-performance web design and development services that help bus
 </section>
 
 <!-- Why Digital Spark HQ -->
-<section id="service-why" class="py-5 text-white position-relative">
+<section id="service-why" class="py-5 text-white position-relative text-center">
+  <div class="service-dark-bg"></div>
   <div class="service-why-bg"></div>
-  <div class="container position-relative z-2 fade-in text-center">
+
+  <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold gradient-text mb-4">Why Digital Spark HQ</h2>
-    <p class="lead mx-auto text-white-75" style="max-width:900px;">
+    <p class="lead mx-auto" style="max-width:900px;">
         We don’t believe in one-size-fits-all websites.
         Every project is approached with care, clarity, and long-term thinking.
         <br><br>
