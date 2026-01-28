@@ -28,7 +28,7 @@ description: "High-performance web design and development services that help bus
 
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-5 gradient-text text-center">
-      What This Service Solves
+      What This Solves
     </h2>
 
     <div class="row g-5 text-center">
