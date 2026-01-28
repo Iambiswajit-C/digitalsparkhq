@@ -746,6 +746,40 @@ section.text-white .lead {
   100% { opacity: 0.1; filter: hue-rotate(0deg); }
 }
 
+/* === Service Page Background Layers (FIXED) === */
+
+#service-solves,
+#service-audience,
+#service-why,
+#service-deliverables {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Vision-style glow background */
+#service-solves .service-vision-bg,
+#service-audience .service-vision-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0,212,255,0.18),
+    transparent 70%
+  );
+  z-index: 0;
+  animation: pulse 8s ease-in-out infinite;
+}
+
+/* Dark premium background */
+#service-deliverables .service-team-bg,
+#service-why .service-why-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0b0c10, #1c1f26);
+  z-index: 0; /* 🔴 THIS WAS WRONG BEFORE */
+}
+
+
 /* ===== 404 Page ===== */
 #error-404 {
   background: linear-gradient(135deg, #0b0c10, #1c1f26);
