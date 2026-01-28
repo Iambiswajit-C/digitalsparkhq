@@ -21,58 +21,52 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
+<!-- What This Service Solves -->
 <section class="py-5 text-white position-relative">
-  <div class="story-bg"></div>
-  <div class="cross-pattern"></div>
+  <div class="ambient-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-5 gradient-text text-center">
       What This Service Solves
     </h2>
 
-    <div class="row g-4 text-center">
+    <div class="row g-5 text-center">
       <div class="col-md-6 col-lg-3">
-        <div class="glass-panel p-4 h-100">
-          <h5 class="fw-bold mb-2">Outdated Design</h5>
-          <p class="small text-white-75">
-            Websites that no longer reflect your brand or build trust.
-          </p>
-        </div>
+        <h5 class="fw-bold mb-2">Outdated Design</h5>
+        <p class="text-white-75">
+          Websites that no longer reflect your brand or build trust.
+        </p>
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="glass-panel p-4 h-100">
-          <h5 class="fw-bold mb-2">Low Conversions</h5>
-          <p class="small text-white-75">
-            Visitors arrive but don’t take action.
-          </p>
-        </div>
+        <h5 class="fw-bold mb-2">Low Conversions</h5>
+        <p class="text-white-75">
+          Visitors arrive but don’t take action.
+        </p>
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="glass-panel p-4 h-100">
-          <h5 class="fw-bold mb-2">Slow Performance</h5>
-          <p class="small text-white-75">
-            Heavy pages that hurt user experience and SEO.
-          </p>
-        </div>
+        <h5 class="fw-bold mb-2">Slow Performance</h5>
+        <p class="text-white-75">
+          Heavy pages that hurt UX and SEO.
+        </p>
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="glass-panel p-4 h-100">
-          <h5 class="fw-bold mb-2">Poor Mobile Experience</h5>
-          <p class="small text-white-75">
-            Sites that don’t adapt to modern devices.
-          </p>
-        </div>
+        <h5 class="fw-bold mb-2">Poor Mobile UX</h5>
+        <p class="text-white-75">
+          Sites that don’t adapt to modern devices.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-
+<!-- Our Approach -->
 <section class="py-5 position-relative">
-  <div class="container fade-in">
+  <div class="ambient-bg"></div>
+
+  <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold mb-4 gradient-text text-center">Our Approach</h2>
 
     <p class="lead text-center mb-5 mx-auto" style="max-width:850px;">
@@ -117,42 +111,42 @@ description: "High-performance web design and development services that help bus
 
 <!-- WHAT YOU GET -->
 <section class="py-5 text-white position-relative">
-  <div class="team-bg"></div>
+  <div class="ambient-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
-    <h2 class="fw-bold gradient-text text-center mb-5">What You Get</h2>
+    <h2 class="fw-bold gradient-text text-center mb-4">What You Get</h2>
 
-   <div class="row g-4 text-center">
-      <div class="col-md-6 col-lg-4">✔ Custom website design</div>
-      <div class="col-md-6 col-lg-4">✔ Mobile-first, responsive layout</div>
-      <div class="col-md-6 col-lg-4">✔ Fast loading & performance optimized</div>
-      <div class="col-md-6 col-lg-4">✔ SEO-ready structure</div>
-      <div class="col-md-6 col-lg-4">✔ Easy content management</div>
-      <div class="col-md-6 col-lg-4">✔ Ongoing support & guidance</div>
+    <div class="row g-3 text-center">
+      <div class="col-md-4">✔ Custom website design</div>
+      <div class="col-md-4">✔ Mobile-first, responsive layout</div>
+      <div class="col-md-4">✔ Fast loading & performance optimized</div>
+      <div class="col-md-4">✔ SEO-ready structure</div>
+      <div class="col-md-4">✔ Easy content management</div>
+      <div class="col-md-4">✔ Ongoing support & guidance</div>
     </div>
   </div>
 </section>
 
-<section class="py-5 position-relative">
-  <div class="container fade-in text-center">
-    <h2 class="fw-bold mb-4 gradient-text">Who This Is For</h2>
+<!-- Who This Is For -->
+<section class="py-5 text-white position-relative text-center">
+  <div class="ambient-bg"></div>
 
-    <div class="glass-panel p-5 mx-auto" style="max-width:900px;">
-      <p class="lead mb-0 text-white-75">
+  <div class="container position-relative z-2 fade-in">
+    <h2 class="fw-bold gradient-text mb-4">Who This Is For</h2>
+    <p class="lead mx-auto text-white-75" style="max-width:900px;">
         This service is ideal for startups, founders, small businesses, and growing brands who want a professional digital presence that actually performs — not just looks good.
       </p>
     </div>
   </div>
 </section>
 
-<section class="py-5 text-white position-relative">
-  <div class="why-bg"></div>
+<!-- Why Digital Spark HQ -->
+<section class="py-5 text-white position-relative text-center">
+  <div class="ambient-bg"></div>
 
-  <div class="container position-relative z-2 fade-in text-center">
-    <h2 class="fw-bold mb-4 gradient-text">Why Digital Spark HQ</h2>
-
-    <div class="glass-panel p-5 mx-auto" style="max-width:900px;">
-      <p class="lead text-white-75 mb-0">
+  <div class="container position-relative z-2 fade-in">
+    <h2 class="fw-bold gradient-text mb-4">Why Digital Spark HQ</h2>
+    <p class="lead mx-auto text-white-75" style="max-width:900px;">
         We don’t believe in one-size-fits-all websites.
         Every project is approached with care, clarity, and long-term thinking.
         <br><br>
