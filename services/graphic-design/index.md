@@ -209,3 +209,36 @@ description: "High-impact graphic design services that elevate brand identity, i
     </p>
   </div>
 </section>
+
+<!-- Related Services -->
+<section class="py-5 bg-light text-dark">
+  <div class="container fade-in">
+    <h3 class="fw-bold text-center mb-5 gradient-text">
+      Explore Related Services
+    </h3>
+
+    <div class="row g-4 text-center">
+
+      <div class="col-md-4">
+        <a href="/services/social-media/" class="text-decoration-none">
+          <div class="about-card p-4 h-100">
+            <i class="fas fa-hashtag fs-2 mb-3 gradient-text"></i>
+            <h5 class="fw-bold">Social Media Marketing</h5>
+            <p>Build awareness and audience loyalty.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="/services/paid-ads/" class="text-decoration-none">
+          <div class="about-card p-4 h-100">
+            <i class="fas fa-bullhorn fs-2 mb-3 gradient-text"></i>
+            <h5 class="fw-bold">Paid Advertising</h5>
+            <p>Accelerate growth with targeted campaigns.</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
