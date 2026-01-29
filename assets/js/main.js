@@ -154,8 +154,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function openPortfolio(imageSrc){
-  document.getElementById("portfolioPreview").src = imageSrc;
+  /* ===== Image Preview for Portfolio ===== */
+  function openPortfolio(imgSrc){
+
+  const modalImg = document.getElementById("portfolioModalImg");
+
+  // Force refresh the image every time
+  modalImg.src = "";
+  modalImg.src = imgSrc;
+
 }
   
 });
