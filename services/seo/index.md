@@ -144,3 +144,56 @@ description: "Data-driven SEO and local optimization services to increase visibi
     </p>
   </div>
 </section>
+
+<!-- Related Services -->
+<section class="py-5 bg-light text-dark">
+  <div class="container fade-in">
+    <h3 class="fw-bold text-center mb-5 gradient-text">
+      Explore Related Services
+    </h3>
+
+    <div class="row g-4 justify-content-center text-center">
+
+      <div class="col-md-4">
+  <a href="/services/graphic-design/" class="text-decoration-none">
+    <div class="about-card p-4 h-100">
+      <i class="fas fa-pen-nib fs-2 mb-3 gradient-text"></i>
+      <h5 class="fw-bold">Graphic Design</h5>
+      <p>Visual identities that make your brand instantly recognizable.</p>
+    </div>
+  </a>
+</div>
+
+<div class="col-md-4">
+  <a href="/services/web-design/" class="text-decoration-none">
+    <div class="about-card p-4 h-100">
+      <i class="fas fa-laptop-code fs-2 mb-3 gradient-text"></i>
+      <h5 class="fw-bold">Web Design & Development</h5>
+      <p>High-performance websites built to convert and scale.</p>
+    </div>
+  </a>
+</div>
+
+      <div class="col-md-4">
+        <a href="/services/social-media/" class="text-decoration-none">
+          <div class="about-card p-4 h-100">
+            <i class="fas fa-hashtag fs-2 mb-3 gradient-text"></i>
+            <h5 class="fw-bold">Social Media Marketing</h5>
+            <p>Build awareness and audience loyalty.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="/services/paid-ads/" class="text-decoration-none">
+          <div class="about-card p-4 h-100">
+            <i class="fas fa-bullhorn fs-2 mb-3 gradient-text"></i>
+            <h5 class="fw-bold">Paid Advertising</h5>
+            <p>Accelerate growth with targeted campaigns.</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
