@@ -167,9 +167,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
     </p>
 
   </div>
-  </div>
-
-  <div class="row g-4">
+  
   <div class="portfolio-card">
 
     <img src="/assets/images/web-design-project2.jpg"
@@ -185,9 +183,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
     </p>
 
   </div>
-  </div>
 
-  <div class="row g-4">
   <div class="portfolio-card">
 
     <img src="/assets/images/web-design-project3.jpg"
