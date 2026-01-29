@@ -230,7 +230,7 @@ description: "High-impact graphic design services that elevate brand identity, i
       </div>
 
       <div class="col-md-4">
-        <a href="/services/paid-ads/" class="text-decoration-none">
+        <a href="/services/paid-marketing/" class="text-decoration-none">
           <div class="about-card p-4 h-100">
             <i class="fas fa-bullhorn fs-2 mb-3 gradient-text"></i>
             <h5 class="fw-bold">Paid Advertising</h5>
