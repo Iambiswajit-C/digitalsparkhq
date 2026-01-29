@@ -188,6 +188,50 @@
   transform: scale(1.2);
 }
 
+/* portfolio Section */
+.portfolio-card{
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.portfolio-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,212,255,0.15);
+}
+
+.portfolio-img{
+  cursor:pointer;
+  transition: transform .4s ease;
+}
+
+.portfolio-img:hover{
+  transform: scale(1.03);
+}
+
+.portfolio-card{
+  position:relative;
+  padding:20px;
+  border-radius:18px;
+  overflow:hidden;
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.portfolio-card::before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  background: radial-gradient(circle at 30% 30%, rgba(0,212,255,.25), transparent 60%);
+  opacity:.6;
+  z-index:0;
+}
+
+.portfolio-card img,
+.portfolio-card h5,
+.portfolio-card p{
+  position:relative;
+  z-index:2;
+}
+
 /* Glass content panel (services) */
 .glass-panel {
   background: rgba(0, 0, 0, 0.45);
