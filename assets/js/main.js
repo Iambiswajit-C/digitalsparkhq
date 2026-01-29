@@ -155,14 +155,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* ===== Image Preview for Portfolio ===== */
-  function openPortfolio(imgSrc){
+  const portfolioModal = document.getElementById('portfolioModal');
 
-  const modalImg = document.getElementById("portfolioModalImg");
+portfolioModal.addEventListener('show.bs.modal', function (event) {
 
-  // Force refresh the image every time
-  modalImg.src = "";
+  const trigger = event.relatedTarget;
+  const imgSrc = trigger.getAttribute('data-img');
+
+  const modalImg = document.getElementById('portfolioModalImg');
   modalImg.src = imgSrc;
 
-}
+});
   
 });
