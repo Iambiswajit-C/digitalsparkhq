@@ -156,12 +156,12 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project1.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website">
+         alt="Luxury Gym Website">
 
-    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+    <h5 class="fw-bold">Luxury Gym Website</h5>
 
     <p class="text-white-75 small">
-      <b>Industry:</b> Real Estate <br>
+      <b>Industry:</b> Gym <br>
       <b>Goal:</b> Lead Generation <br>
       <b>Focus:</b> Premium UX
     </p>
@@ -174,13 +174,13 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project2.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website">
+         alt="Spiritual Coaching">
 
-    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+    <h5 class="fw-bold">Mindful Community Website</h5>
 
     <p class="text-white-75 small">
-      <b>Industry:</b> Real Estate <br>
-      <b>Goal:</b> Lead Generation <br>
+      <b>Industry:</b> Mindful Community <br>
+      <b>Goal:</b> Spreading Spirituality <br>
       <b>Focus:</b> Premium UX
     </p>
 
@@ -192,12 +192,12 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project3.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website">
+         alt="Consultation Website">
 
-    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+    <h5 class="fw-bold">Consultation Website</h5>
 
     <p class="text-white-75 small">
-      <b>Industry:</b> Real Estate <br>
+      <b>Industry:</b> Consultation <br>
       <b>Goal:</b> Lead Generation <br>
       <b>Focus:</b> Premium UX
     </p>
