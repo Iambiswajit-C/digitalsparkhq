@@ -141,6 +141,69 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
   </div>
 </section>
 
+<!-- Selected Work -->
+<section class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in">
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Selected Work
+    </h2>
+
+    <div class="col-lg-4 col-md-6">
+  <div class="portfolio-card">
+
+    <img src="/assets/images/web-design-project1.jpg"
+         class="img-fluid rounded-4 mb-3 portfolio-img"
+         alt="Luxury Real Estate Website"
+
+    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+
+    <p class="text-white-75 small">
+      <b>Industry:</b> Real Estate <br>
+      <b>Goal:</b> Lead Generation <br>
+      <b>Focus:</b> Premium UX
+    </p>
+
+  </div>
+
+  <div class="portfolio-card">
+
+    <img src="/assets/images/web-design-project2.jpg"
+         class="img-fluid rounded-4 mb-3 portfolio-img"
+         alt="Luxury Real Estate Website"
+
+    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+
+    <p class="text-white-75 small">
+      <b>Industry:</b> Real Estate <br>
+      <b>Goal:</b> Lead Generation <br>
+      <b>Focus:</b> Premium UX
+    </p>
+
+  </div>
+
+  <div class="portfolio-card">
+
+    <img src="/assets/images/web-design-project3.jpg"
+         class="img-fluid rounded-4 mb-3 portfolio-img"
+         alt="Luxury Real Estate Website"
+
+    <h5 class="fw-bold">Luxury Real Estate Website</h5>
+
+    <p class="text-white-75 small">
+      <b>Industry:</b> Real Estate <br>
+      <b>Goal:</b> Lead Generation <br>
+      <b>Focus:</b> Premium UX
+    </p>
+
+  </div>
+  
+</div>
+
+  </div>
+</section>
+
 <!-- Maintenance & Service -->
 <section id="maintenance" class="py-5 position-relative text-white">
   <div class="container fade-in">
