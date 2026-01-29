@@ -190,7 +190,7 @@ description: "High-performance web design and development services that help bus
         <a href="/services/paid-marketing/" class="text-decoration-none">
           <div class="about-card p-4 h-100">
             <i class="fas fa-bullhorn fs-2 mb-3 gradient-text"></i>
-            <h5 class="fw-bold">Paid Advertising</h5>
+            <h5 class="fw-bold">Paid Marketing</h5>
             <p>Accelerate growth with targeted campaigns.</p>
           </div>
         </a>
