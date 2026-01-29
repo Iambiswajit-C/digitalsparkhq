@@ -141,7 +141,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
   </div>
 </section>
 
-<!-- Selected Work -->
+<!-- Selected Work Homepage -->
 <section class="py-5 text-white position-relative">
   <div class="service-dark-bg"></div>
 
@@ -155,7 +155,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project1.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website"
+         alt="Luxury Real Estate Website">
 
     <h5 class="fw-bold">Luxury Real Estate Website</h5>
 
@@ -171,7 +171,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project2.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website"
+         alt="Luxury Real Estate Website">
 
     <h5 class="fw-bold">Luxury Real Estate Website</h5>
 
@@ -187,7 +187,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
     <img src="/assets/images/web-design-project3.jpg"
          class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Real Estate Website"
+         alt="Luxury Real Estate Website">
 
     <h5 class="fw-bold">Luxury Real Estate Website</h5>
 
