@@ -181,7 +181,7 @@ description: "High-performance web design and development services that help bus
 
       <p class="text-white-75 small">
         <b>Industry:</b> Mindful Community <br>
-        <b>Goal:</b> Teachings <br>
+        <b>Goal:</b> Spreading Spirituality <br>
         <b>Focus:</b> Premium UX
       </p>
     </div>
