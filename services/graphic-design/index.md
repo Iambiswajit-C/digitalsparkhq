@@ -183,6 +183,7 @@ description: "High-impact graphic design services that elevate brand identity, i
 <!-- Who This Is For -->
 <section id="service-audience" class="py-5 text-white position-relative text-center">
   <div class="service-dark-bg"></div>
+  <div class="service-vision-bg"></div>
 
   <div class="container position-relative z-2 fade-in">
     <h2 class="fw-bold gradient-text mb-4">Who This Is For</h2>
