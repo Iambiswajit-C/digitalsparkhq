@@ -139,6 +139,77 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
+<!-- Selected Work -->
+<section class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in">
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Selected Work
+    </h2>
+
+<div class="row g-4">
+  <div class="col-lg-4 col-md-6">
+    <div class="portfolio-card">
+      <img src="/assets/images/web-design-project1.jpg"
+           class="img-fluid rounded-4 mb-3 portfolio-img"
+           alt="Luxury Gym Website"
+           data-bs-toggle="modal"
+           data-bs-target="#portfolioModal"
+           onclick="openPortfolio('/assets/images/web-design-project1.jpg')">
+
+      <h5 class="fw-bold">Luxury Real Estate Website</h5>
+
+      <p class="text-white-75 small">
+        <b>Industry:</b> Gym <br>
+        <b>Goal:</b> Lead Generation <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="portfolio-card">
+      <img src="/assets/images/web-design-project2.jpg"
+           class="img-fluid rounded-4 mb-3 portfolio-img"
+           alt="Spiritual Coaching"
+           data-bs-toggle="modal"
+           data-bs-target="#portfolioModal"
+           onclick="openPortfolio('/assets/images/web-design-project2.jpg')">
+
+      <h5 class="fw-bold">Mindful Community Website</h5>
+
+      <p class="text-white-75 small">
+        <b>Industry:</b> Mindful Community <br>
+        <b>Goal:</b> Teachings <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6">
+    <div class="portfolio-card">
+      <img src="/assets/images/web-design-project3.jpg"
+           class="img-fluid rounded-4 mb-3 portfolio-img"
+           alt="Consultation Website"
+           data-bs-toggle="modal"
+           data-bs-target="#portfolioModal"
+           onclick="openPortfolio('/assets/images/web-design-project3.jpg')">
+
+      <h5 class="fw-bold">Consultation Website</h5>
+
+      <p class="text-white-75 small">
+        <b>Industry:</b> Consultation <br>
+        <b>Goal:</b> Lead Generation <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
+  </div>
+
+</div>
+</div>
+</section>
+
 <!-- What Happens After Launch -->
 <section class="py-5 text-white position-relative">
   <div class="service-dark-bg"></div>
@@ -243,3 +314,19 @@ description: "High-performance web design and development services that help bus
     </div>
   </div>
 </section>
+
+<!-- Portfolio Modal -->
+<div class="modal fade" id="portfolioModal" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+
+      <div class="modal-body p-0">
+        <img id="portfolioModalImg"
+             src=""
+             class="w-100 rounded"
+             alt="Portfolio Preview">
+      </div>
+
+    </div>
+  </div>
+</div>
