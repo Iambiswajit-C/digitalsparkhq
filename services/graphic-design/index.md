@@ -154,7 +154,7 @@ description: "High-impact graphic design services that elevate brand identity, i
       </div>
 
       <div class="col-lg-6 text-center">
-        <img src="{{ '/assets/images/design-applications.png' | relative_url }}"
+        <img src="{{ '/assets/images/design-applications.jpg' | relative_url }}"
              alt="Design Applications"
              class="img-fluid rounded-4 shadow-lg">
       </div>
