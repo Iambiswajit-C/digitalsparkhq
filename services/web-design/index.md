@@ -151,12 +151,12 @@ description: "High-performance web design and development services that help bus
 <div class="row g-4">
   <div class="col-lg-4 col-md-6">
     <div class="portfolio-card">
-      <img src="/assets/images/web-design-project1.jpg"
+      <img src={{ '/assets/images/web-design-project1.jpg' | relative_url }}
            class="img-fluid rounded-4 mb-3 portfolio-img"
            alt="Luxury Gym Website"
            data-bs-toggle="modal"
            data-bs-target="#portfolioModal"
-           onclick="openPortfolio('/assets/images/web-design-project1.jpg')">
+           onclick="openPortfolio({{ '/assets/images/web-design-project1.jpg' | relative_url }})">
 
       <h5 class="fw-bold">Luxury Real Estate Website</h5>
 
