@@ -155,7 +155,7 @@ description: "High-performance web design and development services that help bus
            class="img-fluid rounded-4 mb-3 portfolio-img"
            alt="Luxury Gym Website"
            data-bs-toggle="modal"
-           data-bs-target="#portfolioModal"
+           data-bs-target="#portfolioModalImg"
            onclick="openPortfolio('/assets/images/web-design-project1.jpg')">
 
       <h5 class="fw-bold">Luxury Real Estate Website</h5>
@@ -174,7 +174,7 @@ description: "High-performance web design and development services that help bus
            class="img-fluid rounded-4 mb-3 portfolio-img"
            alt="Spiritual Coaching"
            data-bs-toggle="modal"
-           data-bs-target="#portfolioModal"
+           data-bs-target="#portfolioModalImg"
            onclick="openPortfolio('/assets/images/web-design-project2.jpg')">
 
       <h5 class="fw-bold">Mindful Community Website</h5>
@@ -193,7 +193,7 @@ description: "High-performance web design and development services that help bus
            class="img-fluid rounded-4 mb-3 portfolio-img"
            alt="Consultation Website"
            data-bs-toggle="modal"
-           data-bs-target="#portfolioModal"
+           data-bs-target="#portfolioModalImg"
            onclick="openPortfolio('/assets/images/web-design-project3.jpg')">
 
       <h5 class="fw-bold">Consultation Website</h5>
@@ -322,7 +322,7 @@ description: "High-performance web design and development services that help bus
 
       <div class="modal-body p-0">
         <img id="portfolioModalImg"
-             src="/assets/images/web-design-project1.jpg"
+             src=""
              class="w-100 rounded"
              alt="Portfolio Preview">
       </div>
