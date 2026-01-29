@@ -153,4 +153,9 @@ document.addEventListener("DOMContentLoaded", () => {
       heroVideo.play();
     });
   }
+
+  function openPortfolio(imageSrc){
+  document.getElementById("portfolioPreview").src = imageSrc;
+}
+  
 });
