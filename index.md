@@ -147,7 +147,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
   <div class="container fade-in">
     <h2 class="fw-bold gradient-text text-center mb-5">
-      Selected Work
+      Designs Built to Perform
     </h2>
 
   <div class="row g-4">
