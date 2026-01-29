@@ -139,6 +139,50 @@ description: "High-performance web design and development services that help bus
   </div>
 </section>
 
+<!-- What Happens After Launch -->
+<section class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+  <div class="service-vision-bg"></div>
+
+  <div class="container position-relative z-2 fade-in text-center">
+
+    <h2 class="fw-bold gradient-text mb-5">
+      What Happens After Launch?
+    </h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="process-step p-4 h-100">
+          <h5 class="fw-bold">Stronger First Impressions</h5>
+          <p class="text-white-75">
+            Visitors immediately recognize your brand as credible, modern, and trustworthy.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="process-step p-4 h-100">
+          <h5 class="fw-bold">Higher Conversion Rates</h5>
+          <p class="text-white-75">
+            A strategic user journey turns more visitors into inquiries and customers.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="process-step p-4 h-100">
+          <h5 class="fw-bold">A Scalable Digital Foundation</h5>
+          <p class="text-white-75">
+            Your website becomes a growth engine — ready for marketing, SEO, and expansion.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- Why Digital Spark HQ -->
 <section id="service-why" class="py-5 text-white position-relative text-center">
   <div class="service-dark-bg"></div>
