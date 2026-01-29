@@ -140,7 +140,7 @@ description: "Strategic social media marketing that builds brand presence, engag
 
     <div class="row g-4 align-items-center">
       <div class="col-lg-6 text-center">
-        <img src="{{ '/assets/images/social-analytics-dashboard.png' | relative_url }}"
+        <img src="{{ '/assets/images/social-media-growth.jpg' | relative_url }}"
              alt="Social Media Analytics Dashboard"
              class="img-fluid rounded-4 shadow-lg">
       </div>
