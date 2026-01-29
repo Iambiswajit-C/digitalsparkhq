@@ -322,7 +322,7 @@ description: "High-performance web design and development services that help bus
 
       <div class="modal-body p-0">
         <img id="portfolioModalImg"
-             src="/assets/images/web-design-project1.jpg"
+             src=""
              class="w-100 rounded"
              alt="Portfolio Preview">
       </div>
