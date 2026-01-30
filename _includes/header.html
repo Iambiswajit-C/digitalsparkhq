@@ -43,15 +43,43 @@
 <li class="nav-item">
   <a class="nav-link {% if page.url == '/contact/' %}active{% endif %}" href="/contact/">Contact</a>
 </li>
-          <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle {% if page.url contains '/services/' %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown">Our Services</a>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item {% if page.url == '/services/web-design/' %}active{% endif %}" href="/services/web-design/">Web Design</a></li>
-    <li><a class="dropdown-item {% if page.url == '/services/seo/' %}active{% endif %}" href="/services/seo/">SEO</a></li>
-    <li><a class="dropdown-item {% if page.url == '/services/graphic-design/' %}active{% endif %}" href="/services/graphic-design/">Graphic Design</a></li>
-    <li><a class="dropdown-item {% if page.url == '/services/social-media/' %}active{% endif %}" href="/services/social-media/">Social Media</a></li>
-    <li><a class="dropdown-item {% if page.url == '/services/paid-marketing/' %}active{% endif %}" href="/services/paid-marketing/">Paid Marketing</a></li>
-  </ul>
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle 
+{% if page.url contains '/services' %}active{% endif %}" 
+href="/services/" 
+role="button" 
+data-bs-toggle="dropdown">
+
+Our Services
+
+</a>
+
+<ul class="dropdown-menu">
+
+<li>
+<a class="dropdown-item fw-semibold
+{% if page.url == '/services/' %}active{% endif %}" 
+href="/services/">
+
+All Services
+
+</a>
+</li>
+
+<li><hr class="dropdown-divider"></li>
+
+<li><a class="dropdown-item {% if page.url == '/services/web-design/' %}active{% endif %}" href="/services/web-design/">Web Design</a></li>
+
+<li><a class="dropdown-item {% if page.url == '/services/seo/' %}active{% endif %}" href="/services/seo/">SEO</a></li>
+
+<li><a class="dropdown-item {% if page.url == '/services/graphic-design/' %}active{% endif %}" href="/services/graphic-design/">Graphic Design</a></li>
+
+<li><a class="dropdown-item {% if page.url == '/services/social-media/' %}active{% endif %}" href="/services/social-media/">Social Media</a></li>
+
+<li><a class="dropdown-item {% if page.url == '/services/paid-marketing/' %}active{% endif %}" href="/services/paid-marketing/">Paid Marketing</a></li>
+
+</ul>
 </li>
         </ul>
       </div>
