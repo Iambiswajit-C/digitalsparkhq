@@ -22,8 +22,11 @@ description: "Get in touch with Digital Spark HQ to grow your business online. S
   <!-- Animated Content -->
   <div class="container h-100 d-flex align-items-center justify-content-between flex-column flex-md-row text-center text-md-start">
     <h2 class="display-4 fw-bold gradient-text mb-4 mb-md-0">
-      Let’s Create Something Great Together
+      Global Clients. Local Communication.
     </h2>
+    <p class="lead text-white-75">
+Working with businesses across the UK, Europe, and India — with communication designed around your business hours.
+</p>
     <a href="mailto:info@digitalsparkhq.com" class="h4 text-white fw-bold">info@digitalsparkhq.com</a>
   </div>
 </section>
