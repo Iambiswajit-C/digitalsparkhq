@@ -46,6 +46,15 @@ document.querySelectorAll("form[action*='formsubmit']").forEach(form => {
           "✅ Thanks! Your message has been delivered.<br>We typically respond within 24 hours.";
         }
 
+        setTimeout(()=>{
+
+  const modal = bootstrap.Modal.getInstance(
+        document.getElementById('projectModal'));
+
+  if(modal) modal.hide();
+
+},2500);
+
         form.reset();
       }
 
