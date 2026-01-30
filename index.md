@@ -223,6 +223,10 @@ Start Your Project
 </button>
 
 </div>
+<p class="small text-white-50 mt-3">
+Takes less than 30 seconds. No commitment required.
+</p>
+
   </div>
 </section>
 
