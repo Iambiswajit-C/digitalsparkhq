@@ -19,6 +19,25 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 >
   <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
 </video>
+  <div class="hero-content position-absolute top-50 start-50 translate-middle text-center text-white" style="z-index:2; max-width:900px;">
+
+<h1 class="display-3 fw-bold mb-3">
+High-Impact Digital Execution for Ambitious Brands
+</h1>
+
+<p class="lead opacity-75 mb-3">
+Premium strategy, design, and marketing — without enterprise overheads.
+</p>
+
+<p class="small text-white-75">
+🌍 Serving clients across the UK, Europe, and India.
+</p>
+
+<a href="/contact/" class="btn btn-primary px-4 py-2 mt-3 rounded-pill">
+Start Your Project
+</a>
+
+</div>
     <div class="scroll-down text-center position-absolute bottom-0 start-50 translate-middle-x mb-4">
     <a href="#services" class="text-white"><i class="fa fa-angle-down fa-2x"></i></a>
   </div>
@@ -28,7 +47,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 <section id="services" class="py-5 text-white text-center position-relative">
   <div class="container fade-in">
     <h2 class="fw-bold gradient-text mb-4">Our Services</h2>
-    <p class="lead mb-5">We craft digital experiences that amplify your reach, elevate your brand, and drive measurable growth.</p>
+    <p class="lead mb-5">We partner with ambitious brands to design, build, and scale digital ecosystems that drive measurable growth.</p>
     <div class="row justify-content-center g-4">
       <div class="col-md-4 col-sm-6">
         <div class="p-4 bg-dark rounded-4 h-100 service-card fade-in">
@@ -88,6 +107,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
           <li><i class="fa fa-bolt text-primary me-2"></i> Data-driven strategies tailored for you</li>
           <li><i class="fa fa-lightbulb text-primary me-2"></i> Innovative campaigns with real results</li>
           <li><i class="fa fa-users text-primary me-2"></i> Collaborative and transparent approach</li>
+          <li><i class="fa fa-globe text-primary me-2"></i>Trusted by businesses operating across global markets</li>
           <li><i class="fa fa-chart-line text-primary me-2"></i> Continuous optimization and insights</li>
         </ul>
       </div>
