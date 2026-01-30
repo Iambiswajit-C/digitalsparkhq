@@ -2,6 +2,13 @@
 layout: default
 title: "Paid Advertising & PPC Management | Digital Spark HQ"
 description: "High-converting paid advertising campaigns across Google, Meta, and social platforms designed to drive ROI — not wasted spend."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Services"
+    url: "https://digitalsparkhq.com/services/"
+  - name: "Paid Marketing"
+    url: "https://digitalsparkhq.com/services/paid-marketing/"
 ---
 
 <!-- HERO -->
