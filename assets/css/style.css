@@ -323,6 +323,17 @@
 
 }
 
+@media(max-width:768px){
+
+.scroll-down{
+  bottom:10px;
+}
+
+.hero-content .btn{
+  margin-bottom:40px;
+}
+
+}
 /* Services Hub Page */
 .service-hub-card{
 
