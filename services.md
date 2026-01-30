@@ -9,7 +9,6 @@ parent_url: "/"
 
 <!-- Hero Section -->
 <section id="service-hero"
-  {% include breadcrumb.html %}
   class="text-center text-white position-relative d-flex justify-content-center align-items-center"
   style="height:90vh;
 background:url('{{ '/assets/images/services-hero.jpg' | relative_url }}') center/cover no-repeat;">
@@ -28,7 +27,7 @@ Everything your brand needs to grow — strategy, design, visibility, and perfor
 
 </div>
 </section>
-
+{% include breadcrumb.html %}
 <!-- Intro -->
 <section class="py-5 text-white position-relative">
 <div class="service-dark-bg"></div>
