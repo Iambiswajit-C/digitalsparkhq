@@ -325,6 +325,9 @@ font-weight:600;
 color:var(--hover-color);
 }
 
+.service-hub-card{
+cursor:pointer;
+}
 /* Glass content panel (services) */
 .glass-panel {
   background: rgba(0, 0, 0, 0.45);
