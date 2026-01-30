@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.querySelectorAll("form[action*='formsubmit']").forEach(form => {
 
-  const message = form.querySelector(".form-message");
+  const message =
+      form.querySelector(".form-message") ||
+      form.parentElement.querySelector(".form-message");
 
   form.addEventListener("submit", function(e){
 
