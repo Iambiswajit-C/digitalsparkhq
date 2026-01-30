@@ -236,6 +236,23 @@
   background:#0b0c10;
   border-radius:20px;
 }
+
+.premium-modal{
+
+  background: rgba(10,10,10,.96);   /* almost solid */
+  backdrop-filter: blur(10px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  box-shadow:
+    0 0 60px rgba(0,0,0,.8),
+    0 0 120px rgba(0,212,255,.08);
+
+  border-radius:18px;
+}
+.modal-backdrop.show{
+  opacity:.85;
+}
 /* Glass content panel (services) */
 .glass-panel {
   background: rgba(0, 0, 0, 0.45);
