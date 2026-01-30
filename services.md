@@ -3,8 +3,6 @@ layout: default
 title: "Digital Marketing Services | Digital Spark HQ"
 description: "Explore our full suite of digital services including Web Design, SEO, Social Media, Paid Ads, and Graphic Design — built to help brands grow faster."
 permalink: /services/
-parent: "Home"
-parent_url: "/"
 ---
 
 <!-- Hero Section -->
