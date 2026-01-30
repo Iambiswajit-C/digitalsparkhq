@@ -22,7 +22,7 @@ description: "Learn more about Digital Spark HQ – a results-driven digital mar
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
         <h2 class="fw-bold mb-3 gradient-text">Our Story</h2>
-        <p>Digital Spark HQ was born out of a shared vision — to empower brands to shine in the digital landscape. We combine creativity and technology to build digital experiences that connect, inspire, and deliver measurable results.</p>
+        <p>Digital Spark HQ was founded with a clear mission — to help ambitious brands compete and grow in an increasingly global digital economy. Today, we partner with businesses across the UK, Europe, and India, delivering strategic digital execution designed for long-term impact.</p>
       </div>
       <div class="col-lg-6 text-center fade-in">
         <img src="{{ '/assets/images/our-story.jpg' | relative_url }}" alt="Our Story" class="img-fluid rounded-4 shadow-lg">
@@ -110,6 +110,7 @@ description: "Learn more about Digital Spark HQ – a results-driven digital mar
         <ul class="choose-list">
           <li>On-time delivery with 100% transparency.</li>
           <li>Experts driven by innovation and data.</li>
+          <li>Flexible collaboration aligned with UK and international business hours.</li>
           <li>Guaranteed after-project support and guidance.</li>
         </ul>
       </div>
