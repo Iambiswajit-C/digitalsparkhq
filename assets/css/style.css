@@ -578,8 +578,12 @@ cursor:pointer;
 .footer-bottom p {
   font-size: 1.05rem;
   margin-bottom: 8px;
+  line-height:1.6;
 }
 
+.footer-bottom .row{
+  align-items:flex-start;
+}
 /* Social Icons */
 .social-icons a {
   color: #fff;
