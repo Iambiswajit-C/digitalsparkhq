@@ -696,6 +696,15 @@ html, body {
   color: rgba(255,255,255,0.85);
 }
 
+/* ABOUT PAGE */
+#contact-digital-bg a{
+  transition:.25s;
+}
+
+#contact-digital-bg a:hover{
+  color:var(--hover-color);
+}
+
 /* HERO Glow Animation */
 .hero-glow {
   position: absolute;
