@@ -21,6 +21,7 @@ description: "High-performance web design and development services that help bus
     controlslist="nodownload nofullscreen noremoteplayback"
   >
     <source src="{{ '/assets/videos/web-design-hero.mp4' | relative_url }}" type="video/mp4">
+    poster="{{ '/assets/images/maintenance.png' | relative_url }}"
   </video>
 
   <div class="hero-overlay"></div>
