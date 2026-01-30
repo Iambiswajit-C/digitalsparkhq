@@ -27,7 +27,7 @@ Everything your brand needs to grow — strategy, design, visibility, and perfor
 
 </div>
 </section>
-{% include breadcrumb.html %}
+
 <!-- Intro -->
 <section class="py-5 text-white position-relative">
 <div class="service-dark-bg"></div>
