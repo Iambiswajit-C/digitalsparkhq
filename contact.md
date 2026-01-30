@@ -24,8 +24,6 @@ description: "Get in touch with Digital Spark HQ to grow your business online. S
     <h2 class="display-4 fw-bold gradient-text mb-4 mb-md-0">
       Let’s Create Something Great Together
     </h2>
-    <p class="lead mx-auto" style="max-width:800px;">Global Clients. Local Communication.
-</p>
     <a href="mailto:info@digitalsparkhq.com" class="h4 text-white fw-bold">info@digitalsparkhq.com</a>
   </div>
 </section>
