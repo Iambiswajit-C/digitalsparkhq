@@ -214,7 +214,13 @@ description: "High-performance web design and development services that help bus
 data-bs-toggle="modal"
 data-bs-target="#projectModal"
 data-service="Web Design"
-class="btn btn-lg px-5 py-3">
+class="btn btn-lg px-5 py-3"
+style="
+        background:linear-gradient(90deg,var(--hover-color),#00d4ff);
+        border:none;
+        font-weight:600;
+        box-shadow:0 0 25px rgba(0,212,255,.35);">
+        
 Start Your Project
 </button>
 
