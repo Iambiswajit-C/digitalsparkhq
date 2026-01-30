@@ -478,6 +478,14 @@ cursor:pointer;
   object-fit:cover;
   z-index:0;
 }
+#hero video{
+  animation:heroZoom 18s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom{
+  from{transform:scale(1);}
+  to{transform:scale(1.08);}
+}
 
 .hero-subtext {
   text-shadow: 0 2px 12px rgba(0,0,0,0.6);
