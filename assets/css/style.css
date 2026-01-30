@@ -281,6 +281,49 @@
   z-index:1;
 }
 
+/* Services Hub Page */
+.service-hub-card{
+
+display:block;
+padding:40px;
+border-radius:14px;
+
+background:rgba(255,255,255,0.04);
+border:1px solid rgba(255,255,255,0.08);
+
+text-decoration:none;
+color:white;
+
+transition:all .35s ease;
+
+height:100%;
+}
+
+.service-hub-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(0,212,255,.18);
+
+border-color:rgba(0,212,255,.4);
+}
+
+.service-icon{
+
+font-size:38px;
+margin-bottom:20px;
+color:var(--hover-color);
+}
+
+.service-link{
+
+display:inline-block;
+margin-top:15px;
+font-weight:600;
+color:var(--hover-color);
+}
+
+
 /* Glass content panel (services) */
 .glass-panel {
   background: rgba(0, 0, 0, 0.45);
