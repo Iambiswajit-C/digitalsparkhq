@@ -92,27 +92,98 @@ Speak With A Strategist
 <!-- Why Digital Marketing vs Why Digital Spark HQ -->
 <section id="why-digital" class="py-5 position-relative text-white">
   <div class="container fade-in">
-    <div class="row align-items-center g-5">
-      <div class="col-lg-6">
-        <h3 class="fw-bold gradient-text mb-3">Why You Need Digital Marketing</h3>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-check text-primary me-2"></i> Builds brand visibility and trust</li>
-          <li><i class="fa fa-check text-primary me-2"></i> Drives targeted traffic and conversions</li>
-          <li><i class="fa fa-check text-primary me-2"></i> Offers measurable, scalable ROI</li>
-          <li><i class="fa fa-check text-primary me-2"></i> Keeps you competitive in the digital age</li>
-        </ul>
+    <div class="row align-items-stretch g-5">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 d-flex">
+        <div class="d-flex flex-column h-100">
+
+          <h3 class="fw-bold gradient-text mb-4">
+            Why Modern Businesses Invest in Digital
+          </h3>
+
+          <ul class="list-unstyled flex-grow-1">
+
+            <li class="mb-3">
+              <i class="fa fa-check text-primary me-2"></i>
+              <strong>Builds brand authority and trust</strong> in increasingly competitive markets.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-check text-primary me-2"></i>
+              Attracts high-intent customers already searching for your services.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-check text-primary me-2"></i>
+              Delivers measurable, scalable ROI compared to traditional marketing.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-check text-primary me-2"></i>
+              Keeps your business visible in a fast-moving digital economy.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-check text-primary me-2"></i>
+              Creates predictable pipelines that support long-term growth.
+            </li>
+
+          </ul>
+
+        </div>
       </div>
-      <div class="col-lg-6">
-        <h3 class="fw-bold gradient-text mb-3">Why Choose Digital Spark HQ</h3>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-bolt text-primary me-2"></i> Data-driven strategies tailored for you</li>
-          <li><i class="fa fa-lightbulb text-primary me-2"></i> Innovative campaigns with real results</li>
-          <li><i class="fa fa-users text-primary me-2"></i> Collaborative and transparent approach</li>
-          <li><i class="fa fa-globe text-primary me-2"></i>Trusted by businesses operating across global markets</li>
-          <li><i class="fa fa-chart-line text-primary me-2"></i> Continuous optimization and insights</li>
-        </ul>
+
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 d-flex">
+        <div class="d-flex flex-column h-100">
+
+          <h3 class="fw-bold gradient-text mb-4">
+            Why Growth-Focused Brands Choose Digital Spark HQ
+          </h3>
+
+          <ul class="list-unstyled flex-grow-1">
+
+            <li class="mb-3">
+              <i class="fa fa-bolt text-primary me-2"></i>
+              <strong>Strategy before execution</strong> — every move is guided by insight, not guesswork.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-bolt text-primary me-2"></i>
+              Built for leads, revenue, and impact — not vanity metrics.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-bolt text-primary me-2"></i>
+              A true strategic partner invested in your long-term success.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-bolt text-primary me-2"></i>
+              Clear communication and full transparency at every stage.
+            </li>
+
+            <li class="mb-3">
+              <i class="fa fa-bolt text-primary me-2"></i>
+              Global perspective supporting brands across the UK, Europe, and India.
+            </li>
+
+          </ul>
+
+        </div>
       </div>
+
     </div>
+
+    <!-- TRUST LINE -->
+    <div class="text-center mt-5">
+      <p class="lead text-white-75 mx-auto" style="max-width:850px;">
+        Whether you're launching, scaling, or repositioning — we build digital foundations designed for sustainable growth.
+      </p>
+    </div>
+
   </div>
 </section>
 
