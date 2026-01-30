@@ -2,6 +2,13 @@
 layout: default
 title: "Web Design & Development | Digital Spark HQ"
 description: "High-performance web design and development services that help businesses build trust, convert visitors, and grow online."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Services"
+    url: "https://digitalsparkhq.com/services/"
+  - name: "Web Design"
+    url: "https://digitalsparkhq.com/services/web-design/"
 ---
 
 <!-- HERO -->
