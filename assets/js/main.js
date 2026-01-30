@@ -202,5 +202,18 @@ if(projectForm){
   });
 
 }
+  const serviceField = document.getElementById("serviceField");
+
+document.querySelectorAll("[data-service]").forEach(btn => {
+
+  btn.addEventListener("click", function(){
+
+    if(serviceField){
+      serviceField.value = this.getAttribute("data-service");
+    }
+
+  });
+
+});
   
 });
