@@ -44,7 +44,7 @@ breadcrumb:
 
     <p class="lead text-white opacity-75 mt-3 mx-auto hero-subtext"
        style="max-width:820px;">
-      Built for ambitious brands that need more than a beautiful website — we create high-performance digital experiences engineered to build trust, drive enquiries, and support long-term growth.
+      High-performance websites designed to build trust, convert visitors, and grow your brand.
     </p>
   </div>
 
