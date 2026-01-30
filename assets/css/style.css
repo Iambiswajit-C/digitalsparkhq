@@ -413,7 +413,8 @@ cursor:pointer;
 }
 #why-digital li {
   margin-bottom: 12px;
-  font-size: 1rem;
+  font-size:1.05rem;
+  line-height:1.7;
 }
 
 @media(min-width:992px){
