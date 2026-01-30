@@ -166,5 +166,41 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
   modalImg.src = imgSrc;
 
 });
+
+    /* ===== Pop up Success Message ===== */
+const projectForm = document.getElementById("project-contact-form");
+
+if(projectForm){
+
+  const message = projectForm.querySelector(".form-message");
+
+  projectForm.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const formData = new FormData(projectForm);
+
+    fetch(projectForm.action, {
+      method: "POST",
+      body: formData,
+      headers: { Accept: "application/json" }
+    })
+    .then(response => {
+
+      if(response.ok){
+
+        projectForm.querySelector(".row").style.display = "none";
+        message.style.display = "block";
+
+        projectForm.reset();
+
+      }else{
+        alert("Oops! Something went wrong.");
+      }
+
+    })
+    .catch(() => alert("Network error. Please try again."));
+  });
+
+}
   
 });
