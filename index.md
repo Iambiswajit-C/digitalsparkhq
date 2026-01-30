@@ -207,6 +207,22 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
   
 </div>
 
+<div class="text-center mt-5">
+
+<button class="btn btn-lg px-5 py-3"
+        data-bs-toggle="modal"
+        data-bs-target="#projectModal"
+        style="
+        background:linear-gradient(90deg,var(--hover-color),#00d4ff);
+        border:none;
+        font-weight:600;
+        box-shadow:0 0 25px rgba(0,212,255,.35);">
+
+Start Your Project
+
+</button>
+
+</div>
   </div>
 </section>
 
