@@ -2,6 +2,13 @@
 layout: default
 title: "Social Media Marketing Services | Digital Spark HQ"
 description: "Strategic social media marketing that builds brand presence, engagement, and real business growth across platforms."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Services"
+    url: "https://digitalsparkhq.com/services/"
+  - name: "Social Media Marketing"
+    url: "https://digitalsparkhq.com/services/social-media/"
 ---
 
 <!-- HERO -->
