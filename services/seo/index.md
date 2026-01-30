@@ -2,6 +2,13 @@
 layout: default
 title: "SEO Services & Local Optimization | Digital Spark HQ"
 description: "Data-driven SEO and local optimization services to increase visibility, rankings, and high-intent traffic that converts."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Services"
+    url: "https://digitalsparkhq.com/services/"
+  - name: "SEO"
+    url: "https://digitalsparkhq.com/services/seo/"
 ---
 
 <!-- HERO -->
