@@ -281,6 +281,24 @@
   z-index:1;
 }
 
+.hero-video-overlay{
+  position:absolute;
+  inset:0;
+
+  background:linear-gradient(
+    rgba(0,0,0,.55),
+    rgba(0,0,0,.45)
+  );
+
+  z-index:1;
+}
+.hero-content{
+  position:absolute;
+  z-index:2;
+}
+.hero-content h1{
+  text-shadow:0 4px 25px rgba(0,0,0,.6);
+}
 /* Services Hub Page */
 .service-hub-card{
 
