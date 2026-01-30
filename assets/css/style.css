@@ -416,6 +416,17 @@ cursor:pointer;
   font-size: 1rem;
 }
 
+@media(min-width:992px){
+  #why-digital .col-lg-6:first-child{
+    border-right:1px solid rgba(255,255,255,.08);
+    padding-right:50px;
+  }
+
+  #why-digital .col-lg-6:last-child{
+    padding-left:50px;
+  }
+}
+
 /* Glow Accents (Reusable) */
 .bg-dark {
   background: rgba(255, 255, 255, 0.05) !important;
