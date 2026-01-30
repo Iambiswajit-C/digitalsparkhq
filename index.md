@@ -220,11 +220,10 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
 Start Your Project
 
-</div>
+</button>
 <p class="small text-white-50 mt-3">
 Takes less than 30 seconds. No commitment required.
 </p>
-</button>
 
   </div>
 </section>
