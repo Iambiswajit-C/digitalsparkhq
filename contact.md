@@ -14,7 +14,7 @@ description: "Get in touch with Digital Spark HQ to grow your business online. S
 
 
 <!-- Digital Glow Section -->
-<section id="contact-digital-bg" style="position:relative; min-height:55vh;">
+<section id="contact-digital-bg" style="position:relative; height:50vh;">
   <!-- Background Layers -->
   <div class="footer-bg" style="clip-path:none; height:100%;"></div>
   <div class="footer-overlay" style="clip-path:none; height:100%;"></div>
