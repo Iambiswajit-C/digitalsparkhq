@@ -306,22 +306,12 @@
 .scroll-down{
   z-index:5;
 }
-.hero-content{
-  top:55%;
-}
+
 .hero-title{
   font-size:clamp(2rem, 4vw, 3.5rem);
   line-height:1.15;
 }
 
-@media (max-width:768px){
-
-  .hero-content{
-    top:60%;
-    padding:0 20px;
-  }
-
-}
 
 @media(max-width:768px){
 
