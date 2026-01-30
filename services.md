@@ -54,7 +54,7 @@ At Digital Spark HQ, we combine creativity with data-driven strategy to deliver 
 
 <!-- Web Design -->
 <div class="col-lg-4 col-md-6">
-<a href="/web-design/" class="service-hub-card">
+<a href="/services/web-design/" class="service-hub-card">
 
 <i class="fas fa-laptop-code service-icon"></i>
 
@@ -74,7 +74,7 @@ Explore Service →
 
 <!-- SEO -->
 <div class="col-lg-4 col-md-6">
-<a href="/seo/" class="service-hub-card">
+<a href="/services/seo/" class="service-hub-card">
 
 <i class="fas fa-chart-line service-icon"></i>
 
@@ -94,7 +94,7 @@ Explore Service →
 
 <!-- Social Media -->
 <div class="col-lg-4 col-md-6">
-<a href="/social-media/" class="service-hub-card">
+<a href="/services/social-media/" class="service-hub-card">
 
 <i class="fas fa-hashtag service-icon"></i>
 
@@ -114,7 +114,7 @@ Explore Service →
 
 <!-- Paid Ads -->
 <div class="col-lg-4 col-md-6">
-<a href="/paid-marketing/" class="service-hub-card">
+<a href="/services/paid-marketing/" class="service-hub-card">
 
 <i class="fas fa-bullseye service-icon"></i>
 
@@ -134,7 +134,7 @@ Explore Service →
 
 <!-- Graphic Design -->
 <div class="col-lg-4 col-md-6">
-<a href="/graphic-design/" class="service-hub-card">
+<a href="/services/graphic-design/" class="service-hub-card">
 
 <i class="fas fa-pen-nib service-icon"></i>
 
