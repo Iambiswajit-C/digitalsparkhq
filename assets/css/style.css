@@ -285,32 +285,34 @@
 .service-hub-card{
 
 display:block;
-padding:40px;
-border-radius:14px;
+padding:45px 35px;
 
-background:rgba(255,255,255,0.04);
-border:1px solid rgba(255,255,255,0.08);
+border-radius:16px;
+
+background:rgba(255,255,255,0.06);
+border:1px solid rgba(255,255,255,0.12);
 
 text-decoration:none;
 color:white;
 
 transition:all .35s ease;
-
 height:100%;
+
+backdrop-filter: blur(6px);
 }
 
 .service-hub-card:hover{
 
-transform:translateY(-10px);
+transform:translateY(-12px);
 
-box-shadow:0 20px 40px rgba(0,212,255,.18);
+box-shadow:0 25px 60px rgba(0,212,255,.25);
 
-border-color:rgba(0,212,255,.4);
+border-color:rgba(0,212,255,.6);
 }
 
 .service-icon{
 
-font-size:38px;
+font-size:42px;
 margin-bottom:20px;
 color:var(--hover-color);
 }
@@ -318,11 +320,10 @@ color:var(--hover-color);
 .service-link{
 
 display:inline-block;
-margin-top:15px;
+margin-top:18px;
 font-weight:600;
 color:var(--hover-color);
 }
-
 
 /* Glass content panel (services) */
 .glass-panel {
