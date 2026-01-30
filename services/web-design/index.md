@@ -170,12 +170,12 @@ description: "High-performance web design and development services that help bus
 
   <div class="col-lg-4 col-md-6">
     <div class="portfolio-card">
-      <img src="/assets/images/web-design-project2.jpg"
-           class="img-fluid rounded-4 mb-3 portfolio-img"
-           alt="Spiritual Coaching"
-           data-bs-toggle="modal"
-           data-bs-target="#portfolioModal"
-           onclick="openPortfolio('/assets/images/web-design-project2.jpg')">
+      <img src="{{ '/assets/images/web-design-project2.jpg' | relative_url }}"
+     class="img-fluid rounded-4 mb-3 portfolio-img"
+     alt="Luxury Gym Website"
+     data-bs-toggle="modal"
+     data-bs-target="#portfolioModal"
+     data-img="{{ '/assets/images/web-design-project2.jpg' | relative_url }}">
 
       <h5 class="fw-bold">Mindful Community Website</h5>
 
@@ -189,12 +189,12 @@ description: "High-performance web design and development services that help bus
 
   <div class="col-lg-4 col-md-6">
     <div class="portfolio-card">
-      <img src="/assets/images/web-design-project3.jpg"
-           class="img-fluid rounded-4 mb-3 portfolio-img"
-           alt="Consultation Website"
-           data-bs-toggle="modal"
-           data-bs-target="#portfolioModal"
-           onclick="openPortfolio('/assets/images/web-design-project3.jpg')">
+      <img src="{{ '/assets/images/web-design-project3.jpg' | relative_url }}"
+     class="img-fluid rounded-4 mb-3 portfolio-img"
+     alt="Luxury Gym Website"
+     data-bs-toggle="modal"
+     data-bs-target="#portfolioModal"
+     data-img="{{ '/assets/images/web-design-project3.jpg' | relative_url }}">
 
       <h5 class="fw-bold">Consultation Website</h5>
 
