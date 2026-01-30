@@ -6,6 +6,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 
 <!-- Hero Section -->
 <section id="hero" class="position-relative">
+  <div class="hero-video-overlay"></div>
 <video 
   id="heroVideo"
   autoplay 
