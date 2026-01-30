@@ -5,7 +5,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 ---
 
 <!-- Hero Section -->
-<section id="hero" class="position-relative">
+<section id="hero" class="position-relative d-flex align-items-center">
   <div class="hero-video-overlay"></div>
 <video 
   id="heroVideo"
@@ -20,7 +20,7 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 >
   <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
 </video>
-  <div class="hero-content position-absolute start-50 translate-middle-x text-center text-white">
+  <div class="hero-content text-center text-white mx-auto">
 
 <h1 class="hero-title fw-bold mb-3">
 High-Impact Digital Execution for Ambitious Brands
