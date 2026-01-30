@@ -7,18 +7,39 @@ description: "High-performance web design and development services that help bus
 <!-- HERO -->
 <section id="service-hero"
   class="text-center text-white position-relative d-flex justify-content-center align-items-center"
-  style="height:90vh; background:url('{{ '/assets/images/web-design-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  style="height:90vh; overflow:hidden;">
+
+  <!-- Background Video -->
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    class="service-hero-video"
+    disablepictureinpicture
+    controlslist="nodownload nofullscreen noremoteplayback"
+  >
+    <source src="{{ '/assets/videos/web-design-hero.mp4' | relative_url }}" type="video/mp4">
+  </video>
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
+  <!-- Content -->
   <div class="container position-relative z-2 fade-in">
     <i class="fas fa-laptop-code fa-3x mb-4" style="color: var(--hover-color);"></i>
-    <h1 class="display-1 fw-bold">WEB DESIGN</h1>
-    <p class="lead text-white opacity-75 mt-3 mx-auto hero-subtext" style="max-width: 820px;">
+
+    <h1 class="display-1 fw-bold">
+      WEB DESIGN
+    </h1>
+
+    <p class="lead text-white opacity-75 mt-3 mx-auto hero-subtext"
+       style="max-width:820px;">
       High-performance websites designed to build trust, convert visitors, and grow your brand.
     </p>
   </div>
+
 </section>
 
 <!-- What Web Designing Solves -->
