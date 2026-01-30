@@ -219,8 +219,8 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
         box-shadow:0 0 25px rgba(0,212,255,.35);">
 
 Start Your Project
-
 </button>
+</div>
 <p class="small text-white-50 mt-3">
 Takes less than 30 seconds. No commitment required.
 </p>
