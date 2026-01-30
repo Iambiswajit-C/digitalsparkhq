@@ -2,6 +2,13 @@
 layout: default
 title: "Graphic Design Services | Digital Spark HQ"
 description: "High-impact graphic design services that elevate brand identity, improve recognition, and communicate visually with clarity and confidence."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Services"
+    url: "https://digitalsparkhq.com/services/"
+  - name: "Graphic Design"
+    url: "https://digitalsparkhq.com/services/graphic-design/"
 ---
 
 <!-- HERO -->
