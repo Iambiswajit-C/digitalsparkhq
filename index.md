@@ -20,9 +20,9 @@ description: "Accelerate your brand growth with Digital Spark HQ. We specialize 
 >
   <source src="{{ '/assets/videos/hero.mp4' | relative_url }}" type="video/mp4">
 </video>
-  <div class="hero-content position-absolute top-50 start-50 translate-middle text-center text-white" style="z-index:2; max-width:900px;">
+  <div class="hero-content position-absolute start-50 translate-middle-x text-center text-white">
 
-<h1 class="display-3 fw-bold mb-3">
+<h1 class="hero-title fw-bold mb-3">
 High-Impact Digital Execution for Ambitious Brands
 </h1>
 
