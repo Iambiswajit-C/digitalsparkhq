@@ -14,41 +14,44 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  /* ===== Footer form submission (AJAX) ===== */
-  const form = document.getElementById("footer-contact-form");
-  if (form) {
-    const message = form.querySelector(".form-message");
+  /* ===== UNIVERSAL AJAX FORM HANDLER ===== */
 
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      const formData = new FormData(form);
+document.querySelectorAll("form[action*='formsubmit']").forEach(form => {
 
-      fetch(form.action, {
-        method: form.method,
-        body: formData,
-        headers: { Accept: "application/json" },
-      })
-        .then((response) => {
-          if (response.ok) {
-            form.querySelector("div.row").style.display = "none";
-            message.style.display = "block";
-            form.reset();
-          } else {
-            message.style.display = "block";
-            message.textContent =
-              "Oops! Something went wrong. Please try again.";
-            message.classList.remove("text-success");
-            message.classList.add("text-danger");
-          }
-        })
-        .catch(() => {
-          message.style.display = "block";
-          message.textContent = "Oops! Something went wrong. Please try again.";
-          message.classList.remove("text-success");
-          message.classList.add("text-danger");
-        });
-    });
-  }
+  const message = form.querySelector(".form-message");
+
+  form.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    fetch(form.action,{
+      method:"POST",
+      body:formData,
+      headers:{Accept:"application/json"}
+    })
+    .then(res=>{
+
+      if(res.ok){
+
+        const row = form.querySelector(".row");
+        if(row) row.style.display="none";
+
+        if(message){
+          message.style.display="block";
+          message.innerHTML =
+          "✅ Thanks! Your message has been delivered.<br>We typically respond within 24 hours.";
+        }
+
+        form.reset();
+      }
+
+    })
+    .catch(()=> alert("Something went wrong. Please try again."));
+  });
+
+});
 
   /* ===== Contact hero fade-in animation ===== */
   const heroText = document.querySelector(".contact-hero-text");
@@ -167,49 +170,15 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 
 });
 
-    /* ===== Pop up Success Message ===== */
-const projectForm = document.getElementById("project-contact-form");
-
-if(projectForm){
-
-  const message = projectForm.querySelector(".form-message");
-
-  projectForm.addEventListener("submit", function(e){
-    e.preventDefault();
-
-    const formData = new FormData(projectForm);
-
-    fetch(projectForm.action, {
-      method: "POST",
-      body: formData,
-      headers: { Accept: "application/json" }
-    })
-    .then(response => {
-
-      if(response.ok){
-
-        projectForm.querySelector(".row").style.display = "none";
-        message.style.display = "block";
-
-        projectForm.reset();
-
-      }else{
-        alert("Oops! Something went wrong.");
-      }
-
-    })
-    .catch(() => alert("Network error. Please try again."));
-  });
-
-}
-  const serviceField = document.getElementById("serviceField");
-
+ /* ===== Pop Up Form Loader ===== */
 document.querySelectorAll("[data-service]").forEach(btn => {
 
   btn.addEventListener("click", function(){
 
-    if(serviceField){
-      serviceField.value = this.getAttribute("data-service");
+    const field = document.getElementById("serviceField");
+
+    if(field){
+      field.value = this.dataset.service;
     }
 
   });
