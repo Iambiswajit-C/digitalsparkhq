@@ -19,7 +19,7 @@ background:url('{{ '/assets/images/services-hero.jpg' | relative_url }}') center
 
 <h1 class="display-2 fw-bold">Our Services</h1>
 
-<p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
+<p class="lead text-white-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
 Everything your brand needs to grow — strategy, design, visibility, and performance.
 </p>
 
