@@ -46,11 +46,24 @@ At Digital Spark HQ, we combine creativity with data-driven strategy to deliver 
 <!-- Service Cards -->
 <section class="py-5 text-white position-relative">
 
+<div class="service-dark-bg"></div>
 <div class="vision-bg"></div>
 
-<div class="container fade-in">
 
-<div class="row g-5">
+<div class="container fade-in">
+<div class="text-center mb-5">
+
+<h2 class="gradient-text fw-bold">
+Our Core Services
+</h2>
+
+<p class="text-white-75 mx-auto" style="max-width:750px;">
+Specialized solutions designed to help your brand stand out, scale faster, and outperform the competition.
+</p>
+
+</div>
+
+<div class="row g-5 justify-content-center">
 
 <!-- Web Design -->
 <div class="col-lg-4 col-md-6">
