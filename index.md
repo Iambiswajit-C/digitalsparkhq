@@ -35,7 +35,7 @@ Premium strategy, design, and marketing — without enterprise overheads.
 </p>
 
 <a href="/contact/" class="btn btn-primary px-4 py-2 mt-3 rounded-pill">
-Book A Free Consultation
+Speak With A Strategist
 </a>
 
 </div>
