@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Social Media Marketing Services | Digital Spark HQ"
-description: "Strategic social media marketing that builds brand presence, engagement, and real business growth across platforms."
+title: "Social Media Marketing Agency | Growth That Converts"
+description: "Build authority and engagement with strategic content and paid social campaigns that turn followers into customers and long-term fans."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
