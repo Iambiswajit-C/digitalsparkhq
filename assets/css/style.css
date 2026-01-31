@@ -490,9 +490,6 @@ cursor:pointer;
   object-fit:cover;
   z-index:0;
 }
-#hero video{
-  animation:heroZoom 18s ease-in-out infinite alternate;
-}
 
 @keyframes heroZoom{
   from{transform:scale(1);}
