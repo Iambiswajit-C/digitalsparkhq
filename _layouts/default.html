@@ -18,18 +18,22 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "WebSite",
       "@id": "https://digitalsparkhq.com/#website",
       "url": "https://digitalsparkhq.com/",
       "name": "Digital Spark HQ",
-      "publisher": { "@id": "https://digitalsparkhq.com/#organization" },
+      "publisher": {
+        "@id": "https://digitalsparkhq.com/#organization"
+      },
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://digitalsparkhq.com/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
+
     {
       "@type": "Organization",
       "@id": "https://digitalsparkhq.com/#organization",
@@ -155,7 +159,23 @@
           "areaServed": ["GB", "EU", "IN"]
         }
       ]
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}#webpage",
+      "url": "{{ site.url }}{{ page.url }}",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description | default: site.description }}",
+      "isPartOf": {
+        "@id": "https://digitalsparkhq.com/#website"
+      },
+      "about": {
+        "@id": "https://digitalsparkhq.com/#organization"
+      },
+      "inLanguage": "en"
     }
+
   ]
 }
 </script>
