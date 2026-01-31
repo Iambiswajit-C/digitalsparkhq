@@ -2,6 +2,11 @@
 layout: default
 title: "Contact Digital Spark HQ | Speak With Our Growth Team"
 description: "Talk to our digital growth experts about your website, SEO, or marketing strategy. Serving clients across the UK, Europe, and India with fast, reliable communication."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "Contact"
+    url: "https://digitalsparkhq.com/contact/"
 ---
 
 
