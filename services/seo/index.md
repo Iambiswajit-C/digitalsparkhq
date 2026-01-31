@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "SEO Services & Local Optimization | Digital Spark HQ"
-description: "Data-driven SEO and local optimization services to increase visibility, rankings, and high-intent traffic that converts."
+title: "SEO & Local SEO Services | Rank Higher, Get More Customers"
+description: "Data-driven SEO and local optimization to increase visibility, traffic, and high-intent leads. Built for businesses targeting the UK and global markets."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
