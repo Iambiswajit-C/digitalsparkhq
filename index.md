@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital Marketing Agency for UK & Global Brands"
-description: "SEO, web design, paid ads, and social media marketing that drive measurable growth. Serving clients across the UK, Europe, and India."
+description: "SEO, web design, graphic design, paid ads, and social media marketing that drive measurable growth. Serving clients across the UK, Europe, and India."
 ---
 
 <!-- Hero Section -->
