@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "About Digital Spark HQ | Your Partner in Digital Growth"
-description: "Learn more about Digital Spark HQ – a results-driven digital marketing agency focused on startups. Our data-driven approach, creative campaigns, and expert team help your brand thrive online."
+title: "About Digital Spark HQ | Your Digital Growth Partner"
+description: "We combine strategy, design, and performance marketing to help ambitious brands grow faster with clear communication and real results."
 ---
 
 <!-- Hero Section -->
