@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Paid Advertising & PPC Management | Digital Spark HQ"
-description: "High-converting paid advertising campaigns across Google, Meta, and social platforms designed to drive ROI — not wasted spend."
+title: "PPC & Paid Advertising Agency | Google & Meta Ads Experts"
+description: "High-converting Google and Meta ad campaigns focused on leads, sales, and strong ROI. Smart budgets, clear tracking, real performance."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
