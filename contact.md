@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Contact Digital Spark HQ | Start Your Digital Journey Today"
-description: "Get in touch with Digital Spark HQ to grow your business online. Schedule a consultation or ask about our services including SEO, web development, and marketing strategy."
+title: "Contact Digital Spark HQ | Speak With Our Growth Team"
+description: "Talk to our digital growth experts about your website, SEO, or marketing strategy. Serving clients across the UK, Europe, and India with fast, reliable communication."
 ---
 
 
