@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Web Design & Development | Digital Spark HQ"
-description: "High-performance web design and development services that help businesses build trust, convert visitors, and grow online."
+title: "High-Converting Web Design & Development | Digital Spark HQ"
+description: "Fast, modern websites built to convert visitors into customers. UX-focused design, performance optimization, and scalable builds for growing brands."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
