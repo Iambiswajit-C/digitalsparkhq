@@ -1097,6 +1097,15 @@ section.text-white .lead {
     justify-content: center;
   }
 }
+
+/* Tablet Fix for Topbar */
+@media (max-width: 1024px){
+
+  #topbar .phone-primary{
+    display:none;
+  }
+
+}
 /* Responsive Fixes */
 @media (max-width: 767px) {
   #topbar {
