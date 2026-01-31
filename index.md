@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Digital Spark HQ | Digital Marketing & Growth Solutions for Ambitious Brands"
-description: "Accelerate your brand growth with Digital Spark HQ. We specialize in SEO, social media marketing, web design, and innovative digital strategies that deliver measurable results."
+title: "Digital Marketing Agency for UK & Global Brands"
+description: "SEO, web design, paid ads, and social media marketing that drive measurable growth. Serving clients across the UK, Europe, and India."
 ---
 
 <!-- Hero Section -->
