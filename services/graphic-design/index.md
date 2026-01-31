@@ -21,7 +21,7 @@ breadcrumb:
 
   <div class="container position-relative z-2 fade-in">
     <i class="fas fa-pen-nib fa-3x mb-4" style="color: var(--hover-color);"></i>
-    <h1 class="display-1 fw-bold">GRAPHIC DESIGN</h1>
+    <h1 class="display-1 fw-bold">Design That Elevates Your Brand</h1>
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
       Design that communicates, connects, and leaves a lasting impression.
     </p>
