@@ -23,7 +23,7 @@ description: "SEO, web design, graphic design, paid ads, and social media market
   <div class="hero-content text-center text-white mx-auto">
 
 <h1 class="hero-title fw-bold mb-3">
-High-Impact Digital Execution for Ambitious Brands
+Digital Marketing Agency Helping UK & Global Brands Grow Faster
 </h1>
 
 <p class="lead opacity-75 mb-3">
