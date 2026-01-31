@@ -269,7 +269,7 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq1">
-            Do you work with UK clients and international businesses?
+            1. Do you work with UK clients and international businesses?
           </button>
         </h3>
         <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -286,7 +286,7 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq2">
-            How long does it take to see results?
+            2. How long does it take to see results?
           </button>
         </h3>
         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -303,7 +303,7 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq3">
-            Do you offer custom strategies or packages?
+            3. Do you offer custom strategies or packages?
           </button>
         </h3>
         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -320,7 +320,7 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq4">
-            Will I get regular reporting and updates?
+            4. Will I get regular reporting and updates?
           </button>
         </h3>
         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -337,7 +337,7 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq5">
-            Why choose Digital Spark HQ over larger agencies?
+            5. Why choose Digital Spark HQ over larger agencies?
           </button>
         </h3>
         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
