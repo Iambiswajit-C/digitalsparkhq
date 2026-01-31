@@ -2,6 +2,11 @@
 layout: default
 title: "About Digital Spark HQ | Your Digital Growth Partner"
 description: "We combine strategy, design, and performance marketing to help ambitious brands grow faster with clear communication and real results."
+breadcrumb:
+  - name: "Home"
+    url: "https://digitalsparkhq.com/"
+  - name: "About"
+    url: "https://digitalsparkhq.com/about/"
 ---
 
 <!-- Hero Section -->
