@@ -68,7 +68,7 @@ breadcrumb:
       Designs That Speak for Themselves
     </h2>
 
-    <div class="row g-4 justify-content-center">
+    <div class="row g-4">
       <div class="col-md-4">
         <img src="{{ '/assets/images/design-branding.jpg' | relative_url }}"
              alt="Brand Identity Design"
