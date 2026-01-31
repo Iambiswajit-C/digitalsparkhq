@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Graphic Design Services | Digital Spark HQ"
-description: "High-impact graphic design services that elevate brand identity, improve recognition, and communicate visually with clarity and confidence."
+title: "Graphic Design Services | Branding That Stands Out"
+description: "Professional branding, visuals, and marketing design that build trust, improve recognition, and communicate your message clearly."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
