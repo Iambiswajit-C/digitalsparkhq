@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "High-Converting Web Design & Development | Digital Spark HQ"
+title: "High-Converting Web Design & Development Services"
 description: "Fast, modern websites built to convert visitors into customers. UX-focused design, performance optimization, and scalable builds for growing brands."
 breadcrumb:
   - name: "Home"
