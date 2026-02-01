@@ -776,12 +776,10 @@ html, body {
 
 .page-hero{
   min-height: 90vh;
-  padding-top: 120px;   /* navbar + topbar space */
-  padding-bottom: 80px;
 
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  /* spacing for navbar */
+  padding-top: 160px;   /* increased */
+  padding-bottom: 100px;
 
   position:relative;
   overflow:hidden;
@@ -789,20 +787,22 @@ html, body {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
+
+  text-align:center;
 }
 
-/* small-height devices (iPhone SE etc) */
+/* content width */
+.page-hero .hero-content{
+  max-width:850px;
+  margin:0 auto;
+}
+
+/* short height devices (Nest Hub etc) */
 @media (max-height:700px){
   .page-hero{
-    padding-top:100px;
-    padding-bottom:60px;
+    padding-top:140px;
+    padding-bottom:70px;
   }
-}
-
-/* hero content spacing */
-.page-hero .hero-content{
-  max-width: 850px;
-  margin: 0 auto;
 }
 
 /* ABOUT PAGE */
