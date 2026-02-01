@@ -39,7 +39,7 @@ breadcrumb:
     <i class="fas fa-laptop-code fa-3x mb-4" style="color: var(--hover-color);"></i>
 
     <h1 class="display-1 fw-bold">
-      Web Design That Converts
+      Strategic Web Design That Converts
     </h1>
 
     <p class="lead text-white opacity-75 mt-3 mx-auto hero-subtext"
