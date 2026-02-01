@@ -771,37 +771,35 @@ html, body {
 }
 
 /* =================================
-   UNIVERSAL PAGE HERO (services/about/contact)
+   UNIVERSAL PAGE HERO (FIXED PRO)
 ================================= */
 
 .page-hero{
-  min-height: 90vh;
+  height: 100vh; /* full screen */
+  position: relative;
+  overflow: hidden;
 
-  /* spacing for navbar */
-  padding-top: 160px;   /* increased */
-  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  position:relative;
-  overflow:hidden;
-
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  text-align:center;
+  display: flex;
+  align-items: center;   /* vertical center again */
+  justify-content: center;
+  text-align: center;
 }
 
-/* content width */
+/* shift ONLY content, not whole section */
 .page-hero .hero-content{
-  max-width:850px;
-  margin:0 auto;
+  padding-top: 120px;   /* navbar space */
+  max-width: 850px;
+  margin: 0 auto;
 }
 
-/* short height devices (Nest Hub etc) */
-@media (max-height:700px){
-  .page-hero{
-    padding-top:140px;
-    padding-bottom:70px;
+/* small height devices */
+@media (max-height: 700px){
+  .page-hero .hero-content{
+    padding-top: 90px;
   }
 }
 
