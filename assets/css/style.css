@@ -770,30 +770,41 @@ html, body {
   color: rgba(255,255,255,0.85);
 }
 
-#about-hero{
-  min-height: 90vh; /* not fixed height */
-  background: url('../images/about-hero.jpg') center/cover no-repeat;
-  padding-top: 120px; /* space for header */
+/* =================================
+   UNIVERSAL PAGE HERO (services/about/contact)
+================================= */
+
+.page-hero{
+  min-height: 90vh;
+  padding-top: 120px;   /* navbar + topbar space */
   padding-bottom: 80px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  position:relative;
+  overflow:hidden;
+
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
-/* small devices like iPhone SE */
-@media (max-height: 700px){
-  .about-hero-content{
-    padding-top: 60px;
-  }
-
-  .about-hero-icon{
-    margin-top: 20px;
+/* small-height devices (iPhone SE etc) */
+@media (max-height:700px){
+  .page-hero{
+    padding-top:100px;
+    padding-bottom:60px;
   }
 }
 
-/* optional: slightly smaller icon for tight screens */
-@media (max-width: 400px){
-  .about-hero-icon{
-    font-size: 2rem;
-  }
+/* hero content spacing */
+.page-hero .hero-content{
+  max-width: 850px;
+  margin: 0 auto;
 }
+
 /* ABOUT PAGE */
 #contact-digital-bg a{
   transition:.25s;
