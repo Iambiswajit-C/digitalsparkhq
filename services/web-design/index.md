@@ -460,3 +460,45 @@ Takes less than 30 seconds. No commitment required.
     </div>
   </div>
 </div>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a website project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most websites are completed within 3–6 weeks depending on complexity and features."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my website be optimized for conversions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every site is built with UX, speed, and lead generation in mind — not just visuals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with UK businesses remotely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We collaborate with UK clients daily and align communication with your working hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my site be SEO ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Technical SEO, speed, and structure are included from day one."
+      }
+    }
+  ]
+}
+</script>
