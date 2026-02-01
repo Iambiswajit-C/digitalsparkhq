@@ -23,7 +23,7 @@ breadcrumb:
 
     <i class="fas fa-paper-plane fa-3x mb-4 contact-hero-icon" style="color: var(--hover-color);"></i>
 
-    <h1 class="display-2 fw-bold contact-hero-text">
+    <h1 class="display-2 fw-bold">
       Let’s Talk
     </h1>
 
