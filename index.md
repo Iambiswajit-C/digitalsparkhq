@@ -228,7 +228,7 @@ Speak With A Strategist
 <section id="build-identity" class="py-5 text-center text-white position-relative">
   <div class="container fade-in">
     <h2 class="fw-bold gradient-text mb-4">Build Your Digital Identity in Minutes</h2>
-    <p class="gradient-text mb-4">Let’s create your online presence that truly represents your business — fast, powerful, and impactful.</p>
+    <p class="mb-4 text-light-emphasis">Let’s create your online presence that truly represents your business — fast, powerful, and impactful.</p>
     <a href="{{ '/contact' | relative_url }}" class="btn btn-primary px-4 py-2 rounded-pill">Get Started</a>
   </div>
 </section>
