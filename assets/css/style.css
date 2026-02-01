@@ -770,6 +770,30 @@ html, body {
   color: rgba(255,255,255,0.85);
 }
 
+#about-hero{
+  min-height: 90vh; /* not fixed height */
+  background: url('../images/about-hero.jpg') center/cover no-repeat;
+  padding-top: 120px; /* space for header */
+  padding-bottom: 80px;
+}
+
+/* small devices like iPhone SE */
+@media (max-height: 700px){
+  .about-hero-content{
+    padding-top: 60px;
+  }
+
+  .about-hero-icon{
+    margin-top: 20px;
+  }
+}
+
+/* optional: slightly smaller icon for tight screens */
+@media (max-width: 400px){
+  .about-hero-icon{
+    font-size: 2rem;
+  }
+}
 /* ABOUT PAGE */
 #contact-digital-bg a{
   transition:.25s;
