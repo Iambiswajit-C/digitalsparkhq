@@ -249,3 +249,107 @@ breadcrumb:
     </div>
   </div>
 </section>
+
+<!-- FAQs Section -->
+<section id="service-faqs" class="py-5 text-white position-relative">
+
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in" style="max-width:900px;">
+
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Frequently Asked Questions
+    </h2>
+
+    <div class="accordion accordion-flush" id="faqAccordion">
+
+      <!-- Q1 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+            Do you work with UK clients and international businesses?
+          </button>
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We actively work with businesses across the UK, Europe, and India. 
+            We align meetings, communication, and delivery with your time zone for seamless collaboration.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+            How long does it take to see results?
+          </button>
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Timelines vary by service. SEO typically shows strong results within 3–6 months, 
+            while paid ads and design projects deliver impact much faster. We focus on sustainable, long-term growth.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+            Do you offer custom strategies or packages?
+          </button>
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Every business is different. We create tailored strategies based on your goals, market, and budget — 
+            not cookie-cutter packages.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+            Will I get regular reporting and updates?
+          </button>
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Absolutely. You receive clear reports, performance insights, and ongoing communication so you always know 
+            what’s working and where we’re improving.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+            Why choose Digital Spark HQ over larger agencies?
+          </button>
+        </h3>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            We combine senior-level expertise with personalized attention. You get strategy, speed, and results — 
+            without enterprise pricing or slow processes.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
