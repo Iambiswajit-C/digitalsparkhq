@@ -250,3 +250,164 @@ breadcrumb:
   </div>
 </section>
 
+<!-- FAQs Section -->
+<section id="service-faqs" class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in" style="max-width:900px;">
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Frequently Asked Questions
+    </h2>
+
+    <div class="accordion accordion-flush" id="faqAccordion">
+
+       <!-- Q1 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+            Do you offer complete branding packages?
+         </button>
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We provide full brand identity packages including logo design, color systems, typography, social media creatives, brand guidelines, and marketing materials — everything you need to present a consistent and professional brand.
+          </div>
+        </div>
+      </div>
+
+       <!-- Q2 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+            How many revisions are included?
+          </button>
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            We include multiple revisions in every project to ensure the final design perfectly matches your vision. Our process is collaborative, so you’re involved at every step until you’re 100% satisfied.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+            Will I own the final design files?
+         </button>
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. Once the project is complete, you receive full ownership and all final files in professional formats (AI, PSD, SVG, PNG, PDF, etc.), so you can use them freely across any platform.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+            How long does a typical design project take?
+          </button>
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Timelines depend on scope. Logo projects typically take 1–2 weeks, while full branding or multi-asset campaigns may take 2–4 weeks. We always provide clear timelines before starting.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+            Why invest in professional graphic design instead of DIY tools?
+           </button>
+        </h3>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Professional design builds credibility, trust, and recognition. While DIY tools create quick visuals, strategic design ensures your brand looks premium, consistent, and memorable — which directly impacts conversions and growth.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer complete branding packages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide full brand identity packages including logo design, color systems, typography, social media creatives, brand guidelines, and marketing materials — everything you need to present a consistent and professional brand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many revisions are included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We include multiple revisions in every project to ensure the final design perfectly matches your vision. Our process is collaborative, so you’re involved at every step until you’re 100% satisfied."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I own the final design files?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Once the project is complete, you receive full ownership and all final files in professional formats (AI, PSD, SVG, PNG, PDF, etc.), so you can use them freely across any platform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a typical design project take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timelines depend on scope. Logo projects typically take 1–2 weeks, while full branding or multi-asset campaigns may take 2–4 weeks. We always provide clear timelines before starting."
+      }
+    },
+   {
+      "@type": "Question",
+      "name": "Why invest in professional graphic design instead of DIY tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional design builds credibility, trust, and recognition. While DIY tools create quick visuals, strategic design ensures your brand looks premium, consistent, and memorable — which directly impacts conversions and growth."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Graphic Design & Branding Services",
+  "description": "Professional branding, visual identity, and creative design that helps businesses stand out and communicate clearly.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Digital Spark HQ",
+    "url": "https://digitalsparkhq.com"
+  },
+  "areaServed": ["UK","Europe","India"],
+  "url": "https://digitalsparkhq.com/services/graphic-design/"
+}
+</script>
