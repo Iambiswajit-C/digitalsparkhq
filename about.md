@@ -11,7 +11,8 @@ breadcrumb:
 
 <!-- Hero Section -->
 <section id="about-hero"
-  class="text-center text-white position-relative d-flex justify-content-center align-items-center">
+  class="page-hero text-center text-white"
+  style="background-image:url('{{ '/assets/images/about-hero.jpg' | relative_url }}');">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
