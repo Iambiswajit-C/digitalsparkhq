@@ -675,6 +675,19 @@ html, body {
   overflow-x: hidden;
 }
 
+@keyframes heroGlow {
+  0%, 100% {
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.7),
+                 0 0 30px rgba(0, 212, 255, 0.4),
+                 0 0 45px rgba(0, 212, 255, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 25px rgba(0, 212, 255, 1),
+                 0 0 50px rgba(0, 212, 255, 0.6),
+                 0 0 70px rgba(0, 212, 255, 0.4);
+  }
+}
+
 /* Gradient Animated Text */
 .gradient-text {
   background: linear-gradient(90deg, #ff004c, #00f7ff, #fffa00);
