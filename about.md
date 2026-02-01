@@ -17,7 +17,7 @@ breadcrumb:
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
-  <div class="container position-relative z-2 fade-in about-hero-content">
+  <div class="container position-relative z-2 fade-in hero-content">
 
     <i class="fas fa-users fa-3x mb-4 about-hero-icon" style="color: var(--hover-color);"></i>
 
