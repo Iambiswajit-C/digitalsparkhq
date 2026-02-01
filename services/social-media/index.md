@@ -13,17 +13,17 @@ breadcrumb:
 
 <!-- HERO -->
 <section id="service-hero"
-  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
-  style="height:90vh; background:url('{{ '/assets/images/social-media-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  class="page-hero text-center text-white"
+  style="height:90vh; background-image:url('{{ '/assets/images/social-media-hero.jpg' | relative_url }}');">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
-  <div class="container position-relative z-2 fade-in">
+   <div class="container position-relative z-2 fade-in hero-content">
     <i class="fas fa-hashtag fa-3x mb-4" style="color: var(--hover-color);"></i>
-    <h1 class="display-1 fw-bold">SOCIAL MEDIA</h1>
+    <h1 class="display-1 fw-bold">Authority-Driven Social Media Strategy</h1>
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
-      Strategic content, consistent growth, and brand presence that people actually engage with.
+      Move beyond posting. We build structured social ecosystems that strengthen brand authority, attract the right audience, and convert attention into measurable business outcomes.
     </p>
   </div>
 </section>
