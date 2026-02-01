@@ -14,7 +14,7 @@ breadcrumb:
 <!-- HERO -->
 <section id="service-hero"
   class="page-hero text-center text-white"
-  style="background:url('{{ '/assets/images/graphic-design-hero.jpg' | relative_url }}');">
+  style="height:90vh; background:url('{{ '/assets/images/graphic-design-hero.jpg' | relative_url }}');">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
