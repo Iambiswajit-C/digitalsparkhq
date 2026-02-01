@@ -371,24 +371,25 @@ Takes less than 30 seconds. No commitment required.
   <div class="service-dark-bg"></div>
 
   <div class="container fade-in" style="max-width:900px;">
+
     <h2 class="fw-bold gradient-text text-center mb-5">
       Frequently Asked Questions
     </h2>
 
     <div class="accordion accordion-flush" id="faqAccordion">
 
-       <!-- Q1 -->
+      <!-- Q1 -->
       <div class="accordion-item bg-transparent border-bottom border-secondary">
         <h3 class="accordion-header">
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq1">
-          How long does a website project take?
-        </button>
+            How long does a website project usually take?
+          </button>
         </h3>
         <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Most websites are completed within 3–6 weeks depending on complexity and features.
+            Most business websites are completed within 3–6 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect.
           </div>
         </div>
       </div>
@@ -399,12 +400,12 @@ Takes less than 30 seconds. No commitment required.
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq2">
-          Will my website be optimized for conversions?
-        </button>
+            Will my website be optimized for conversions and leads?
+          </button>
         </h3>
         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Yes. Every site is built with UX, speed, and lead generation in mind — not just visuals.
+            Absolutely. Every website we build is designed with performance in mind — clear calls-to-action, fast loading speeds, intuitive UX, and trust-building layouts. Our goal is not just a beautiful website, but one that turns visitors into enquiries, bookings, and customers.
           </div>
         </div>
       </div>
@@ -415,12 +416,12 @@ Takes less than 30 seconds. No commitment required.
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq3">
-          Do you work with UK businesses remotely?
-        </button>
+            Do you work with UK and international businesses remotely?
+          </button>
         </h3>
         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Yes. We collaborate with UK clients daily and align communication with your working hours.
+            Yes. We regularly collaborate with clients across the UK, Europe, and India. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery.
           </div>
         </div>
       </div>
@@ -431,12 +432,44 @@ Takes less than 30 seconds. No commitment required.
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq4">
-          Will my site be SEO ready?
-        </button>
+            Is my website built with SEO best practices?
+          </button>
         </h3>
         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Absolutely. Technical SEO, speed, and structure are included from day one.
+            Yes. We include technical SEO foundations from day one — clean code, fast performance, mobile responsiveness, proper heading structure, schema markup, and search-friendly URLs. This ensures your site is ready to rank and support long-term organic growth.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+            Will I be able to update the website myself?
+          </button>
+        </h3>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Definitely. We build websites on easy-to-manage platforms like WordPress or custom CMS solutions. You’ll be able to edit text, images, and pages without technical knowledge. We also provide guidance and optional ongoing support if needed.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+            Do you provide maintenance and support after launch?
+          </button>
+        </h3>
+        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We offer ongoing maintenance, updates, security monitoring, and performance optimization so your website stays fast, secure, and reliable. Think of us as your long-term digital partner — not just a one-time developer.
           </div>
         </div>
       </div>
@@ -469,34 +502,50 @@ Takes less than 30 seconds. No commitment required.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How long does a website project take?",
+      "name": "How long does a website project usually take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most websites are completed within 3–6 weeks depending on complexity and features."
+        "text": "Most business websites are completed within 3–6 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect."
       }
     },
     {
       "@type": "Question",
-      "name": "Will my website be optimized for conversions?",
+      "name": "Will my website be optimized for conversions and leads?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Every site is built with UX, speed, and lead generation in mind — not just visuals."
+        "text": "Absolutely. Every website we build is designed with performance in mind — clear calls-to-action, fast loading speeds, intuitive UX, and trust-building layouts. Our goal is not just a beautiful website, but one that turns visitors into enquiries, bookings, and customers."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you work with UK businesses remotely?",
+      "name": "Do you work with UK and international businesses remotely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We collaborate with UK clients daily and align communication with your working hours."
+        "text": "Yes. We regularly collaborate with clients across the UK, Europe, and India. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery."
       }
     },
     {
       "@type": "Question",
-      "name": "Will my site be SEO ready?",
+      "name": "Is my website built with SEO best practices?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Technical SEO, speed, and structure are included from day one."
+        "text": "Yes. We include technical SEO foundations from day one — clean code, fast performance, mobile responsiveness, proper heading structure, schema markup, and search-friendly URLs. This ensures your site is ready to rank and support long-term organic growth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I be able to update the website myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " Definitely. We build websites on easy-to-manage platforms like WordPress or custom CMS solutions. You’ll be able to edit text, images, and pages without technical knowledge. We also provide guidance and optional ongoing support if needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide maintenance and support after launch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer ongoing maintenance, updates, security monitoring, and performance optimization so your website stays fast, secure, and reliable. Think of us as your long-term digital partner — not just a one-time developer."
       }
     }
   ]
