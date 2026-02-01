@@ -502,3 +502,20 @@ Takes less than 30 seconds. No commitment required.
   ]
 }
 </script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Web Design & Development Services",
+  "description": "Conversion-focused, high-performance websites built to help UK and global businesses generate leads and grow online.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Digital Spark HQ",
+    "url": "https://digitalsparkhq.com"
+  },
+  "areaServed": ["UK","Europe","India"],
+  "url": "https://digitalsparkhq.com/services/web-design/"
+}
+</script>
