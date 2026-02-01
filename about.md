@@ -9,20 +9,26 @@ breadcrumb:
     url: "https://digitalsparkhq.com/about/"
 ---
 
-<!-- HERO Section -->
-<section id="service-hero"
+<!-- Hero Section -->
+<section id="about-hero"
   class="text-center text-white position-relative d-flex justify-content-center align-items-center"
-  style="height:90vh; background:url('{{ '/assets/images/graphic-design-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  style="height:90vh; background:url('{{ '/assets/images/about-hero.jpg' | relative_url }}') center/cover no-repeat;">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
   <div class="container position-relative z-2 fade-in">
-    <i class="fas fa-pen-nib fa-3x mb-4" style="color: var(--hover-color);"></i>
-    <h1 class="display-1 fw-bold">Design That Elevates Your Brand</h1>
+
+    <i class="fas fa-users fa-3x mb-4" style="color: var(--hover-color);"></i>
+
+    <h1 class="display-2 fw-bold">
+      Your Strategic Digital Growth Partner
+    </h1>
+
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
-      Design that communicates, connects, and leaves a lasting impression.
+      Helping ambitious brands across the UK, Europe, and India build visibility, trust, and sustainable growth.
     </p>
+
   </div>
 </section>
 
