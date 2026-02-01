@@ -13,7 +13,7 @@ breadcrumb:
 
 <!-- HERO -->
 <section id="service-hero"
-  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
+  class="page-hero text-center text-white"
   style="height:90vh; overflow:hidden;">
 
   <!-- Background Video -->
@@ -35,7 +35,7 @@ breadcrumb:
   <div class="hero-glow"></div>
 
   <!-- Content -->
-  <div class="container position-relative z-2 fade-in">
+   <div class="container position-relative z-2 fade-in hero-content">
     <i class="fas fa-laptop-code fa-3x mb-4" style="color: var(--hover-color);"></i>
 
     <h1 class="display-1 fw-bold">
