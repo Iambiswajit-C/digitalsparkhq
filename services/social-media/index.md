@@ -256,3 +256,166 @@ breadcrumb:
     </div>
   </div>
 </section>
+
+<!-- FAQs Section -->
+<section id="service-faqs" class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in" style="max-width:900px;">
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Frequently Asked Questions
+    </h2>
+
+    <div class="accordion accordion-flush" id="faqAccordion">
+
+       <!-- Q1 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+            Which social media platforms do you manage?
+          </button>
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            We manage Facebook, Instagram, LinkedIn, YouTube, and TikTok depending on where your audience is most active. 
+            Instead of being everywhere, we focus on the platforms that generate the highest engagement, leads, and sales for your business.
+          </div>
+        </div>
+      </div>
+
+     <!-- Q2 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+            How often will you post content?
+          </button>
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Most brands see strong results with 3–5 high-quality posts per week. We create a consistent content calendar that balances educational, promotional, and engaging content to keep your audience active without overwhelming them.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+            Do you handle content creation and design?
+          </button>
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We take care of everything — strategy, copywriting, graphics, reels, captions, and scheduling. Our team ensures your brand looks professional, consistent, and aligned with your business goals across every platform.
+          </div>
+        </div>
+      </div>
+
+       <!-- Q4 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+            Can social media actually generate leads and sales?
+          </button>
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Absolutely. Social media is not just for likes — we build funnels, run targeted ads, and design conversion-focused content that turns followers into enquiries, bookings, and customers.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+            Do you work with UK and international businesses?
+          </button>
+        </h3>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We work with clients across the UK, Europe, and India and align communication with your time zone to ensure smooth collaboration and faster results.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which social media platforms do you manage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manage Facebook, Instagram, LinkedIn, YouTube, and TikTok depending on where your audience is most active. Instead of being everywhere, we focus on the platforms that generate the highest engagement, leads, and sales for your business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": " How often will you post content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most brands see strong results with 3–5 high-quality posts per week. We create a consistent content calendar that balances educational, promotional, and engaging content to keep your audience active without overwhelming them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle content creation and design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We take care of everything — strategy, copywriting, graphics, reels, captions, and scheduling. Our team ensures your brand looks professional, consistent, and aligned with your business goals across every platform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": " Can social media actually generate leads and sales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Social media is not just for likes — we build funnels, run targeted ads, and design conversion-focused content that turns followers into enquiries, bookings, and customers."
+      }
+    },
+   {
+      "@type": "Question",
+      "name": "Do you work with UK and international businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We work with clients across the UK, Europe, and India and align communication with your time zone to ensure smooth collaboration and faster results."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Social Media Marketing Services",
+  "description": "Strategic content, community growth, and social campaigns that build brand authority and drive engagement.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Digital Spark HQ",
+    "url": "https://digitalsparkhq.com"
+  },
+  "areaServed": ["UK","Europe","India"],
+  "url": "https://digitalsparkhq.com/services/social-media/"
+}
+</script>
