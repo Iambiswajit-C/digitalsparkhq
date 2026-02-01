@@ -21,9 +21,9 @@ breadcrumb:
 
   <div class="container position-relative z-2 fade-in hero-content">
     <i class="fas fa-bullseye fa-3x mb-4" style="color: var(--hover-color);"></i>
-    <h1 class="display-1 fw-bold">PAID MARKETING</h1>
+    <h1 class="display-1 fw-bold">Performance Marketing Built for Scale</h1>
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
-      Performance-driven advertising campaigns that turn ad spend into measurable growth.
+      Turn ad spend into predictable growth with precision-targeted campaigns designed to generate qualified leads, maximize ROI, and support aggressive business expansion.
     </p>
   </div>
 </section>
