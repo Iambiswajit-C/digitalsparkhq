@@ -372,49 +372,69 @@ Takes less than 30 seconds. No commitment required.
 
   <div class="container fade-in" style="max-width:900px;">
     <h2 class="fw-bold gradient-text text-center mb-5">
-      Web Design FAQs
+      Frequently Asked Questions
     </h2>
 
-    <div class="accordion" id="faqAccordion">
+    <div class="accordion accordion-flush" id="faqAccordion">
 
-      <div class="accordion-item bg-transparent">
-        <button class="accordion-button collapsed bg-transparent text-white" data-bs-toggle="collapse" data-bs-target="#w1">
+       <!-- Q1 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
           How long does a website project take?
         </button>
-        <div id="w1" class="accordion-collapse collapse">
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
             Most websites are completed within 3–6 weeks depending on complexity and features.
           </div>
         </div>
       </div>
 
-      <div class="accordion-item bg-transparent">
-        <button class="accordion-button collapsed bg-transparent text-white" data-bs-target="#w2" data-bs-toggle="collapse">
+      <!-- Q2 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
           Will my website be optimized for conversions?
         </button>
-        <div id="w2" class="accordion-collapse collapse">
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
             Yes. Every site is built with UX, speed, and lead generation in mind — not just visuals.
           </div>
         </div>
       </div>
 
-      <div class="accordion-item bg-transparent">
-        <button class="accordion-button collapsed bg-transparent text-white" data-bs-target="#w3" data-bs-toggle="collapse">
+      <!-- Q3 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
           Do you work with UK businesses remotely?
         </button>
-        <div id="w3" class="accordion-collapse collapse">
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
             Yes. We collaborate with UK clients daily and align communication with your working hours.
           </div>
         </div>
       </div>
 
-      <div class="accordion-item bg-transparent">
-        <button class="accordion-button collapsed bg-transparent text-white" data-bs-target="#w4" data-bs-toggle="collapse">
+      <!-- Q4 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
           Will my site be SEO ready?
         </button>
-        <div id="w4" class="accordion-collapse collapse">
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
             Absolutely. Technical SEO, speed, and structure are included from day one.
           </div>
