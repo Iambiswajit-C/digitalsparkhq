@@ -132,10 +132,7 @@
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
 }
-/* Custom readable white text */
-.text-white-75 {
-  color: rgba(255, 255, 255, 0.78);
-}
+
 /* Consulting Process Steps */
 .process-step {
   background: rgba(255, 255, 255, 0.05);
@@ -188,244 +185,13 @@
   transform: scale(1.2);
 }
 
-/* portfolio Section */
-.portfolio-card{
-  transition: transform .35s ease, box-shadow .35s ease;
-}
-
-.portfolio-card:hover{
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,212,255,0.15);
-}
-
-.portfolio-img{
-  cursor:pointer;
-  transition: transform .4s ease;
-}
-
-.portfolio-img:hover{
-  transform: scale(1.03);
-}
-
-.portfolio-card{
-  position:relative;
-  padding:20px;
-  border-radius:18px;
-  overflow:hidden;
-  background:rgba(255,255,255,0.03);
-  border:1px solid rgba(255,255,255,0.08);
-}
-
-.portfolio-card::before{
-  content:"";
-  position:absolute;
-  inset:-2px;
-  background: radial-gradient(circle at 30% 30%, rgba(0,212,255,.25), transparent 60%);
-  opacity:.6;
-  z-index:0;
-}
-
-.portfolio-card img,
-.portfolio-card h5,
-.portfolio-card p{
-  position:relative;
-  z-index:2;
-}
-
-.modal-content{
-  background:#0b0c10;
-  border-radius:20px;
-}
-
-.premium-modal{
-
-  background: rgba(10,10,10,.96);   /* almost solid */
-  backdrop-filter: blur(10px);
-
-  border:1px solid rgba(255,255,255,.08);
-
-  box-shadow:
-    0 0 60px rgba(0,0,0,.8),
-    0 0 120px rgba(0,212,255,.08);
-
-  border-radius:18px;
-}
-.modal-backdrop.show{
-  opacity:.85;
-}
-/* service Video */
-#service-hero{
-  position:relative;
-}
-
-/* Video behaves like a background image */
-.service-hero-video{
-
-  position:absolute;
-  top:50%;
-  left:50%;
-
-  width:100%;
-  height:100%;
-
-  object-fit:cover;
-
-  transform:translate(-50%, -50%);
-
-  z-index:0;
-}
-
-/* Ensure overlays sit above video */
-.hero-overlay,
-.hero-glow{
-  z-index:1;
-}
-
-.hero-video-overlay{
-  position:absolute;
-  inset:0;
-
-  background:linear-gradient(
-    rgba(0,0,0,.55),
-    rgba(0,0,0,.45)
-  );
-
-  z-index:1;
-}
-.hero-content{
-  z-index:2;
-  max-width:900px;
-}
-.hero-content h1{
-  text-shadow:0 4px 25px rgba(0,0,0,.6);
-}
-.hero-video-overlay{
-  pointer-events:none;
-}
-.scroll-down{
-  position:absolute;
-  bottom:25px;
-  left:50%;
-  transform:translateX(-50%);
-  z-index:5;
-}
-
-.hero-title{
-  font-size:clamp(2rem, 4vw, 3.5rem);
-  line-height:1.15;
-}
-.hero-title{
-  text-shadow:
-    0 5px 30px rgba(0,0,0,.9),
-    0 2px 10px rgba(0,0,0,.8);
-}
-
-@media (max-width:768px){
-
-#hero{
-  min-height:92vh;
-  padding-top:140px;
-  padding-bottom:100px;
-}
-
-.hero-title{
-  font-size:clamp(2.2rem,6vw,2.8rem);
-}
-
-}
-
-@media(max-width:768px){
-
-.scroll-down{
-  bottom:10px;
-}
-
-.hero-content .btn{
-  margin-bottom:40px;
-}
-
-}
-/* Services Hub Page */
-.service-hub-card{
-
-display:block;
-padding:45px 35px;
-
-border-radius:16px;
-
-background:rgba(255,255,255,0.06);
-border:1px solid rgba(255,255,255,0.12);
-
-text-decoration:none;
-color:white;
-
-transition:all .35s ease;
-height:100%;
-
-backdrop-filter: blur(6px);
-}
-
-.service-hub-card:hover{
-
-transform:translateY(-12px);
-
-box-shadow:0 25px 60px rgba(0,212,255,.25);
-
-border-color:rgba(0,212,255,.6);
-}
-
-.service-icon{
-
-font-size:42px;
-margin-bottom:20px;
-color:var(--hover-color);
-}
-
-.service-link{
-
-display:inline-block;
-margin-top:18px;
-font-weight:600;
-color:var(--hover-color);
-}
-
-.service-hub-card{
-cursor:pointer;
-}
-/* Glass content panel (services) */
-.glass-panel {
-  background: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.glass-panel:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 25px rgba(0,212,255,0.25);
-}
-.text-white-75 {
-  color: rgba(255,255,255,0.75);
-}
 /* Dual Panel (Why Digital) */
 #why-digital ul {
   padding-left: 0;
 }
 #why-digital li {
   margin-bottom: 12px;
-  font-size:1.05rem;
-  line-height:1.7;
-}
-
-@media(min-width:992px){
-  #why-digital .col-lg-6:first-child{
-    border-right:1px solid rgba(255,255,255,.08);
-    padding-right:50px;
-  }
-
-  #why-digital .col-lg-6:last-child{
-    padding-left:50px;
-  }
+  font-size: 1rem;
 }
 
 /* Glow Accents (Reusable) */
@@ -433,21 +199,6 @@ cursor:pointer;
   background: rgba(255, 255, 255, 0.05) !important;
 }
 
-/* Ambient section background (Vision-style) */
-.ambient-bg {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 20% 30%, rgba(0,212,255,0.18), transparent 60%),
-    radial-gradient(circle at 80% 70%, rgba(255,255,255,0.08), transparent 60%);
-  animation: ambientPulse 10s ease-in-out infinite alternate;
-  z-index: 0;
-}
-
-@keyframes ambientPulse {
-  0% { opacity: 0.35; }
-  100% { opacity: 0.65; }
-}
 /* Optional Floating Particles for Home (subtle background sparkle) */
 #hero::after {
   content: "";
@@ -464,16 +215,14 @@ cursor:pointer;
   100% { opacity: 1; }
 }
 
-#hero{
-  position:relative;
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  padding:120px 20px 80px; /* protects from navbar + arrow */
+#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: -1px; !important;
+  padding: 0 !important;
 }
-
 #services {
   padding-top: 10 !important;
 }
@@ -482,23 +231,6 @@ cursor:pointer;
   display: none !important;
 }
 
-#hero video{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  z-index:0;
-}
-
-@keyframes heroZoom{
-  from{transform:scale(1);}
-  to{transform:scale(1.08);}
-}
-
-.hero-subtext {
-  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
-}
 /* Footer Base */
 #footer {
   background: #0b0c10;
@@ -603,10 +335,7 @@ cursor:pointer;
 .footer-form .btn:hover {
   background: #0078a0;
 }
-.btn:hover{
- transform:translateY(-3px);
- box-shadow:0 8px 35px rgba(0,212,255,.45);
-}
+
 /* Divider */
 .footer-divider {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
@@ -621,6 +350,7 @@ cursor:pointer;
   border-radius: 0 8px 0 0;
   padding-top: 50px;
 }
+
 /* Footer Logo White Filter */
 .footer-logo {
   height: 60px;
@@ -652,12 +382,8 @@ cursor:pointer;
 .footer-bottom p {
   font-size: 1.05rem;
   margin-bottom: 8px;
-  line-height:1.6;
 }
 
-.footer-bottom .row{
-  align-items:flex-start;
-}
 /* Social Icons */
 .social-icons a {
   color: #fff;
@@ -674,6 +400,7 @@ cursor:pointer;
 html, body {
   overflow-x: hidden;
 }
+
 /* Hero text fade-in + slide-up + glow */
 .contact-hero-text {
   opacity: 0;
@@ -767,48 +494,6 @@ html, body {
 }
 #about-hero p {
   color: rgba(255,255,255,0.85);
-}
-
-/* =================================
-   UNIVERSAL PAGE HERO (FIXED PRO)
-================================= */
-
-.page-hero{
-  height: 100vh; /* full screen */
-  position: relative;
-  overflow: hidden;
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  display: flex;
-  align-items: center;   /* vertical center again */
-  justify-content: center;
-  text-align: center;
-}
-
-/* shift ONLY content, not whole section */
-.page-hero .hero-content{
-  padding-top: 120px;   /* navbar space */
-  max-width: 850px;
-  margin: 0 auto;
-}
-
-/* small height devices */
-@media (max-height: 700px){
-  .page-hero .hero-content{
-    padding-top: 90px;
-  }
-}
-
-/* ABOUT PAGE */
-#contact-digital-bg a{
-  transition:.25s;
-}
-
-#contact-digital-bg a:hover{
-  color:var(--hover-color);
 }
 
 /* HERO Glow Animation */
@@ -958,10 +643,7 @@ html, body {
   opacity: 1;
   transform: translateY(0);
 }
-section.text-white p,
-section.text-white .lead {
-  color: rgba(255,255,255,0.85);
-}
+
 /* WHY CHOOSE US */
 #why-choose {
   position: relative;
@@ -1025,55 +707,6 @@ section.text-white .lead {
   100% { opacity: 0.1; filter: hue-rotate(0deg); }
 }
 
-/* === Service Page Background Layers (FIXED) === */
-
-#service-solves,
-#service-audience,
-#service-why,
-#service-deliverables {
-  position: relative;
-  overflow: hidden;
-}
-
-/* Vision-style glow background */
-#service-solves .service-vision-bg,
-#service-audience .service-vision-bg {
- position: absolute;
-  inset: 0;
-  background: radial-gradient(
-    circle at 50% 50%,
-    rgba(0,212,255,0.18),
-    transparent 70%
-  );
-  z-index: 0;
-  animation: pulse 8s ease-in-out infinite;
-}
-
-/* Dark premium background */
-#service-deliverables .service-team-bg,
-#service-why .service-why-bg {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, #0b0c10, #1c1f26);
-  z-index: 0; /* 🔴 THIS WAS WRONG BEFORE */
-}
-
-/* === Service Page Content Layer === */
-#service-solves .container,
-#service-audience .container,
-#service-why .container,
-#service-deliverables .container {
-  position: relative;
-  z-index: 2;
-}
-/* === Service section base background (matches About page) === */
-.service-dark-bg {
-  position: absolute;
-  inset: 0;
-  background: #0b0c10;
-  z-index: 0;
-}
-
 /* ===== 404 Page ===== */
 #error-404 {
   background: linear-gradient(135deg, #0b0c10, #1c1f26);
@@ -1125,15 +758,6 @@ section.text-white .lead {
   .social-icons {
     justify-content: center;
   }
-}
-
-/* Tablet Fix for Topbar */
-@media (max-width: 1024px){
-
-  #topbar .phone-primary{
-    display:none;
-  }
-
 }
 /* Responsive Fixes */
 @media (max-width: 767px) {
