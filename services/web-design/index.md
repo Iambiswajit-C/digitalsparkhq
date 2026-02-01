@@ -389,7 +389,7 @@ Takes less than 30 seconds. No commitment required.
         </h3>
         <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Most business websites are completed within 3–6 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect.
+            Most business websites are completed within 2–3 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect.
           </div>
         </div>
       </div>
@@ -505,7 +505,7 @@ Takes less than 30 seconds. No commitment required.
       "name": "How long does a website project usually take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most business websites are completed within 3–6 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect."
+        "text": "Most business websites are completed within 2–3 weeks. Timelines depend on the number of pages, custom features, and content readiness. Larger or eCommerce websites may take longer, but we always provide a clear roadmap and milestones so you know exactly what to expect."
       }
     },
     {
