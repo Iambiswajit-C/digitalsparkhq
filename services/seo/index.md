@@ -204,3 +204,142 @@ breadcrumb:
     </div>
   </div>
 </section>
+
+
+<!-- FAQs Section -->
+<section id="service-faqs" class="py-5 text-white position-relative">
+  <div class="service-dark-bg"></div>
+
+  <div class="container fade-in" style="max-width:900px;">
+    <h2 class="fw-bold gradient-text text-center mb-5">
+      Frequently Asked Questions
+    </h2>
+
+     <div class="accordion accordion-flush" id="faqAccordion">
+
+       <!-- Q1 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+            How long does SEO take to show results?
+          </button>
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Most businesses begin seeing measurable improvements within 3–6 months. SEO builds sustainable growth rather than instant spikes, making results long-term and consistent.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+            Do you provide Local SEO for UK businesses?
+         </button>
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Yes. We optimize Google Business Profiles, maps rankings, and local searches to help UK businesses dominate their city and regional markets.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+            Do you guarantee rankings?
+          </button>
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            No ethical agency guarantees rankings. Instead, we focus on proven strategies that consistently improve traffic, visibility, and leads.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+            Will I receive reports and updates?
+          </button>
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            Absolutely. You receive clear monthly reports with rankings, traffic, conversions, and actionable insights.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does SEO take to show results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most businesses begin seeing measurable improvements within 3–6 months. SEO builds sustainable growth rather than instant spikes, making results long-term and consistent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide Local SEO for UK businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We optimize Google Business Profiles, maps rankings, and local searches to help UK businesses dominate their city and regional markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you guarantee rankings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " No ethical agency guarantees rankings. Instead, we focus on proven strategies that consistently improve traffic, visibility, and leads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I receive reports and updates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. You receive clear monthly reports with rankings, traffic, conversions, and actionable insights."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "SEO & Local SEO Services",
+  "description": "Technical SEO, local optimization, and search strategies that help businesses rank higher and generate consistent leads.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Digital Spark HQ",
+    "url": "https://digitalsparkhq.com"
+  },
+  "areaServed": ["UK","Europe","India"],
+  "url": "https://digitalsparkhq.com/services/seo/"
+}
+</script>
