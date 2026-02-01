@@ -11,15 +11,14 @@ breadcrumb:
 
 <!-- Hero Section -->
 <section id="about-hero"
-  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
-  style="height:90vh; background:url('{{ '/assets/images/about-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  class="text-center text-white position-relative d-flex justify-content-center align-items-center">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
-  <div class="container position-relative z-2 fade-in">
+  <div class="container position-relative z-2 fade-in about-hero-content">
 
-    <i class="fas fa-users fa-3x mb-4" style="color: var(--hover-color);"></i>
+    <i class="fas fa-users fa-3x mb-4 about-hero-icon" style="color: var(--hover-color);"></i>
 
     <h1 class="display-2 fw-bold">
       Your Strategic Digital Growth Partner
