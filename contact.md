@@ -12,9 +12,26 @@ breadcrumb:
 
 <!-- Hero Section -->
 <section id="contact-hero"
-  class="d-flex justify-content-center align-items-center text-center"
-  style="height:90vh; position:relative; background:url('{{ '/assets/images/contact-hero.jpg' | relative_url }}') center/cover no-repeat; overflow:hidden;">
-  <h1 class="contact-hero-text text-white display-1 fw-bold">CONTACT US</h1>
+  class="page-hero text-center text-white"
+  style="background-image:url('{{ '/assets/images/contact-hero.jpg' | relative_url }}');">
+
+
+  <div class="hero-overlay"></div>
+  <div class="hero-glow"></div>
+
+  <div class="container position-relative z-2 fade-in hero-content">
+
+    <i class="fas fa-paper-plane fa-3x mb-4 contact-hero-icon" style="color: var(--hover-color);"></i>
+
+    <h1 class="display-2 fw-bold contact-hero-text">
+      Let’s Talk
+    </h1>
+
+    <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:720px;">
+      Tell us about your goals — we’ll craft a strategy designed for measurable growth.
+    </p>
+
+  </div>
 </section>
 
 
