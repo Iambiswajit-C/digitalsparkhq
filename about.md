@@ -9,13 +9,20 @@ breadcrumb:
     url: "https://digitalsparkhq.com/about/"
 ---
 
-<!-- Hero Section -->
-<section id="about-hero" class="text-center text-white position-relative d-flex justify-content-center align-items-center" style="height:90vh; background:url('{{ '/assets/images/about-hero.jpg' | relative_url }}') center/cover no-repeat;">
+<!-- HERO Section -->
+<section id="service-hero"
+  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
+  style="height:90vh; background:url('{{ '/assets/images/graphic-design-hero.jpg' | relative_url }}') center/cover no-repeat;">
+
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
-  <div class="container position-relative z-2">
-    <h1 class="about-hero-text display-1 fw-bold">WHO WE ARE</h1>
-    <p class="lead text-white-50 mt-3">Creative. Experienced. Dedicated to digital excellence.</p>
+
+  <div class="container position-relative z-2 fade-in">
+    <i class="fas fa-pen-nib fa-3x mb-4" style="color: var(--hover-color);"></i>
+    <h1 class="display-1 fw-bold">Design That Elevates Your Brand</h1>
+    <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
+      Design that communicates, connects, and leaves a lasting impression.
+    </p>
   </div>
 </section>
 
