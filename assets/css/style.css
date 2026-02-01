@@ -674,7 +674,6 @@ cursor:pointer;
 html, body {
   overflow-x: hidden;
 }
-
 /* Hero text fade-in + slide-up + glow */
 .contact-hero-text {
   opacity: 0;
