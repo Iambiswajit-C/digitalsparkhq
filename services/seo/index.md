@@ -13,13 +13,13 @@ breadcrumb:
 
 <!-- HERO -->
 <section id="service-hero"
-  class="text-center text-white position-relative d-flex justify-content-center align-items-center"
-  style="height:90vh; background:url('{{ '/assets/images/seo-hero.jpg' | relative_url }}') center/cover no-repeat;">
+  class="page-hero text-center text-white"
+  style="height:90vh; background-image:url('{{ '/assets/images/seo-hero.jpg' | relative_url }}');">
 
   <div class="hero-overlay"></div>
   <div class="hero-glow"></div>
 
-  <div class="container position-relative z-2 fade-in">
+  <div class="container position-relative z-2 fade-in hero-content">
     <i class="fas fa-search fa-3x mb-4" style="color: var(--hover-color);"></i>
     <h1 class="display-1 fw-bold">Visibility That Drives Revenue</h1>
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
