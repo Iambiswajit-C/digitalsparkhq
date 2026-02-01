@@ -674,37 +674,6 @@ cursor:pointer;
 html, body {
   overflow-x: hidden;
 }
-/* Hero text fade-in + slide-up + glow */
-.contact-hero-text {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s ease, transform 1.5s ease, text-shadow 1.5s ease;
-  text-shadow: none;
-  position: relative;
-  z-index: 2;
-}
-
-.contact-hero-text.show {
-  opacity: 1;
-  transform: translateY(0);
-  text-shadow: 0 0 15px rgba(0, 212, 255, 0.7),
-               0 0 30px rgba(0, 212, 255, 0.4),
-               0 0 45px rgba(0, 212, 255, 0.2);
-  animation: heroGlow 4s ease-in-out infinite;
-}
-
-@keyframes heroGlow {
-  0%, 100% {
-    text-shadow: 0 0 15px rgba(0, 212, 255, 0.7),
-                 0 0 30px rgba(0, 212, 255, 0.4),
-                 0 0 45px rgba(0, 212, 255, 0.2);
-  }
-  50% {
-    text-shadow: 0 0 25px rgba(0, 212, 255, 1),
-                 0 0 50px rgba(0, 212, 255, 0.6),
-                 0 0 70px rgba(0, 212, 255, 0.4);
-  }
-}
 
 /* Gradient Animated Text */
 .gradient-text {
