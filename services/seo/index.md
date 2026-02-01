@@ -211,13 +211,14 @@ breadcrumb:
   <div class="service-dark-bg"></div>
 
   <div class="container fade-in" style="max-width:900px;">
+
     <h2 class="fw-bold gradient-text text-center mb-5">
       Frequently Asked Questions
     </h2>
 
-     <div class="accordion accordion-flush" id="faqAccordion">
+    <div class="accordion accordion-flush" id="faqAccordion">
 
-       <!-- Q1 -->
+      <!-- Q1 -->
       <div class="accordion-item bg-transparent border-bottom border-secondary">
         <h3 class="accordion-header">
           <button class="accordion-button collapsed bg-transparent text-white"
@@ -228,7 +229,7 @@ breadcrumb:
         </h3>
         <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Most businesses begin seeing measurable improvements within 3–6 months. SEO builds sustainable growth rather than instant spikes, making results long-term and consistent.
+            SEO is a long-term growth strategy, not an overnight fix. Most businesses begin seeing measurable improvements within 3–6 months, with stronger traffic and leads compounding over time. Unlike paid ads that stop when budgets pause, SEO builds sustainable visibility that keeps working for you month after month.
           </div>
         </div>
       </div>
@@ -240,11 +241,11 @@ breadcrumb:
                   data-bs-toggle="collapse"
                   data-bs-target="#faq2">
             Do you provide Local SEO for UK businesses?
-         </button>
+          </button>
         </h3>
         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Yes. We optimize Google Business Profiles, maps rankings, and local searches to help UK businesses dominate their city and regional markets.
+            Yes. We specialize in Local SEO for UK and international businesses. This includes optimizing your Google Business Profile, improving map rankings, managing citations, building local backlinks, and targeting city-specific keywords so customers in your area can easily find and contact you.
           </div>
         </div>
       </div>
@@ -255,12 +256,12 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq3">
-            Do you guarantee rankings?
+            Do you guarantee #1 rankings on Google?
           </button>
         </h3>
         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            No ethical agency guarantees rankings. Instead, we focus on proven strategies that consistently improve traffic, visibility, and leads.
+            No ethical SEO agency can guarantee specific rankings — and anyone who does is likely using risky tactics. Instead, we focus on proven, white-hat strategies that steadily improve your visibility, traffic quality, and conversions. Our goal is consistent business growth, not temporary ranking tricks.
           </div>
         </div>
       </div>
@@ -271,12 +272,44 @@ breadcrumb:
           <button class="accordion-button collapsed bg-transparent text-white"
                   data-bs-toggle="collapse"
                   data-bs-target="#faq4">
-            Will I receive reports and updates?
+            What kind of reporting and updates will I receive?
           </button>
         </h3>
         <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Absolutely. You receive clear monthly reports with rankings, traffic, conversions, and actionable insights.
+            You’ll receive clear monthly reports that show keyword rankings, traffic growth, conversions, and actionable insights. We explain everything in simple terms so you understand exactly how your investment is performing, along with next steps to improve results further.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+            Is SEO better than paid ads for my business?
+          </button>
+        </h3>
+        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            SEO and paid ads serve different purposes. Paid ads deliver quick wins, while SEO builds long-term, cost-effective traffic. Many businesses see the best results by combining both — using ads for immediate leads and SEO for sustainable growth. We help you choose the right mix based on your goals and budget.
+          </div>
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="accordion-item bg-transparent border-bottom border-secondary">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed bg-transparent text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+            How do you choose the right keywords for my business?
+          </button>
+        </h3>
+        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-white-75">
+            We conduct in-depth keyword research based on search intent, competition, and commercial value. Instead of chasing vanity traffic, we target keywords that attract people ready to enquire, book, or buy — ensuring your SEO efforts generate real revenue, not just clicks.
           </div>
         </div>
       </div>
@@ -296,7 +329,7 @@ breadcrumb:
       "name": "How long does SEO take to show results?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most businesses begin seeing measurable improvements within 3–6 months. SEO builds sustainable growth rather than instant spikes, making results long-term and consistent."
+        "text": "SEO is a long-term growth strategy, not an overnight fix. Most businesses begin seeing measurable improvements within 3–6 months, with stronger traffic and leads compounding over time. Unlike paid ads that stop when budgets pause, SEO builds sustainable visibility that keeps working for you month after month."
       }
     },
     {
@@ -304,23 +337,39 @@ breadcrumb:
       "name": "Do you provide Local SEO for UK businesses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We optimize Google Business Profiles, maps rankings, and local searches to help UK businesses dominate their city and regional markets."
+        "text": "Yes. We specialize in Local SEO for UK and international businesses. This includes optimizing your Google Business Profile, improving map rankings, managing citations, building local backlinks, and targeting city-specific keywords so customers in your area can easily find and contact you."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you guarantee rankings?",
+      "name": "Do you guarantee #1 rankings on Google?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": " No ethical agency guarantees rankings. Instead, we focus on proven strategies that consistently improve traffic, visibility, and leads."
+        "text": "No ethical SEO agency can guarantee specific rankings — and anyone who does is likely using risky tactics. Instead, we focus on proven, white-hat strategies that steadily improve your visibility, traffic quality, and conversions. Our goal is consistent business growth, not temporary ranking tricks."
       }
     },
     {
       "@type": "Question",
-      "name": "Will I receive reports and updates?",
+      "name": " What kind of reporting and updates will I receive?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. You receive clear monthly reports with rankings, traffic, conversions, and actionable insights."
+        "text": "You’ll receive clear monthly reports that show keyword rankings, traffic growth, conversions, and actionable insights. We explain everything in simple terms so you understand exactly how your investment is performing, along with next steps to improve results further."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is SEO better than paid ads for my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO and paid ads serve different purposes. Paid ads deliver quick wins, while SEO builds long-term, cost-effective traffic. Many businesses see the best results by combining both — using ads for immediate leads and SEO for sustainable growth. We help you choose the right mix based on your goals and budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you choose the right keywords for my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We conduct in-depth keyword research based on search intent, competition, and commercial value. Instead of chasing vanity traffic, we target keywords that attract people ready to enquire, book, or buy — ensuring your SEO efforts generate real revenue, not just clicks."
       }
     }
   ]
