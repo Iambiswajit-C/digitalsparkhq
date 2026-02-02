@@ -242,82 +242,88 @@ Speak With A Strategist
       Designs Built to Perform
     </h2>
 
-  <div class="row g-4 justify-content-center">
-    <div class="col-lg-4 col-md-6">
-  <div class="portfolio-card">
+<div class="row g-4 justify-content-center">
+  <div class="col-lg-4 col-md-6">
+    <div class="portfolio-card">
+      <img src="{{ '/assets/images/web-design-project1.jpg' | relative_url }}"
+     class="img-fluid rounded-4 mb-3 portfolio-img"
+     alt="Luxury Gym Website"
+     data-bs-toggle="modal"
+     data-bs-target="#portfolioModal"
+     data-img="{{ '/assets/images/web-design-project1.jpg' | relative_url }}">
 
-    <img src="/assets/images/web-design-project1.jpg"
-         class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Luxury Gym Website">
+      <h5 class="fw-bold">Luxury Real Estate Website</h5>
 
-    <h5 class="fw-bold">Luxury Gym Website</h5>
-
-    <p class="text-white-75 small">
-      <b>Industry:</b> Gym <br>
-      <b>Goal:</b> Lead Generation <br>
-      <b>Focus:</b> Premium UX
-    </p>
-
-  </div>
+      <p class="text-white-75 small">
+        <b>Industry:</b> Gym <br>
+        <b>Goal:</b> Lead Generation <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
   </div>
 
   <div class="col-lg-4 col-md-6">
-  <div class="portfolio-card">
+    <div class="portfolio-card">
+      <img src="{{ '/assets/images/web-design-project2.jpg' | relative_url }}"
+     class="img-fluid rounded-4 mb-3 portfolio-img"
+     alt="Luxury Gym Website"
+     data-bs-toggle="modal"
+     data-bs-target="#portfolioModal"
+     data-img="{{ '/assets/images/web-design-project2.jpg' | relative_url }}">
 
-    <img src="/assets/images/web-design-project2.jpg"
-         class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Spiritual Coaching">
+      <h5 class="fw-bold">Mindful Community Website</h5>
 
-    <h5 class="fw-bold">Mindful Community Website</h5>
-
-    <p class="text-white-75 small">
-      <b>Industry:</b> Mindful Community <br>
-      <b>Goal:</b> Spreading Spirituality <br>
-      <b>Focus:</b> Premium UX
-    </p>
-
-  </div>
+      <p class="text-white-75 small">
+        <b>Industry:</b> Mindful Community <br>
+        <b>Goal:</b> Spreading Spirituality <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
   </div>
 
   <div class="col-lg-4 col-md-6">
-  <div class="portfolio-card">
+    <div class="portfolio-card">
+      <img src="{{ '/assets/images/web-design-project3.jpg' | relative_url }}"
+     class="img-fluid rounded-4 mb-3 portfolio-img"
+     alt="Luxury Gym Website"
+     data-bs-toggle="modal"
+     data-bs-target="#portfolioModal"
+     data-img="{{ '/assets/images/web-design-project3.jpg' | relative_url }}">
 
-    <img src="/assets/images/web-design-project3.jpg"
-         class="img-fluid rounded-4 mb-3 portfolio-img"
-         alt="Consultation Website">
+      <h5 class="fw-bold">Consultation Website</h5>
 
-    <h5 class="fw-bold">Consultation Website</h5>
-
-    <p class="text-white-75 small">
-      <b>Industry:</b> Consultation <br>
-      <b>Goal:</b> Lead Generation <br>
-      <b>Focus:</b> Premium UX
-    </p>
-
+      <p class="text-white-75 small">
+        <b>Industry:</b> Consultation <br>
+        <b>Goal:</b> Lead Generation <br>
+        <b>Focus:</b> Premium UX
+      </p>
+    </div>
   </div>
-  </div>
-  
+
 </div>
 
 <div class="text-center mt-5">
 
-<button class="btn btn-lg px-5 py-3"
-        data-bs-toggle="modal"
-        data-bs-target="#projectModal"
-        style="
+<button 
+data-bs-toggle="modal"
+data-bs-target="#projectModal"
+data-service="Web Design"
+class="btn btn-lg px-5 py-3"
+style="
         background:linear-gradient(90deg,var(--hover-color),#00d4ff);
         border:none;
         font-weight:600;
         box-shadow:0 0 25px rgba(0,212,255,.35);">
-
+        
 Start Your Project
 </button>
+
 </div>
 <p class="small text-white-50 text-center mt-3">
 Takes less than 30 seconds. No commitment required.
 </p>
 
-  </div>
+</div>
 </section>
 
 <!-- Maintenance & Service -->
@@ -365,3 +371,19 @@ Takes less than 30 seconds. No commitment required.
     </div>
   </div> <!-- closing container div -->
 </section>
+
+<!-- Portfolio Modal -->
+<div class="modal fade" id="portfolioModal" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+
+      <div class="modal-body p-0">
+        <img id="portfolioModalImg"
+             src=""
+             class="w-100 rounded"
+             alt="Portfolio Preview">
+      </div>
+
+    </div>
+  </div>
+</div>
