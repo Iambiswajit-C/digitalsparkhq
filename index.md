@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital Marketing Agency for UK & Global Brands"
-description: "SEO, web design, graphic design, paid ads, and social media marketing that drive measurable growth. Serving clients across the UK, Europe, and India."
+description: "SEO, web design, graphic design, paid ads, and social media marketing that drive measurable growth. Serving clients across the UK, Europe, and North America."
 ---
 
 <!-- Hero Section -->
@@ -31,7 +31,7 @@ Premium strategy, design, and marketing — without enterprise overheads.
 </p>
 
 <p class="small text-white-75">
-🌍 Serving clients across the UK, Europe, and India.
+🌍 Serving clients across the UK, Europe, and North America.
 </p>
 
 <a href="/contact/" class="btn btn-primary px-4 py-2 mt-3 rounded-pill">
@@ -167,7 +167,7 @@ Speak With A Strategist
 
             <li class="mb-3">
               <i class="fa fa-bolt text-primary me-2"></i>
-              Global perspective supporting brands across the UK, Europe, and India.
+              Global perspective supporting brands across the UK, Europe, and North America.
             </li>
 
           </ul>
