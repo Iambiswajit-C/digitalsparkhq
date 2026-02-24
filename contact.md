@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Contact Digital Spark HQ | Speak With Our Growth Team"
-description: "Talk to our digital growth experts about your website, SEO, or marketing strategy. Serving clients across the UK, Europe, and India with fast, reliable communication."
+description: "Talk to our digital growth experts about your website, SEO, or marketing strategy. Serving clients across the UK, Europe, and North America with fast, reliable communication."
 breadcrumb:
   - name: "Home"
     url: "https://digitalsparkhq.com/"
@@ -53,7 +53,7 @@ breadcrumb:
       </h2>
 
       <p class="lead text-white-75 mb-0" style="max-width:650px;">
-        Working with businesses across the UK, Europe, and India — with communication designed around your business hours.
+        Working with businesses across the UK, Europe, and North America — with communication designed around your business hours.
       </p>
 
     </div>
