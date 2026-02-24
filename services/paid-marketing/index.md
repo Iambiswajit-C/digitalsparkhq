@@ -328,7 +328,7 @@ breadcrumb:
     "name": "Digital Spark HQ",
     "url": "https://digitalsparkhq.com"
   },
-  "areaServed": ["UK","Europe","India"],
+  "areaServed": ["UK","Europe","North America"],
   "url": "https://digitalsparkhq.com/services/paid-marketing/"
 }
 </script>
