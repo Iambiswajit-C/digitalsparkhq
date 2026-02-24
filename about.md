@@ -26,7 +26,7 @@ breadcrumb:
     </h1>
 
     <p class="lead opacity-75 mt-3 mx-auto hero-subtext" style="max-width:820px;">
-      Helping ambitious brands across the UK, Europe, and India build visibility, trust, and sustainable growth.
+      Helping ambitious brands across the UK, Europe, and North America build visibility, trust, and sustainable growth.
     </p>
 
   </div>
@@ -40,7 +40,7 @@ breadcrumb:
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0 fade-in">
         <h2 class="fw-bold mb-3 gradient-text">Our Story</h2>
-        <p>Digital Spark HQ was founded with a clear mission — to help ambitious brands compete and grow in an increasingly global digital economy. Today, we partner with businesses across the UK, Europe, and India, delivering strategic digital execution designed for long-term impact.</p>
+        <p>Digital Spark HQ was founded with a clear mission — to help ambitious brands compete and grow in an increasingly global digital economy. Today, we partner with businesses across the UK, Europe, and North America, delivering strategic digital execution designed for long-term impact.</p>
       </div>
       <div class="col-lg-6 text-center fade-in">
         <img src="{{ '/assets/images/our-story.jpg' | relative_url }}" alt="Our Story" class="img-fluid rounded-4 shadow-lg">
