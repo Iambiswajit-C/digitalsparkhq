@@ -344,7 +344,7 @@ breadcrumb:
         </h3>
         <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Yes. We work with clients across the UK, Europe, and India and align communication with your time zone to ensure smooth collaboration and faster results.
+            Yes. We work with clients across the UK, Europe, and North America and align communication with your time zone to ensure smooth collaboration and faster results.
           </div>
         </div>
       </div>
@@ -396,7 +396,7 @@ breadcrumb:
       "name": "Do you work with UK and international businesses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We work with clients across the UK, Europe, and India and align communication with your time zone to ensure smooth collaboration and faster results."
+        "text": "Yes. We work with clients across the UK, Europe, and North America and align communication with your time zone to ensure smooth collaboration and faster results."
       }
     }
   ]
@@ -415,7 +415,7 @@ breadcrumb:
     "name": "Digital Spark HQ",
     "url": "https://digitalsparkhq.com"
   },
-  "areaServed": ["UK","Europe","India"],
+  "areaServed": ["UK","Europe","North America"],
   "url": "https://digitalsparkhq.com/services/social-media/"
 }
 </script>
