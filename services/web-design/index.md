@@ -421,7 +421,7 @@ Takes less than 30 seconds. No commitment required.
         </h3>
         <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
           <div class="accordion-body text-white-75">
-            Yes. We regularly collaborate with clients across the UK, Europe, and India. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery.
+            Yes. We regularly collaborate with clients across the UK, Europe, and North America. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery.
           </div>
         </div>
       </div>
@@ -521,7 +521,7 @@ Takes less than 30 seconds. No commitment required.
       "name": "Do you work with UK and international businesses remotely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We regularly collaborate with clients across the UK, Europe, and India. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery."
+        "text": "Yes. We regularly collaborate with clients across the UK, Europe, and North America. Our processes are fully remote and streamlined, with scheduled calls, progress updates, and communication aligned to your time zone for smooth project delivery."
       }
     },
     {
@@ -564,7 +564,7 @@ Takes less than 30 seconds. No commitment required.
     "name": "Digital Spark HQ",
     "url": "https://digitalsparkhq.com"
   },
-  "areaServed": ["UK","Europe","India"],
+  "areaServed": ["UK","Europe","North America"],
   "url": "https://digitalsparkhq.com/services/web-design/"
 }
 </script>
