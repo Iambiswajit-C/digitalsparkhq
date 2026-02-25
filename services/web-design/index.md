@@ -187,7 +187,7 @@ breadcrumb:
      data-bs-target="#portfolioModal"
      data-img="{{ '/assets/images/web-design-project1.jpg' | relative_url }}">
 
-      <h5 class="fw-bold">Luxury Real Estate Website</h5>
+      <h5 class="fw-bold">Luxury Gym Website</h5>
 
       <p class="text-white-75 small">
         <b>Industry:</b> Gym <br>
