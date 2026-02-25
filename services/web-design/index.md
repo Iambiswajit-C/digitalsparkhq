@@ -210,7 +210,7 @@ breadcrumb:
 
       <p class="text-white-75 small">
         <b>Industry:</b> Coaching <br>
-        <b>Goal:</b> Spreading Spirituality <br>
+        <b>Goal:</b> Spreading Love <br>
         <b>Focus:</b> Premium UX
       </p>
     </div>
