@@ -255,7 +255,7 @@ Speak With A Strategist
       <h5 class="fw-bold">Luxury Gym Website</h5>
 
       <p class="text-white-75 small">
-        <b>Industry:</b> Gym <br>
+        <b>Industry:</b> Fitness <br>
         <b>Goal:</b> Lead Generation <br>
         <b>Focus:</b> Premium UX
       </p>
@@ -266,7 +266,7 @@ Speak With A Strategist
     <div class="portfolio-card">
       <img src="{{ '/assets/images/web-design-project2.jpg' | relative_url }}"
      class="img-fluid rounded-4 mb-3 portfolio-img"
-     alt="Luxury Gym Website"
+     alt="Coaching Website"
      data-bs-toggle="modal"
      data-bs-target="#portfolioModal"
      data-img="{{ '/assets/images/web-design-project2.jpg' | relative_url }}">
@@ -274,8 +274,8 @@ Speak With A Strategist
       <h5 class="fw-bold">Mindful Community Website</h5>
 
       <p class="text-white-75 small">
-        <b>Industry:</b> Mindful Community <br>
-        <b>Goal:</b> Spreading Spirituality <br>
+        <b>Industry:</b> Coaching <br>
+        <b>Goal:</b> Spreading Love <br>
         <b>Focus:</b> Premium UX
       </p>
     </div>
@@ -285,7 +285,7 @@ Speak With A Strategist
     <div class="portfolio-card">
       <img src="{{ '/assets/images/web-design-project3.jpg' | relative_url }}"
      class="img-fluid rounded-4 mb-3 portfolio-img"
-     alt="Luxury Gym Website"
+     alt="consultation Website"
      data-bs-toggle="modal"
      data-bs-target="#portfolioModal"
      data-img="{{ '/assets/images/web-design-project3.jpg' | relative_url }}">
