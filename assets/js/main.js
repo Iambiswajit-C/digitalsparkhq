@@ -182,40 +182,42 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 });
 
 // ===============================
-// COOKIE CONSENT (SAFE VERSION)
+// COOKIE CONSENT (NO FLASH FIX)
 // ===============================
 
-window.addEventListener("load", function () {
+document.addEventListener("DOMContentLoaded", function () {
 
   const banner = document.getElementById("cookie-banner");
   const acceptBtn = document.getElementById("accept-cookies");
   const rejectBtn = document.getElementById("reject-cookies");
 
-  // Safety check
-  if (!banner || !acceptBtn || !rejectBtn) {
-    console.error("Cookie banner elements not found");
-    return;
-  }
+  if (!banner || !acceptBtn || !rejectBtn) return;
 
-  // Check if already accepted/rejected
   const consent = localStorage.getItem("cookieConsent");
 
-  if (consent) {
-    banner.style.display = "none";
+  // 👉 Show ONLY if not decided
+  if (!consent) {
+    banner.style.display = "block";
   }
 
   // Accept
   acceptBtn.addEventListener("click", function () {
     localStorage.setItem("cookieConsent", "accepted");
-    banner.style.display = "none";
-    console.log("Cookies accepted");
+
+    banner.style.opacity = "0";
+    setTimeout(() => {
+      banner.style.display = "none";
+    }, 300);
   });
 
   // Reject
   rejectBtn.addEventListener("click", function () {
     localStorage.setItem("cookieConsent", "rejected");
-    banner.style.display = "none";
-    console.log("Cookies rejected");
+
+    banner.style.opacity = "0";
+    setTimeout(() => {
+      banner.style.display = "none";
+    }, 300);
   });
 
 });
