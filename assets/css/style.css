@@ -658,6 +658,10 @@ cursor:pointer;
 .footer-bottom .row{
   align-items:flex-start;
 }
+
+.footer-copyright a:hover{
+  color: var(--hover-color);
+}
 /* Social Icons */
 .social-icons a {
   color: #fff;
