@@ -182,30 +182,40 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 });
 
 // ===============================
-// COOKIE CONSENT
+// COOKIE CONSENT (SAFE VERSION)
 // ===============================
 
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
 
   const banner = document.getElementById("cookie-banner");
   const acceptBtn = document.getElementById("accept-cookies");
   const rejectBtn = document.getElementById("reject-cookies");
 
-  // Check if already set
-  if(localStorage.getItem("cookieConsent")){
+  // Safety check
+  if (!banner || !acceptBtn || !rejectBtn) {
+    console.error("Cookie banner elements not found");
+    return;
+  }
+
+  // Check if already accepted/rejected
+  const consent = localStorage.getItem("cookieConsent");
+
+  if (consent) {
     banner.style.display = "none";
   }
 
   // Accept
-  acceptBtn.addEventListener("click", function(){
+  acceptBtn.addEventListener("click", function () {
     localStorage.setItem("cookieConsent", "accepted");
     banner.style.display = "none";
+    console.log("Cookies accepted");
   });
 
   // Reject
-  rejectBtn.addEventListener("click", function(){
+  rejectBtn.addEventListener("click", function () {
     localStorage.setItem("cookieConsent", "rejected");
     banner.style.display = "none";
+    console.log("Cookies rejected");
   });
 
 });
