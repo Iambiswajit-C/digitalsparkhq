@@ -181,45 +181,6 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 
 });
 
-// ===============================
-// COOKIE CONSENT (FINAL FIX)
-// ===============================
-
-(function () {
-
-  const banner = document.getElementById("cookie-banner");
-
-  // If banner not found, stop
-  if (!banner) return;
-
-  const consent = localStorage.getItem("cookieConsent");
-
-  // Show only if no choice made
-  if (!consent) {
-    banner.style.display = "block";
-  }
-
-  // Wait for DOM for buttons
-  document.addEventListener("DOMContentLoaded", function () {
-
-    const acceptBtn = document.getElementById("accept-cookies");
-    const rejectBtn = document.getElementById("reject-cookies");
-
-    if (!acceptBtn || !rejectBtn) return;
-
-    acceptBtn.addEventListener("click", function () {
-      localStorage.setItem("cookieConsent", "accepted");
-      banner.style.display = "none";
-    });
-
-    rejectBtn.addEventListener("click", function () {
-      localStorage.setItem("cookieConsent", "rejected");
-      banner.style.display = "none";
-    });
-
-  });
-
-})();
  /* ===== Pop Up Form Loader ===== */
 document.querySelectorAll("[data-service]").forEach(btn => {
 
