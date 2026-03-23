@@ -181,6 +181,34 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 
 });
 
+// ===============================
+// COOKIE CONSENT
+// ===============================
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const banner = document.getElementById("cookie-banner");
+  const acceptBtn = document.getElementById("accept-cookies");
+  const rejectBtn = document.getElementById("reject-cookies");
+
+  // Check if already set
+  if(localStorage.getItem("cookieConsent")){
+    banner.style.display = "none";
+  }
+
+  // Accept
+  acceptBtn.addEventListener("click", function(){
+    localStorage.setItem("cookieConsent", "accepted");
+    banner.style.display = "none";
+  });
+
+  // Reject
+  rejectBtn.addEventListener("click", function(){
+    localStorage.setItem("cookieConsent", "rejected");
+    banner.style.display = "none";
+  });
+
+});
  /* ===== Pop Up Form Loader ===== */
 document.querySelectorAll("[data-service]").forEach(btn => {
 
