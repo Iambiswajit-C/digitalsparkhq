@@ -182,45 +182,44 @@ portfolioModal.addEventListener('show.bs.modal', function (event) {
 });
 
 // ===============================
-// COOKIE CONSENT (NO FLASH FIX)
+// COOKIE CONSENT (FINAL FIX)
 // ===============================
 
-document.addEventListener("DOMContentLoaded", function () {
+(function () {
 
   const banner = document.getElementById("cookie-banner");
-  const acceptBtn = document.getElementById("accept-cookies");
-  const rejectBtn = document.getElementById("reject-cookies");
 
-  if (!banner || !acceptBtn || !rejectBtn) return;
+  // If banner not found, stop
+  if (!banner) return;
 
   const consent = localStorage.getItem("cookieConsent");
 
-  // 👉 Show ONLY if not decided
+  // Show only if no choice made
   if (!consent) {
     banner.style.display = "block";
   }
 
-  // Accept
-  acceptBtn.addEventListener("click", function () {
-    localStorage.setItem("cookieConsent", "accepted");
+  // Wait for DOM for buttons
+  document.addEventListener("DOMContentLoaded", function () {
 
-    banner.style.opacity = "0";
-    setTimeout(() => {
+    const acceptBtn = document.getElementById("accept-cookies");
+    const rejectBtn = document.getElementById("reject-cookies");
+
+    if (!acceptBtn || !rejectBtn) return;
+
+    acceptBtn.addEventListener("click", function () {
+      localStorage.setItem("cookieConsent", "accepted");
       banner.style.display = "none";
-    }, 300);
+    });
+
+    rejectBtn.addEventListener("click", function () {
+      localStorage.setItem("cookieConsent", "rejected");
+      banner.style.display = "none";
+    });
+
   });
 
-  // Reject
-  rejectBtn.addEventListener("click", function () {
-    localStorage.setItem("cookieConsent", "rejected");
-
-    banner.style.opacity = "0";
-    setTimeout(() => {
-      banner.style.display = "none";
-    }, 300);
-  });
-
-});
+})();
  /* ===== Pop Up Form Loader ===== */
 document.querySelectorAll("[data-service]").forEach(btn => {
 
