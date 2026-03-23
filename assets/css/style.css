@@ -664,6 +664,8 @@ cursor:pointer;
 ================================= */
 
 .cookie-banner{
+  display:none; /* 🔥 IMPORTANT */
+
   position:fixed;
   bottom:20px;
   left:50%;
