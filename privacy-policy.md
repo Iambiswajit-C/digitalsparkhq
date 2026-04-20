@@ -98,8 +98,7 @@ permalink: /privacy-policy/
       <strong>Digital Spark HQ</strong><br>
       <a href="mailto:info@digitalsparkhq.com" class="text-white fw-bold">
         info@digitalsparkhq.com
-      </a><br>
-      </span>
+      </a>
     </p>
 
     <p class="small text-white-50 mt-5 pt-3 border-top border-secondary">
