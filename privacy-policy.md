@@ -31,7 +31,7 @@ permalink: /privacy-policy/
 
     <h2 class="fw-bold gradient-text mb-4">1. Introduction</h2>
     <p class="text-white-75">
-      Welcome to Digital Spark HQ. This Privacy Policy describes how Digital Spark HQ, a registered digital agency operating under the legal entity SB Global Ventures, collects, uses, and protects your personal and business information. We are committed to ensuring your privacy is protected when you interact with our website, our digital outreach, or our services.
+      Welcome to Digital Spark HQ. This Privacy Policy describes how Digital Spark HQ, collects, uses, and protects your personal and business information. We are committed to ensuring your privacy is protected when you interact with our website, our digital outreach, or our services.
     </p>
 
     <h2 class="fw-bold gradient-text mt-5 mb-4">2. Information We Collect</h2>
@@ -76,7 +76,7 @@ permalink: /privacy-policy/
 
     <h2 class="fw-bold gradient-text mt-5 mb-4">7. Data Security</h2>
     <p class="text-white-75">
-      Digital Spark HQ, under the administration of SB Global Ventures, implements industry-standard security measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
+      Digital Spark HQ, implements industry-standard security measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
     </p>
 
     <h2 class="fw-bold gradient-text mt-5 mb-4">8. Your UK-GDPR Rights</h2>
@@ -96,7 +96,6 @@ permalink: /privacy-policy/
       If you have any questions about this Privacy Policy or how your data is handled, please contact us at:
       <br><br>
       <strong>Digital Spark HQ</strong><br>
-      <span class="text-white-50">(A unit of SB Global Ventures)</span><br>
       <a href="mailto:info@digitalsparkhq.com" class="text-white fw-bold">
         info@digitalsparkhq.com
       </a><br>
