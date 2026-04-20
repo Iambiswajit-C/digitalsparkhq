@@ -71,7 +71,7 @@ permalink: /privacy-policy/
 
     <h2 class="fw-bold gradient-text mt-5 mb-4">6. Data Storage and International Processing</h2>
     <p class="text-white-75">
-      Digital Spark HQ operates globally. While our primary clients are located in the United Kingdom, our technical infrastructure and development teams are located in India. By engaging with our services, you consent to the processing and storage of your information outside the UK. We ensure all international data transfers comply with UK-GDPR standards through secure server protocols and trusted international vendors.
+      Digital Spark HQ operates globally, but our primary clients are located in the United Kingdom. By engaging with our services, you consent to the processing and storage of your information outside the UK. We ensure all international data transfers comply with UK-GDPR standards through secure server protocols and trusted international vendors.
     </p>
 
     <h2 class="fw-bold gradient-text mt-5 mb-4">7. Data Security</h2>
@@ -99,8 +99,6 @@ permalink: /privacy-policy/
       <a href="mailto:info@digitalsparkhq.com" class="text-white fw-bold">
         info@digitalsparkhq.com
       </a><br>
-      <span class="text-white-75">
-        [Insert your Indian business address here exactly as it appears on your Udyam]
       </span>
     </p>
 
